@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "study": "./rentacrowd/graph/build.py:graph"
+  },
+  "env": ".env"
+}

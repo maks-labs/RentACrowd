@@ -1,7 +1,34 @@
 [project]
 name = "rentacrowd"
 version = "0.1.0"
-description = "Add your description here"
+description = "Synthetic market-research panels on an explicit LangGraph, served by NVIDIA NIM"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain>=1.4.0",
+    "langchain-core>=1.6.1",
+    "langchain-nvidia-ai-endpoints>=1.4.3",
+    "langgraph>=1.2.11",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "python-dotenv>=1.2.3",
+    "rich>=15.0.0",
+    "streamlit>=1.63.0",
+    "tenacity>=9.1.4",
+]
+
+[project.scripts]
+rentacrowd = "rentacrowd.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rentacrowd"]
+
+[dependency-groups]
+dev = [
+    "grandalf>=0.8",
+    "langgraph-cli[inmem]>=0.4.31",
+]
