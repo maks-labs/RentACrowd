@@ -1,0 +1,23 @@
+{
+  "persona_id": "tech-enthusiast-empty-nesters--kenji-tanaka",
+  "segment": "Tech-Enthusiast Empty Nesters",
+  "name": "Kenji Tanaka",
+  "age": 58,
+  "gender": "Male",
+  "occupation": "Civil Engineer",
+  "location": "Fukuoka, Japan",
+  "household": "wife, divorced daughter visits monthly",
+  "income_band": "\u00a512,000,000 JPY",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Prefers efficiency over novelty; sees smart kitchen tools as time-savers rather than toys, but draws the line at apps that require daily account logins",
+  "current_solutions": "Panasonic HEMS for lighting and climate; T-fal induction cooker with preset programs; Rakuten Recipe app",
+  "frustration": "At 8:30 PM on a Wednesday last month, his rice cooker\u2019s Wi-Fi sync failed mid-cycle, forcing him to manually switch to 'keep warm' mode and losing the perfectly timed side-dish coordination for his bento",
+  "decision_style": "checks tech blogs for reliability ratings, then asks his daughter to demo the app before purchasing",
+  "voice": "rambling but detail-oriented, frequently toggles between Japanese technical terms and English product names",
+  "tags": [
+    "bento-planner",
+    "engineer-mindset",
+    "cautious-upgrader"
+  ]
+}

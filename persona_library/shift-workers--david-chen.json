@@ -1,0 +1,23 @@
+{
+  "persona_id": "shift-workers--david-chen",
+  "segment": "Shift workers",
+  "name": "David Chen",
+  "age": 45,
+  "gender": "Male",
+  "occupation": "Long-haul Truck Driver",
+  "location": "Manchester, UK",
+  "household": "Solo",
+  "income_band": "\u00a348,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Independent and routine-focused; treats the road as his office and values efficiency over small talk.",
+  "current_solutions": "Google Maps for routing; Audible for audiobooks during long hauls; truck stop cafeteria for meals.",
+  "frustration": "Sat at a closed motorway service station at 02:15am looking for a 24-hour ATM; the screen said 'out of service' and he had to drive 15 miles to find cash.",
+  "decision_style": "Compares fuel prices on trucking forums; rarely switches brands without a significant price gap.",
+  "voice": "Concise and gruff; uses industry jargon like 'detention time' and 'deadhead' without explaining it.",
+  "tags": [
+    "transport",
+    "solo",
+    "long_haul"
+  ]
+}

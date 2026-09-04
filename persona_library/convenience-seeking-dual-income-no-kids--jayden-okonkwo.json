@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-seeking-dual-income-no-kids--jayden-okonkwo",
+  "segment": "Convenience-Seeking Dual-Income No-Kids",
+  "name": "Jayden Okonkwo",
+  "age": 48,
+  "gender": "Male",
+  "occupation": "Finance Manager",
+  "location": "Toronto, Ontario, Canada",
+  "household": "Partner (Maya) and a fish tank",
+  "income_band": "CAD $165,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Prioritizes work-life balance; sees household management as a system to be optimized, not a hobby.",
+  "current_solutions": "Uses 'SkipTheDishes' for lunch, 'Amazon Fresh' for bulk staples, and a meal-kit service 'HelloFresh' focused on 15-minute recipes.",
+  "frustration": "Yesterday at 12:15 PM, his SkipTheDishes order for a business lunch was marked 'delivered' but was actually left at the building's security desk; he didn't find it until 2:00 PM, missed his client call, and had to order emergency sushi.",
+  "decision_style": "Relies on driver rating history; will pay extra for a 4.9-rated driver over a cheaper option.",
+  "voice": "Formal and precise. Uses business jargon like 'KPIs' and 'deliverables' even when talking about dinner.",
+  "tags": [
+    "corporate",
+    "systems-thinker",
+    "urban professional"
+  ]
+}

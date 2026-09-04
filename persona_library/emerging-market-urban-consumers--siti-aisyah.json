@@ -1,0 +1,23 @@
+{
+  "persona_id": "emerging-market-urban-consumers--siti-aisyah",
+  "segment": "Emerging-market urban consumers",
+  "name": "Siti Aisyah",
+  "age": 22,
+  "gender": "Female",
+  "occupation": "Freelance graphic designer",
+  "location": "Jakarta, Indonesia",
+  "household": "Lives with roommates in a co-working colony",
+  "income_band": "Rp 45 million per year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Urban creative who values fast, stylish utility; always looking for apps that simplify her chaotic schedule and client payments.",
+  "current_solutions": "Uses GoPay and ShopeePay interchangeably; orders food via GrabFood; pays co-working space dues through Dana. Prefers Shopee for cheap stationery and GoPay for transport.",
+  "frustration": "Tried to transfer Rp 2.5 million to a client via Dana at 11:00 AM; the app flagged the transaction as 'suspicious' and locked her account for 24 hours, forcing her to use a friend's GoPay link just to get paid.",
+  "decision_style": "Impulse-buys small items on Shopee during lunch breaks; for bigger software subscriptions, she waits for a promo code or a 'free trial' period.",
+  "voice": "Fast-paced and modern; peppered with Jakarta street slang like 'gue' and 'loh', uses emojis heavily in texts, sentences are short and energetic.",
+  "tags": [
+    "creative_professional",
+    "digital_nomad",
+    "app_enthusiast"
+  ]
+}

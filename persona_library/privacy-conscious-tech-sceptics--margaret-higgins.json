@@ -1,0 +1,23 @@
+{
+  "persona_id": "privacy-conscious-tech-sceptics--margaret-higgins",
+  "segment": "Privacy-conscious tech sceptics",
+  "name": "Margaret Higgins",
+  "age": 68,
+  "gender": "Female",
+  "occupation": "Retired civil servant",
+  "location": "Leeds, UK",
+  "household": "Partner, widowed sister lives nearby",
+  "income_band": "\u00a318,500 GBP",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Values privacy above convenience; believes face-to-face interaction is superior to digital mediation.",
+  "current_solutions": "Uses a landline telephone and writes cheques for bills; avoids smartphones and smart TVs entirely.",
+  "frustration": "Tried to renew her bus pass at the council office at 2pm on Tuesday; the machine was 'out of service' and the receptionist said 'everything is online now', forcing her to ask a stranger to use their phone to book a ticket.",
+  "decision_style": "reads leaflets thoroughly, asks neighbours for advice, and avoids anything that requires an account setup.",
+  "voice": "Soft-spoken and deliberate, often pauses mid-sentence to recall a detail; refers to technology as 'those machines'.",
+  "tags": [
+    "low-tech",
+    "cash-user",
+    "community-reliant"
+  ]
+}

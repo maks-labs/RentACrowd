@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-young-professionals--anika-patel",
+  "segment": "Budget-Conscious Young Professionals",
+  "name": "Anika Patel",
+  "age": 34,
+  "gender": "Female",
+  "occupation": "Marketing Coordinator",
+  "location": "Manchester, UK",
+  "household": "Lives alone",
+  "income_band": "\u00a332,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Optimistic and busy; tries to eat healthy but often runs out of time between meetings and grocery runs.",
+  "current_solutions": "Instacart for same-day delivery from Waitrose; uses the 'split basket' feature to share costs with a colleague.",
+  "frustration": "Yesterday at 2:15pm, her Instacart order was cancelled mid-checkout because the avocados were 'out of stock', and she had to walk to the corner shop paying full price for one salad.",
+  "decision_style": "Reads the first three reviews on Amazon Fresh before adding anything to her cart.",
+  "voice": "Rambling and apologetic; often starts sentences with 'Sorry, but...' even when not at fault.",
+  "tags": [
+    "urban-rural-commute",
+    "app-loyalty",
+    "health-conscious"
+  ]
+}

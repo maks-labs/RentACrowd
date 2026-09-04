@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-graduates--marcus-chen",
+  "segment": "Recent graduates",
+  "name": "Marcus Chen",
+  "age": 23,
+  "gender": "Male",
+  "occupation": "Junior Data Analyst",
+  "location": "Manchester, UK",
+  "household": "Lives in a 3-bed flat with 3 other graduates",
+  "income_band": "\u00a322,000 GBP",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Pragmatic and cost-conscious, values independence but hates asking parents for money.",
+  "current_solutions": "Uses a shared Spotify Family plan his sister pays for, and a free tier Amazon Prime account shared with his flatmates.",
+  "frustration": "Tried to book a Santander student railcard online at 11:42 PM on a Tuesday; the site timed out twice and now his discount code has expired, so he\u2019s paying full price for the train home this weekend.",
+  "decision_style": "Compares prices on CompareTheMarket for hours, then buys the cheapest option that has free delivery.",
+  "voice": "Soft-spoken but will nitpick a bad purchase for minutes; uses filler words like 'like' and 'so' excessively when nervous.",
+  "tags": [
+    "budget-conscious",
+    "shared-accounts",
+    "commuter"
+  ]
+}

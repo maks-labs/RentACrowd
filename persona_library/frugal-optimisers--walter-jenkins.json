@@ -1,0 +1,22 @@
+{
+  "persona_id": "frugal-optimisers--walter-jenkins",
+  "segment": "Frugal optimisers",
+  "name": "Walter Jenkins",
+  "age": 61,
+  "gender": "Male",
+  "occupation": "Retired High School Principal",
+  "location": "Portland, OR, USA",
+  "household": "Spouse, divorced adult children visit occasionally",
+  "income_band": "$48,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Frugality is a habit formed during youth; prefers face-to-face interaction and handwritten lists over apps.",
+  "current_solutions": "Clips physical coupons from the Sunday Portland Tribune, visits the monthly senior discount day at Fred Meyer, and uses a flip phone for calls only.",
+  "frustration": "Drove 15 miles to the local Walmart at 9:00 AM for the 'Early Bird' senior discount, only to find the sign was outdated and the cashier refused the discount.",
+  "decision_style": "Buys in bulk only when the unit price is visibly lower; refuses to buy anything new if a working version exists at a thrift store.",
+  "voice": "Formal and measured; uses complete sentences, avoids slang, and frequently says 'I suppose' or 'You know'.",
+  "tags": [
+    "senior",
+    "thrift-shopper"
+  ]
+}

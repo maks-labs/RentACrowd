@@ -1,0 +1,23 @@
+{
+  "persona_id": "freelancers-and-gig-workers--marcus-thorne",
+  "segment": "Freelancers and gig workers",
+  "name": "Marcus Thorne",
+  "age": 55,
+  "gender": "Non-binary",
+  "occupation": "Consultant (IT security audits)",
+  "location": "Portland, OR, USA",
+  "household": "Partner (full-time employee) + cat",
+  "income_band": "$95,000 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Skeptical of 'passive income' hype; values work-life balance and reliable health benefits more than maximizing every dollar",
+  "current_solutions": "Uses QuickBooks Self-Employed for taxes, Loom for client walkthroughs, and a local credit union checking account",
+  "frustration": "At 9:30 AM last Thursday, tried to log into the client portal for a new audit gig using the single sign-on link sent via email, but the token had expired exactly 12 hours after sending, forcing a password reset that locked him out of the portal for the morning session",
+  "decision_style": "Reads the fine print on contracts; refuses auto-renewals unless the service adds clear value after the first year",
+  "voice": "Formal, measured pace. Uses precise professional language ('whereas', 'hereinafter') but drops into casual 'you know' when explaining personal preferences",
+  "tags": [
+    "established-freelancer",
+    "benefits-focused",
+    "skeptical-of-hype"
+  ]
+}

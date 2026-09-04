@@ -1,16 +1,14 @@
 """Run a study from the terminal:
 
     uv run rentacrowd "A $49/mo AI meal planner that auto-orders groceries"
-    uv run rentacrowd --file product.txt
+    uv run rentacrowd --file product.txt --notes "focus on rural India, use fresh personas"
 """
 
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 import time
-from datetime import datetime, timezone
 
 from rich.console import Console
 from rich.panel import Panel
@@ -28,7 +26,6 @@ def _render(report) -> None:
         f"Overall purchase intent: [bold]{report.overall_mean_purchase_intent}/5[/bold]   "
         f"positive sentiment: [bold]{report.overall_pct_positive}%[/bold]\n"
     )
-
     t = Table(title="By segment")
     for col in ("Segment", "n", "Intent", "% pos", "Top objections"):
         t.add_column(col)
@@ -38,7 +35,6 @@ def _render(report) -> None:
             "; ".join(s.top_objections),
         )
     console.print(t)
-
     console.print("\n[bold]Key objections[/bold]")
     for o in report.key_objections:
         console.print(f"  • {o}")
@@ -52,11 +48,10 @@ def main() -> None:
     ap = argparse.ArgumentParser(prog="rentacrowd")
     ap.add_argument("product", nargs="?", help="Free-text product description")
     ap.add_argument("--file", help="Read the product description from a file")
+    ap.add_argument("--notes", default="", help="Extra instructions for the supervisor")
     args = ap.parse_args()
 
-    raw = args.product
-    if args.file:
-        raw = open(args.file).read()
+    raw = open(args.file).read() if args.file else args.product
     if not raw:
         ap.error("provide a product description or --file")
 
@@ -69,32 +64,14 @@ def main() -> None:
     started = time.time()
     console.print("[dim]Running study…[/dim]")
     final = graph.invoke(
-        {"raw_product": raw},
-        config={"max_concurrency": s.max_concurrency, "recursion_limit": 100},
-    )
-    report = final["report"]
-
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    out_path = s.studies_dir / f"study-{stamp}.json"
-    out_path.write_text(
-        json.dumps(
-            {
-                "raw_product": raw,
-                "stimulus": final["stimulus"].model_dump(),
-                "n_personas": len(final["personas"]),
-                "n_responses": len(final["responses"]),
-                "moderator_notes": final.get("moderator_notes"),
-                "moderator_probes": final.get("moderator_probes"),
-                "report": report.model_dump(),
-            },
-            indent=2,
-        )
+        {"raw_product": raw, "request_notes": args.notes},
+        config={"max_concurrency": s.max_concurrency, "recursion_limit": 60},
     )
 
-    _render(report)
+    _render(final["report"])
     console.print(
         f"\n[green]Done in {time.time() - started:.0f}s[/green]  "
-        f"({len(final['responses'])} responses)  ->  {out_path}"
+        f"({len(final['responses'])} responses)  ->  {final['study_dir']}"
     )
 
 

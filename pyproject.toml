@@ -5,6 +5,7 @@ description = "Synthetic market-research panels on an explicit LangGraph, served
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi>=0.115",
     "langchain>=1.4.0",
     "langchain-core>=1.6.1",
     "langchain-nvidia-ai-endpoints>=1.4.3",
@@ -13,12 +14,14 @@ dependencies = [
     "pydantic-settings>=2.15.0",
     "python-dotenv>=1.2.3",
     "rich>=15.0.0",
-    "streamlit>=1.63.0",
     "tenacity>=9.1.4",
+    "uvicorn>=0.34",
 ]
 
 [project.scripts]
 rentacrowd = "rentacrowd.cli:main"
+rentacrowd-seed = "rentacrowd.personas.seed:main"
+rentacrowd-ui = "rentacrowd.server:main"
 
 [build-system]
 requires = ["hatchling"]

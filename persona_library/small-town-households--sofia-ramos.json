@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-town-households--sofia-ramos",
+  "segment": "Small-town households",
+  "name": "Sofia Ramos",
+  "age": 29,
+  "gender": "Female",
+  "occupation": "Remote graphic designer",
+  "location": "Cedar Rapids, Iowa, USA",
+  "household": "Lives alone, parents live 30 minutes away",
+  "income_band": "$45,000 USD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values flexibility and digital convenience; feels tethered to her laptop but loves working from her childhood bedroom",
+  "current_solutions": "Uses Instacart for weekly groceries; orders takeout from the one Indian restaurant in town via DoorDash; shops for clothes on Amazon during sales",
+  "frustration": "Attempted to apply a $10 off promo code at 9 AM on a Saturday for a grocery order; the code expired at 8 AM, the app showed a vague 'error' message, and she lost the discount because customer service auto-closed the chat after 10 minutes",
+  "decision_style": "Compares prices across three tabs; reads Reddit threads for local shop reviews before committing to a big purchase",
+  "voice": "Fast-paced, uses tech jargon like 'UI/UX' and 'workflow', frequently uses filler words 'like' and 'you know'",
+  "tags": [
+    "millennial",
+    "remote_work",
+    "urban-sprawl-escape"
+  ]
+}

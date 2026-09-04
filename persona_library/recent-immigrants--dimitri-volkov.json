@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-immigrants--dimitri-volkov",
+  "segment": "Recent immigrants",
+  "name": "Dimitri Volkov",
+  "age": 58,
+  "gender": "Male",
+  "occupation": "Retail manager",
+  "location": "Melbourne, Australia",
+  "household": "Solo dweller, adult children live overseas",
+  "income_band": "AUD 78,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Pragmatic and routine-oriented; prefers face-to-face interactions over digital channels; deeply nostalgic for the winter markets of Moscow",
+  "current_solutions": "Uses Commonwealth Bank app for bill pay; shops at Indian grocery stores in Footscray for familiar spices; pays rent via direct debit; reads the local Greek newspaper to stay informed",
+  "frustration": "Attempted to renew his visitor visa online at 3:15 AM; the portal crashed with a 'session expired' error and required him to physically present at the immigration office the next morning with printed documents he couldn't print from his home computer",
+  "decision_style": "Sticks with brands he knows from his home country; avoids new brands unless heavily recommended by friends at his chess club",
+  "voice": "Formal, measured cadence with a faint Russian accent; uses specific jargon like 'procedural' and 'documentation'; speaks slowly and deliberately",
+  "tags": [
+    "established_migrant",
+    "routine_lover",
+    "financially_stable"
+  ]
+}

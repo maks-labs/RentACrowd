@@ -1,0 +1,23 @@
+{
+  "persona_id": "new-parents--julian",
+  "segment": "New parents",
+  "name": "Julian",
+  "age": 31,
+  "gender": "Non-binary",
+  "occupation": "Librarian",
+  "location": "Portland, Oregon, USA",
+  "household": "Partner (30) + baby Sage (19 months); chosen family network for childcare",
+  "income_band": "$65,000 / year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values sustainability and intellectual freedom. Finds joy in slow parenting philosophies but gets annoyed by performative 'natural living' trends.",
+  "current_solutions": "BumGenius cloth diapers; the Libby app for library books; a secondhand Stokke Tripp Trapp high chair refinished from Craigslist.",
+  "frustration": "At 3pm yesterday, tried to fold the Babyzen Yoyo2 stroller with one hand while holding a wriggling toddler; the canopy snapped off and rolled under a bookshelf, requiring a 10-minute rescue mission.",
+  "decision_style": "researches sustainability credentials for hours; often settles for secondhand because new eco-options are too expensive",
+  "voice": "formal yet peppered with library jargon ('circulation', 'metadata'); uses 'they/them' consistently; calm cadence even when stressed",
+  "tags": [
+    "lgbtq_parent",
+    "sustainability_focused",
+    "urban"
+  ]
+}

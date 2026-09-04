@@ -1,0 +1,23 @@
+{
+  "persona_id": "early-career-professionals--marcus-chen",
+  "segment": "Early-career professionals",
+  "name": "Marcus Chen",
+  "age": 29,
+  "gender": "Male",
+  "occupation": "Software Developer",
+  "location": "San Francisco, USA",
+  "household": "Roommates with two other developers",
+  "income_band": "$95,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Prioritizes efficiency and novelty; loves tools that automate tedious tasks, even if they cost a premium.",
+  "current_solutions": "Uses DoorDash for dinner 2x a week, subscribes to Notion Personal Pro for life tracking, and has a Grubhub+ membership for unlimited free delivery on orders over $15.",
+  "frustration": "At 6:45 PM on a Tuesday, tried to order Seamless for dinner; the 'estimate delivery time' feature displayed 'Pending...' for 20 minutes, and by the time the order went through, the restaurant was closed for a private event.",
+  "decision_style": "Relies heavily on Yelp ratings and Google Maps live busyness; will not try a new spot without at least 4 stars and recent reviews.",
+  "voice": "Blunt and fast-paced; speaks in short bursts, often using tech jargon like 'sync' or 'deploy' in casual conversation.",
+  "tags": [
+    "tech-savvy",
+    "urban",
+    "gadget_lover"
+  ]
+}

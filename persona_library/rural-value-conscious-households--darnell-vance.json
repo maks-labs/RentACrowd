@@ -1,0 +1,24 @@
+{
+  "persona_id": "rural-value-conscious-households--darnell-vance",
+  "segment": "Rural Value-Conscious Households",
+  "name": "Darnell Vance",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Maintenance technician at a local factory",
+  "location": "St. Mary's, Ontario, Canada",
+  "household": "Fianc\u00e9e and a newborn daughter",
+  "income_band": "$42,000 / year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Practical and budget-aware; he hates wasting money on impulse snacks at the checkout but admits he sometimes caves for a premium coffee when he's exhausted.",
+  "current_solutions": "Relies on a monthly bus pass to get to the No Frills supermarket in the nearest town. He orders non-perishables in bulk online to save on gas.",
+  "frustration": "Last week, he took the 2:15 PM bus to the Superstore and it was delayed by an hour due to weather. By the time he got home at 7:30 PM, the milk had spoiled in the car trunk, and he had to throw out $15 worth of groceries.",
+  "decision_style": "Compares unit prices on his phone while waiting for the bus; if it's under $2 per unit, he buys it, otherwise he waits for the next monthly trip.",
+  "voice": "Rambling and energetic, mixes technical jargon from his job with casual street slang; talks fast when excited about a deal.",
+  "tags": [
+    "young family",
+    "ontario",
+    "blue-collar",
+    "tech-savvy-but-broke"
+  ]
+}

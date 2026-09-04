@@ -1,0 +1,23 @@
+{
+  "persona_id": "retirees-on-fixed-income--kenji-tanaka",
+  "segment": "Retirees on fixed income",
+  "name": "Kenji Tanaka",
+  "age": 68,
+  "gender": "Male",
+  "occupation": "Retored factory supervisor",
+  "location": "Osaka, Japan",
+  "household": "Wife, married 45 years; adult daughter lives nearby",
+  "income_band": "\u00a52,100,000 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Prioritizes harmony and saving for a rainy day; reluctant to trouble others with his own needs.",
+  "current_solutions": "Uses a flip phone given to him by his grandson; pays utility bills at the konbini (convenience store) using cash; shops at the local Aeon supermarket for discount stickers on near-expiry items.",
+  "frustration": "Tried to reserve a seat on the JR limited express at 8:42 AM using the station ticket machine; the machine rejected his elderly IC card three times and displayed an error code E-15, causing him to miss his train.",
+  "decision_style": "Asks his wife or a neighbor for advice before trying anything new; trusts word-of-mouth from his peer group at the pachinko parlor more than advertisements.",
+  "voice": "Rambling and polite; often starts sentences with 'Well, you see...' and apologizes even when describing a frustration; uses specific technical terms for machines but not for apps.",
+  "tags": [
+    "Japan",
+    "fixed-income",
+    "convenience-store-payer"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "empty-nesters--sarah-juh-sz",
+  "segment": "Empty nesters",
+  "name": "Sarah Juh\u00e1sz",
+  "age": 55,
+  "gender": "Female",
+  "occupation": "Senior Project Manager",
+  "location": "Budapest, Hungary",
+  "household": "Partner (56), one grown daughter visits monthly",
+  "income_band": "18,500 EUR per annum",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Pragmatic multitasker; balances career ambitions with caring for aging parents; values efficiency.",
+  "current_solutions": "Uses the Budapest public transport app for city trips; grocery shops via the Tesco Hungary website; watches cooking videos on YouTube.",
+  "frustration": "Tried to book a spa treatment at 2:30 PM via the SpaFinder app, but the payment gateway timed out twice, losing the appointment slot.",
+  "decision_style": "Checks discount codes on PriceRunner before committing; prefers seeing a product in person first.",
+  "voice": "Sharp and direct; cuts to the chase quickly, rarely uses filler words.",
+  "tags": [
+    "professional",
+    "hungarian",
+    "value-conscious"
+  ]
+}

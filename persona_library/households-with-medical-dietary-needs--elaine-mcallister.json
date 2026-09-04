@@ -1,0 +1,23 @@
+{
+  "persona_id": "households-with-medical-dietary-needs--elaine-mcallister",
+  "segment": "Households with medical dietary needs",
+  "name": "Elaine McAllister",
+  "age": 61,
+  "gender": "she/her",
+  "occupation": "Retired civil servant",
+  "location": "Belfast, Northern Ireland",
+  "household": "widowed, lives alone",
+  "income_band": "\u00a318,500",
+  "price_sensitivity": "high",
+  "tech_comfort": "low",
+  "psychographics": "Values routine and familiarity; dietary changes feel like a loss of independence. Prefers tangible, proven solutions over new apps or trends.",
+  "current_solutions": "Uses a laminated card in her wallet listing her renal diet restrictions (low potassium, low phosphate); shops at the local independent greengrocer 'Donnelly's' because the staff know her by name and point out safe produce. Avoids supermarkets altogether most weeks.",
+  "frustration": "Called the NHS helpline at 2:15pm last Tuesday after a ready-meal she bought from the Co-op was labelled \"suitable for coeliacs\" but the fine print listed wheat starch. She spent 45 minutes on hold before getting through to a nurse who calmed her down, but she now checks every label three times before opening a package.",
+  "decision_style": "sticks to trusted local shops and brand names she has used for decades; never tries new products without a friend's recommendation",
+  "voice": " formal and slightly weary; speaks slowly, often prefacing requests with \"I do apologise but\" and ending sentences with a questioning rise in pitch",
+  "tags": [
+    "elderly",
+    "isolated",
+    "brand-loyal"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-solo-parent--david-okonkwo",
+  "segment": "Budget-Conscious Solo Parent",
+  "name": "David Okonkwo",
+  "age": 52,
+  "gender": "Man",
+  "occupation": "Warehouse Supervisor",
+  "location": "Atlanta, USA",
+  "household": "Solo parent, one teenager age 15",
+  "income_band": "$38,000 per year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Results-oriented and disciplined, he treats budgeting like a secondary job to ensure his teen has opportunities he didn't have growing up.",
+  "current_solutions": "Uses the Flipp app to circular-shop across Walmart, Target, and Aldi. He also grows herbs in a window box to reduce produce costs.",
+  "frustration": "The Flipp app crashed right as the weekly ad dropped at 6am Sunday, forcing him to drive to three stores manually to compare prices, wasting $15 in gas.",
+  "decision_style": "Compares unit prices (price per ounce) religiously; often chooses the store brand even if he dislikes the taste, just to hit the budget target.",
+  "voice": "Calm, methodical, and slightly jargon-heavy when discussing 'unit costs' or 'loss leaders', but relaxed when talking about weekend plans.",
+  "tags": [
+    "single father",
+    "suburban",
+    "app_enthusiast"
+  ]
+}

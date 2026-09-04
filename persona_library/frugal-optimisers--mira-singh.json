@@ -1,0 +1,22 @@
+{
+  "persona_id": "frugal-optimisers--mira-singh",
+  "segment": "Frugal optimisers",
+  "name": "Mira Singh",
+  "age": 33,
+  "gender": "Female",
+  "occupation": "Secondary School Teacher",
+  "location": "Mumbai, India",
+  "household": "Joint family: parents, brother, sister-in-law, and nephew",
+  "income_band": "\u20b912,00,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Manages a strict household budget; believes in buying quality that lasts to reduce long-term replacement costs.",
+  "current_solutions": "Uses the Paytm Malls app for weekly groceries, buys staples in bulk from local 'ration shops', and repurposes old clothing for household use.",
+  "frustration": "The local ration shop raised the price of wheat flour by 5 rupees per kg at 10:45 AM yesterday, breaking her monthly budget sheet; she had to switch to a more expensive brand at the supermarket.",
+  "decision_style": "Calculates cost-per-use meticulously; will spend more upfront if the item lasts twice as long, otherwise defaults to the cheapest option.",
+  "voice": "Slightly formal with sprinkled Hindi/Urdu phrases; speaks in a measured, rhythmic pace when discussing money.",
+  "tags": [
+    "household-budgeter",
+    "bulk-buyer"
+  ]
+}

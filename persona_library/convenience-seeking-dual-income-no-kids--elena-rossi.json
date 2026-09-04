@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-seeking-dual-income-no-kids--elena-rossi",
+  "segment": "Convenience-Seeking Dual-Income No-Kids",
+  "name": "Elena Rossi",
+  "age": 35,
+  "gender": "Female",
+  "occupation": "Graphic Designer",
+  "location": "Milan, Italy",
+  "household": "Partner (Luca) and a cat named Figo",
+  "income_band": "\u20ac92,000 EUR",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Optimizes for 'mental load' reduction; prefers quality over quantity but hates decision fatigue.",
+  "current_solutions": "Meal prep boxes from 'Chef Express', weekly grocery delivery via 'Esselunga' app, and a subscription to a dry-cleaning pickup service.",
+  "frustration": "Monday at 9:30 AM, the 'Esselunga' app failed to authenticate her FaceID, leaving her without breakfast options and forcing her to buy a stale croissant at the office vending machine for \u20ac4.50.",
+  "decision_style": "Reads the first three reviews, checks the ingredient list for allergens, then commits quickly.",
+  "voice": "Rambling but organized. Mixes Italian expressions like 'figurati' with English tech terms. Talks through the 'mental load' of choosing.",
+  "tags": [
+    "mediterranean",
+    "design-conscious",
+    "pet-owner"
+  ]
+}

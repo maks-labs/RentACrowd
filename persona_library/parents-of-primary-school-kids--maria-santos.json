@@ -1,0 +1,23 @@
+{
+  "persona_id": "parents-of-primary-school-kids--maria-santos",
+  "segment": "Parents of primary-school kids",
+  "name": "Maria Santos",
+  "age": 36,
+  "gender": "Female",
+  "occupation": "Primary School Teacher",
+  "location": "Bristol, UK",
+  "household": "Partner + one child (7)",
+  "income_band": "\u00a332,000",
+  "price_sensitivity": "high",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritises organic and local; struggles to balance ethical spending with a tightening grocery budget each month.",
+  "current_solutions": "Meal plans on Pinterest every Sunday; local butcher for meat; refill station for pantry staples.",
+  "frustration": "Woke up at 7:05 AM, realized the school milk money app hadn't updated the payment, tried to pay via phone at 8:40 AM drop-off but the server was down, forcing me to write a cheque I don't have.",
+  "decision_style": "Always asks other parents in the playground; trusts word-of-mouth over online ads completely.",
+  "voice": "Rambling and thoughtful; often starts sentences with 'So, the thing is...' and loops back to the main point multiple times.",
+  "tags": [
+    "teacher",
+    "budget_conscious",
+    "local_food"
+  ]
+}

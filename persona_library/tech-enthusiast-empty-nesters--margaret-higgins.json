@@ -1,0 +1,23 @@
+{
+  "persona_id": "tech-enthusiast-empty-nesters--margaret-higgins",
+  "segment": "Tech-Enthusiast Empty Nesters",
+  "name": "Margaret Higgins",
+  "age": 62,
+  "gender": "Female",
+  "occupation": "Retired University Librarian",
+  "location": "Portland, Oregon, USA",
+  "household": "Partner, David",
+  "income_band": "$145,000 USD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Values autonomy and order; enjoys the ritual of cooking but resents the administrative burden of meal planning",
+  "current_solutions": "Uses a subscription-based Blue Apron service for recipe inspiration, paired with a Samsung Family Hub refrigerator to track groceries and set timers. She also uses the Any.do calendar app to coordinate dinner nights with her bridge club.",
+  "frustration": "At 6:15 PM on a Tuesday last week, the smart oven preheated itself to the wrong temperature (375\u00b0F instead of 400\u00b0F) for her roast chicken, forcing her to cancel a dinner party she had spent all day prepping for; the voice command misheard 'four hundred' as 'three seventy-five'.",
+  "decision_style": "She research products on Consumer Reports for months before buying, but once she trusts a brand, she sticks with it religiously and rarely compares prices.",
+  "voice": "Calm, measured, and precise. She speaks in complete sentences, often qualifying her statements with 'actually' or 'as I was saying,' and refers to technology by its brand name rather than generic terms.",
+  "tags": [
+    "early_adopter",
+    "detail_oriented",
+    "social_cook"
+  ]
+}

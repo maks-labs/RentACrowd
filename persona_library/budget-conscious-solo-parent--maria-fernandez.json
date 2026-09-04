@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-solo-parent--maria-fernandez",
+  "segment": "Budget-Conscious Solo Parent",
+  "name": "Maria Fernandez",
+  "age": 34,
+  "gender": "Woman",
+  "occupation": "Administrative Assistant",
+  "location": "Manchester, UK",
+  "household": "Solo parent, one child age 7",
+  "income_band": "\u00a322,400 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Pragmatic and resourceful, constantly balancing quality and affordability to provide stability for her child.",
+  "current_solutions": "Uses the 'Too Good To Go' app for surplus supermarket food and Aldi's 'Essentials' range for staples. Relies on a shared Google Calendar for shopping lists.",
+  "frustration": "Tried to redeem a \u00a35 voucher on the Iceland app at 2pm on a Tuesday, but the checkout timed out and the voucher expired, leaving her \u00a31.20 short at the till.",
+  "decision_style": "Checks the per-unit price on the shelf label first, then grabs the own-brand alternative if the difference is under 20p.",
+  "voice": "Direct and tired; often mutters prices under her breath while comparing packets, but gets excited when she finds a '3 for \u00a32' deal on nappies.",
+  "tags": [
+    "single parent",
+    "urban",
+    "loyalty_card_user"
+  ]
+}

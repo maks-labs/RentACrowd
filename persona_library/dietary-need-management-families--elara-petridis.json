@@ -1,0 +1,23 @@
+{
+  "persona_id": "dietary-need-management-families--elara-petridis",
+  "segment": "Dietary-Need Management Families",
+  "name": "Elara Petridis",
+  "age": 42,
+  "gender": "Female",
+  "occupation": "High School English Teacher",
+  "location": "Suburban Melbourne, Australia",
+  "household": "Partner (45) + three kids (10, 13, 16)",
+  "income_band": "A$115,000 per annum",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Organization-obsessed former athlete who treats the kitchen like a strategy board; she color-codes the calendar and the lunchboxes, but secretly resents the endless spreadsheet work required to keep everyone healthy.",
+  "current_solutions": "Cozi Family Organizer for scheduling, Yummly for recipe filtering, and a recurring order with HelloFresh (modified meals). She also keeps a handwritten 'Red Book' of safe snacks for the youngest who has celiac disease.",
+  "frustration": "Last Thursday at 8:30 AM, she was rushing to pack lunches before the school bell. She handed the 10-year-old a muesli bar she bought in good faith, labeled 'gluten-free'. Three bites later, the kid complained it tasted 'off'. Elara checked the fine print later: the bar was manufactured in a facility that processes wheat. She had to drive the kid to school late and call the teacher, feeling guilty for the rest of the day.",
+  "decision_style": "Researches extensively on parenting forums (Mumsnet equivalents) for 2-3 weeks before trying a new product; once she trusts a brand, she sticks with it religiously, but switching costs feel high.",
+  "voice": "Rambling but structured, shifts between formal teaching jargon and exhausted mum sighs. 'Look, I just want the morning to run smooth, you know? But sometimes the labels lie, and then it\u2019s a whole thing, ya know?'",
+  "tags": [
+    "celiac_mom",
+    "schedule_adherent",
+    "brand_loyal"
+  ]
+}

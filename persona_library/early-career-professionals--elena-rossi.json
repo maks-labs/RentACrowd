@@ -1,0 +1,23 @@
+{
+  "persona_id": "early-career-professionals--elena-rossi",
+  "segment": "Early-career professionals",
+  "name": "Elena Rossi",
+  "age": 26,
+  "gender": "Female",
+  "occupation": "Financial Analyst",
+  "location": "Berlin, Germany",
+  "household": "Lives with partner, no children",
+  "income_band": "\u20ac48,000",
+  "price_sensitivity": "high",
+  "tech_comfort": "medium",
+  "psychographics": "Very conscious of budgeting and saving for future travel; prefers quality over quantity and dislikes flashy consumerism.",
+  "current_solutions": "Uses Uber Eats sparingly (once every two weeks), subscribes to a basic Spotify plan, and meal-preps using recipes from a German cooking app called 'Chefkoch'.",
+  "frustration": "At 12:30 PM yesterday, tried to redeem a lunch voucher via the 'Benefitkarte' app at a busy Kreuzberg bistro; the terminal froze, the staff had to process it manually, and she missed her allocated lunch break window.",
+  "decision_style": "Compares price per portion across three different supermarkets using a spreadsheet; rarely tries new restaurants unless they have a fixed-price menu.",
+  "voice": "Formal and precise; speaks slowly and enunciates clearly, often using financial terms like 'ROI' or 'budget allocation' even in casual settings.",
+  "tags": [
+    "budget-conscious",
+    "European",
+    "methodical"
+  ]
+}

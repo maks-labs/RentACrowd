@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-business-owners--darius-vance",
+  "segment": "Small-business owners",
+  "name": "Darius Vance",
+  "age": 28,
+  "gender": "Non-binary",
+  "occupation": "Mobile dog-grooming contractor",
+  "location": "Manchester, UK",
+  "household": "Rents a ground-floor flat with two rescued cats; no partner",
+  "income_band": "\u00a322,000 GBP annually",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Extremely cost-conscious; every expense must show an immediate ROI. Values flexibility and 'working smarter, not harder'.",
+  "current_solutions": "Uses a basicWhatsApp Business account for booking appointments and a free invoicing template from Google Docs; no dedicated CRM.",
+  "frustration": "Tried to upload a new service price list to his WhatsApp Business catalog at 9:00 AM this morning; the image compressed poorly, making the pricing text illegible, so he had to send a follow-up voice note explaining the rates to every client.",
+  "decision_style": "Compares free apps obsessively; will stick with a free, clunky tool rather than pay \u20ac10/month for a 'premium' feature he doesn't understand.",
+  "voice": "Fast-paced and slang-heavy; uses industry terms like 'furbabies' and 'mobile unit'. Talks quickly, often cutting sentences short when thinking of the next appointment.",
+  "tags": [
+    "gig-economy",
+    "price-sensitive",
+    "young"
+  ]
+}

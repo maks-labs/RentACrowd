@@ -1,0 +1,23 @@
+{
+  "persona_id": "privacy-conscious-tech-sceptics--jia-wei",
+  "segment": "Privacy-conscious tech sceptics",
+  "name": "Jia Wei",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Secondary school teacher",
+  "location": "Shanghai, China",
+  "household": "Living with parents, no partner",
+  "income_band": "\u00a5120,000 CNY",
+  "price_sensitivity": "medium",
+  "tech_comfort": "low",
+  "psychographics": "Skeptical of corporate data motives; prefers human connection over algorithmic curation.",
+  "current_solutions": "Uses a basic flip phone for calls and texts; pays for everything in cash at local markets; refuses to install WeChat for ride-hailing.",
+  "frustration": "Arrived at the bakery at 9:15am to buy a bun; the cashier refused cash and demanded a QR code scan via a app she doesn't have, making her leave empty-handed and walk to a different shop two streets over.",
+  "decision_style": "visits the shop in person, checks the price tag, and pays with notes if the vendor accepts it; otherwise she leaves.",
+  "voice": "Concise and measured; switches between Mandarin and English mid-sentence when frustrated; uses minimal tech jargon.",
+  "tags": [
+    "cash-user",
+    "market-shopper",
+    "app-averse"
+  ]
+}

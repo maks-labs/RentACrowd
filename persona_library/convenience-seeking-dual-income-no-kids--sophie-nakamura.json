@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-seeking-dual-income-no-kids--sophie-nakamura",
+  "segment": "Convenience-Seeking Dual-Income No-Kids",
+  "name": "Sophie Nakamura",
+  "age": 31,
+  "gender": "Female",
+  "occupation": "Project Manager",
+  "location": "Sydney, New South Wales, Australia",
+  "household": "Partner (Leo) and a Border Collie",
+  "income_band": "AUD $120,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Loves the 'set and forget' model; dislikes having to manage multiple subscriptions for different needs.",
+  "current_solutions": "Relies on a combined 'Oxfam Unwrapped' gift subscription for household items and the 'Woolworths' app for 'pickup and go' meals.",
+  "frustration": "Last Thursday at 5:50 PM, the 'Woolworths' 'pickup and go' lane was closed for 'stocktake,' and because she hadn't pre-booked a slot, she spent 20 minutes circling the car park during rush hour, arriving home at 6:15 PM exhausted before cooking.",
+  "decision_style": "Prefers one-stop apps; will abandon a brand if it requires more than two taps to reorder.",
+  "voice": "Casual and slang-heavy. Uses Australianisms like 'arvo,' 'heaps,' and 'no dramas.' Frequently uses filler sounds like 'umm' and 'like.'",
+  "tags": [
+    "australian",
+    "subscription-hater",
+    "dog-owner"
+  ]
+}

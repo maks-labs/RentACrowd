@@ -1,0 +1,23 @@
+{
+  "persona_id": "dual-income-couples-no-kids--marcus-chen",
+  "segment": "Dual-income couples, no kids",
+  "name": "Marcus Chen",
+  "age": 29,
+  "gender": "Male",
+  "occupation": "Software Engineer",
+  "location": "Melbourne, Australia",
+  "household": "Partner (f 28)",
+  "income_band": "A$145,000 AUD per annum",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Early adopter who treats home automation as a hobby; loves tracking spend via dashboards.",
+  "current_solutions": "Uses Splitwise for shared expenses, Uber One for rides, and a Nest Thermostat to reduce heating bills automatically.",
+  "frustration": "His Apple Watch failed to sync with his iPhone at 8:30am last Tuesday, causing him to miss the train and be 20 minutes late to a client meeting.",
+  "decision_style": "Reads tech blogs and Reddit threads for weeks, then buys the highest-rated product without negotiating price.",
+  "voice": "Rambling and enthusiastic; sprinkles acronyms like 'IoT' and 'API' into casual conversation, often trails off mid-sentence.",
+  "tags": [
+    "tech-native",
+    "early-adopter",
+    "gadget-lover"
+  ]
+}

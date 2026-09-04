@@ -1,0 +1,23 @@
+{
+  "persona_id": "emerging-market-urban-consumers--arjun-patel",
+  "segment": "Emerging-market urban consumers",
+  "name": "Arjun Patel",
+  "age": 28,
+  "gender": "Male",
+  "occupation": "Junior data analyst",
+  "location": "Mumbai, India",
+  "household": "Lives alone in a shared flat",
+  "income_band": "\u20b94.2 lakh per annum",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Values convenience over brand loyalty; constantly scans for the best deal on groceries and phone plans.",
+  "current_solutions": "Uses JioPhone for basic calls, Google Pay for UPI transactions, and BigBasket for grocery delivery when the weekly budget allows.",
+  "frustration": "Tried to book an Ola bike at 8:45 PM near Andheri; the app showed 'no drivers available' and charged \u20b9120 cancellation fee anyway, leaving him stranded.",
+  "decision_style": "Compares at least three price points on Google before buying; often postpones non-essential purchases for 2-3 weeks.",
+  "voice": "Blunt and pragmatic; mixes Hindi words like 'bas' and 'yaar' into English sentences, short clauses, quick to point out failures.",
+  "tags": [
+    "mobile_first",
+    "price_conscious",
+    "gig_economy_user"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-graduates--sophie-okonkwo",
+  "segment": "Recent graduates",
+  "name": "Sophie Okonkwo",
+  "age": 22,
+  "gender": "Female",
+  "occupation": "Graphic Designer",
+  "location": "Toronto, Canada",
+  "household": "Lives in a studio apartment alone, pays rent independently",
+  "income_band": "CAD $42,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Creative and independent, values flexibility and self-expression, often spends impulsively on art supplies.",
+  "current_solutions": "Subscribes to Adobe Creative Cloud student discount; uses a free Canva account for side projects. Pays for her own Spotify Premium and Netflix using her own chequing account.",
+  "frustration": "Tried to download a large design asset file from her client's Google Drive at 4:30 PM on a congested Wi-Fi network at a coffee shop; the upload stalled at 97% for 20 minutes, causing her to miss a deadline submission time by 15 minutes.",
+  "decision_style": "Browses Behance and Pinterest for inspiration, then buys tools based on aesthetic appeal rather than price comparison.",
+  "voice": "Direct and concise; speaks with a calm, professional register but drops 'like' and 'totally' when describing creative concepts.",
+  "tags": [
+    "independent",
+    "creative",
+    "urban"
+  ]
+}

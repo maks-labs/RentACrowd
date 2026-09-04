@@ -1,0 +1,23 @@
+{
+  "persona_id": "suburban-dual-income-families--arthur-penhaligon",
+  "segment": "Suburban Dual-Income Families",
+  "name": "Arthur Penhaligon",
+  "age": 35,
+  "gender": "male",
+  "occupation": "High School History Teacher",
+  "location": "Leeds, West Yorkshire, UK",
+  "household": "partner + one child (3) and a golden retriever",
+  "income_band": "$78,000 GBP",
+  "price_sensitivity": "high",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes 'real food' and seasonal cooking, but feels guilty when his demanding teaching schedule leaves him reliant on takeout. He values authenticity over convenience.",
+  "current_solutions": "Uses the Tesco app for online grocery ordering and subscribes to a local veg box scheme every other week. He enjoys cooking but often runs out of time on Thursday evenings.",
+  "frustration": "On Wednesday at 7:30 PM, he tried to make the weekly roast chicken using a recipe from a cooking app, but realized he was missing two key ingredients (salt and rosemary) and the chicken was still frozen from the Sunday shop. He ended up ordering pizza for the family because he didn't have time to go to the corner shop.",
+  "decision_style": "He plans meals on Sunday evenings based on what's on sale at the local Morrisons, but his spontaneity often ruins the plan by Wednesday.",
+  "voice": "Rambling and self-deprecating; he often trails off with '...or something' and laughs at his own disorganization.",
+  "tags": [
+    "teacher",
+    "budget_minimalist",
+    "foodie"
+  ]
+}

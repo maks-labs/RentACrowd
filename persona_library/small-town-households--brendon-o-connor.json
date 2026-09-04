@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-town-households--brendon-o-connor",
+  "segment": "Small-town households",
+  "name": "Brendon O'Connor",
+  "age": 52,
+  "gender": "Male",
+  "occupation": "Hardware store manager",
+  "location": "Springfield, Missouri, USA",
+  "household": "Wife, teenage son (15)",
+  "income_band": "$70,000 USD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Proud of his town's resilience; balances traditional values with a need for efficiency in his daily commute",
+  "current_solutions": "Uses the local hardware store's app for project supplies; relies on the local co-op for food; streams sports on cable",
+  "frustration": "Tried to reserve a specialty drill bit online for store pickup at 3 PM Thursday; the system said 'reserved' but when he arrived at 3:15 PM, the shelf was empty and staff had no record of the reservation, forcing him to buy a cheaper, inferior brand at full price",
+  "decision_style": "Researches product specs on manufacturer sites; trusts his own expertise over online reviews for power tools",
+  "voice": "Professional but colloquial, sprinkles in regional Midwest idioms like 'folks' and 'y'all', speaks with the cadence of someone who gives presentations regularly",
+  "tags": [
+    "middle-management",
+    "homeowner",
+    "practical"
+  ]
+}

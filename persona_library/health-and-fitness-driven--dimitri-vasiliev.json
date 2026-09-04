@@ -1,0 +1,23 @@
+{
+  "persona_id": "health-and-fitness-driven--dimitri-vasiliev",
+  "segment": "Health and fitness driven",
+  "name": "Dimitri Vasiliev",
+  "age": 45,
+  "gender": "Male",
+  "occupation": "Civil Engineer",
+  "location": "Moscow, Russia",
+  "household": "Wife (42) and teenage daughter (16)",
+  "income_band": "\u20bd3,200,000 RUB / month",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Views food as fuel and training as maintenance for his high-stress job. Extremely disciplined with macros, but secretly indulges in late-night pizza when no one is watching.",
+  "current_solutions": "Trains at 'World Class' fitness club; uses Biocare nutrition apps; follows a strict 'if it fits your macros' (IIFYM) spreadsheet.",
+  "frustration": "At 7:30 PM last Monday, his smart scale synced incorrectly with the Garmin Connect app, registering a 2kg weight gain overnight due to a software glitch, causing him to panic-eat a bland breakfast to 'reset' his macros.",
+  "decision_style": "Relies on word-of-mouth from his engineering colleagues; will not try a new supplement without three friends vouching for its efficacy and safety.",
+  "voice": "Formal and measured, sprinkled with technical jargon about 'biomarkers' and 'metabolic windows'. Speaks Russian when frustrated, English when explaining to foreigners.",
+  "tags": [
+    "Moscow",
+    "engineer",
+    "IIFYM"
+  ]
+}

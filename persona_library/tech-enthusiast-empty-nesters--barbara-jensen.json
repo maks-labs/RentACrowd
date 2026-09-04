@@ -1,0 +1,23 @@
+{
+  "persona_id": "tech-enthusiast-empty-nesters--barbara-jensen",
+  "segment": "Tech-Enthusiast Empty Nesters",
+  "name": "Barbara Jensen",
+  "age": 62,
+  "gender": "Female",
+  "occupation": "Retired High School Chemistry Teacher",
+  "location": "Portland, OR",
+  "household": "partner + two cats",
+  "income_band": "$78,000 USD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Values maintaining her garden and cooking hobby without weekly friction; enjoys the precision of automation but resists anything that feels like surveillance",
+  "current_solutions": "Google Home ecosystem; Instacart for groceries; Allrecipes for recipe inspiration",
+  "frustration": "At 2:14 PM last Tuesday, her smart speaker failed to preheat the oven for her roast chicken, leaving her 45 minutes late for a dinner party; she had to manually override the timer and reset the Wi-Fi router",
+  "decision_style": "reads verified buyer reviews on Amazon for 20 minutes, then compares features against her existing Google Home devices before committing",
+  "voice": "blunt and practical, often mid-sentence trailing off when a tech setup feels unnecessarily complex",
+  "tags": [
+    "early-adopter",
+    "home-cook",
+    "pet-parent"
+  ]
+}

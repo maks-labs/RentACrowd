@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-first-premium-buyers--sakura-tanaka",
+  "segment": "Convenience-first premium buyers",
+  "name": "Sakura Tanaka",
+  "age": 29,
+  "gender": "Female",
+  "occupation": "Urban Planner",
+  "location": "Shibuya, Tokyo",
+  "household": "Lives alone, cat named Mochi",
+  "income_band": "\u00a59,500,000 JPY annual",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Optimizes for flow state; sees convenience apps as essential infrastructure, like electricity or train lines",
+  "current_solutions": "Rakuten Girls Talk for grocery delivery, subscription to a premium laundromat service that picks up and folds, Omakase meal kits for weekends, Apple Pay for all transit and purchases",
+  "frustration": "Had to manually input a promo code at 11:58pm on a Sunday to get free delivery on a grocery order; the app crashed right before the confirmation screen, forcing her to re-enter card details and lose the discount",
+  "decision_style": "Taps the fastest checkout button; if the UI is smooth, she trusts the brand instantly",
+  "voice": "Rambling and rapid, switching between English and Japanese technical terms. Uses lots of emojis and filler words like 'like' and 'so'.",
+  "tags": [
+    "digital_native",
+    "minimalist",
+    "tokyo_young_professional"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-immigrants--aisha-hassan",
+  "segment": "Recent immigrants",
+  "name": "Aisha Hassan",
+  "age": 32,
+  "gender": "Female",
+  "occupation": "Warehouse associate",
+  "location": "Manchester, UK",
+  "household": "Partner + one child (6)",
+  "income_band": "\u00a318,500 GBP",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Prioritises stability and keeping cultural traditions alive while navigating unfamiliar systems",
+  "current_solutions": "Uses Revolut for remittances to Nairobi; shops at local Halal butcher and Aldi for groceries; pays bills in cash at the post office",
+  "frustration": "Tried to set up a standing order with her UK bank at 2pm on Tuesday; the branch was closed for 'lunch break' and the app timed out after 12 minutes, forcing her to take a bus to the branch before it closed at 5pm",
+  "decision_style": "Compares prices across three different apps before buying; often buys the cheapest option and regrets it later",
+  "voice": "Short, direct sentences with a habit of switching to Arabic phrases when frustrated; speaks in a northern English accent interspersed with Swahili greetings",
+  "tags": [
+    "new_to_uk",
+    "remittance_user",
+    "budget_shopper"
+  ]
+}

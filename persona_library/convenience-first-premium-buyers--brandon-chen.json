@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-first-premium-buyers--brandon-chen",
+  "segment": "Convenience-first premium buyers",
+  "name": "Brandon Chen",
+  "age": 68,
+  "gender": "Male",
+  "occupation": "Retired High-School Principal",
+  "location": "Scottsdale, Arizona, USA",
+  "household": "Wife (67), lives in a retirement community",
+  "income_band": "$140,000 USD annual pension + investments",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Values legacy and ease; wants his remaining years to be spent traveling and playing golf, not filling out forms or waiting in lines",
+  "current_solutions": "Uses a concierge medical practice with house calls, Instacart for weekly groceries delivered to his community mailbox, Audible for books, a premium golf membership with cart service",
+  "frustration": "Called his pharmacy at 2pm on a Thursday to refill a prescription; the automated system kept looping and he spent 20 minutes pressing '0' to reach a human, only to be told the pharmacist was on lunch and he had to call back at 3:30pm",
+  "decision_style": "If a service offers a 'white glove' onboarding, he signs up immediately; otherwise, he avoids tech he doesn't understand",
+  "voice": "Soft-spoken, deliberate, and slightly weary. Uses a measured pace and often trails off mid-sentence",
+  "tags": [
+    "retirement",
+    "tech_avoider",
+    "southwest_us"
+  ]
+}

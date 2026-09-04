@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-first-premium-buyers--eleanor-rigby",
+  "segment": "Convenience-first premium buyers",
+  "name": "Eleanor Rigby",
+  "age": 37,
+  "gender": "Female",
+  "occupation": "Freelance Copywriter",
+  "location": "Cape Town, South Africa",
+  "household": "Partner (40) and one toddler (2)",
+  "income_band": "R450,000 ZAR annual household",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Delegates the 'mental load' of home management; believes that if she can pay someone to do it, she should, so she can focus on creative work",
+  "current_solutions": "Uses a local 'nanny-share' app for after-school care, orders groceries via Checkers Sixty60 (30-min delivery promise), uses a premium airport transfer service for work trips",
+  "frustration": "Attempted to book a same-day dentist appointment for her toddler at 9am; the only available slot was at 4:30pm, which clashed with her partner's work finish time, and the clinic refused to move it",
+  "decision_style": "Books the first available slot on the app, pays the premium fee for 'urgent care', and rarely reads the fine print",
+  "voice": "Formal yet exhausted. Speaks in complete sentences with a weary sigh implied; uses South African English idioms like 'just now' meaning 'eventually'.",
+  "tags": [
+    "mental_load_delegator",
+    "sandwich_gen",
+    "cape_town_professional"
+  ]
+}

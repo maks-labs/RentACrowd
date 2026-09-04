@@ -1,0 +1,23 @@
+{
+  "persona_id": "early-career-professionals--jayden-brooks",
+  "segment": "Early-career professionals",
+  "name": "Jayden Brooks",
+  "age": 31,
+  "gender": "Male",
+  "occupation": "Entry-level Project Manager",
+  "location": "Sydney, Australia",
+  "household": "Lives with sibling who pays half the rent",
+  "income_band": "A$75,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Social and outgoing; uses food and drink as the primary way to maintain friendships and professional networks.",
+  "current_solutions": "Uses Menulog for group orders, subscribes to Netflix and Spotify Premium, and frequently visits local 'brew bars' for flat whites.",
+  "frustration": "At 2:00 PM last Saturday, tried to order brunch via a popular app for a group of 6; the app capped the order at 4 people, forcing her to split the order into two transactions, which resulted in double delivery fees and cold food.",
+  "decision_style": "Asks friends for recommendations on WhatsApp; will try a new place if 3 or more friends have posted positive stories about it on Instagram Stories.",
+  "voice": "Heavy on slang and abbreviations; uses 'sesh', 'brew', and 'arvo' frequently; sentence structure is loose and casual.",
+  "tags": [
+    "social",
+    "Australian",
+    "app_heavy"
+  ]
+}

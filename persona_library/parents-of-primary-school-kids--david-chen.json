@@ -1,0 +1,23 @@
+{
+  "persona_id": "parents-of-primary-school-kids--david-chen",
+  "segment": "Parents of primary-school kids",
+  "name": "David Chen",
+  "age": 41,
+  "gender": "Male",
+  "occupation": "Senior Marketing Manager",
+  "location": "Manchester, UK",
+  "household": "Partner + two kids (6, 9)",
+  "income_band": "\u00a358,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values efficiency above all else; hates waste but will splurge on convenience to save time on weekday mornings.",
+  "current_solutions": "Google Calendar shared with partner; Cozi family organizer app; Ocado grocery delivery.",
+  "frustration": "Tried to book after-school care at 8:15 AM on Tuesday - the portal crashed, showing a blank white screen for 20 minutes, causing me to be 22 minutes late for a client call.",
+  "decision_style": "Reads verified reviews on Which? for 3-4 days, then buys the highest-rated option without comparing prices further.",
+  "voice": "Blunt and direct; cuts to the chase, rarely apologizes for being abrupt.",
+  "tags": [
+    "working_parent",
+    "urban",
+    "tech_comfortable"
+  ]
+}

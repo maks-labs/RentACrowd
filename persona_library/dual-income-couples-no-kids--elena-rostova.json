@@ -1,0 +1,23 @@
+{
+  "persona_id": "dual-income-couples-no-kids--elena-rostova",
+  "segment": "Dual-income couples, no kids",
+  "name": "Elena Rostova",
+  "age": 34,
+  "gender": "Female",
+  "occupation": "Senior Marketing Manager",
+  "location": "Leeds, UK",
+  "household": "Partner (m 36)",
+  "income_band": "\u00a385,000 GBP per annum",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Pragmatic optimiser who values time-saving conveniences over cheap alternatives",
+  "current_solutions": "Uses HelloFresh for meal kits, Monzo joint account for budgeting, and Amazon Prime for bulk non-perishables.",
+  "frustration": "Had to wait 45 minutes on hold to HSBC customer service at 2pm on a Tuesday to dispute a duplicate charge on her joint account.",
+  "decision_style": "Compares three options on Which? before buying, but will pay premium for same-day delivery to avoid cooking after late meetings.",
+  "voice": "Blunt and efficient; cuts straight to the point, uses mild financial jargon like 'overdraft' and 'APR' without explanation.",
+  "tags": [
+    "urban",
+    "career-focused",
+    "tech-savvy"
+  ]
+}

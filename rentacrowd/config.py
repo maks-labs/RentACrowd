@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     # --- models ---
     panel_model: str = "nvidia/nemotron-3.5-lightning-30b-a3b"
     analysis_model: str = "nvidia/nemotron-3.5-lightning-30b-a3b"
-    max_output_tokens: int = 1500
+    max_output_tokens: int = 2600
 
     # --- throughput guardrails ---
     requests_per_minute: int = 36
@@ -34,29 +34,19 @@ class Settings(BaseSettings):
     request_timeout: float = 180.0
 
     # --- panel sizing ---
-    # kept small: the free nemotron models are ~60s/call. Raise for a real study.
-    personas_per_segment: int = 4
+    personas_per_segment: int = 6
     batch_size: int = 4
 
-    # --- storage ---
-    # Default is OUTSIDE the repo: `langgraph dev` watches the project tree and
-    # would otherwise reload every time we write a persona cache / study file.
-    data_dir: Path = Path.home() / ".rentacrowd"
-
-    def _sub(self, name: str) -> Path:
-        d = self.data_dir.expanduser()
-        base = d if d.is_absolute() else REPO_ROOT / d
-        p = (base / name).resolve()
-        p.mkdir(parents=True, exist_ok=True)
-        return p
-
-    @property
-    def personas_dir(self) -> Path:
-        return self._sub("personas")
+    # --- storage (inside the repo, so you can open the results) ---
+    #   persona_library/ -> the reusable population (see personas/library.py)
+    #   studies/         -> one folder per study run
+    studies_dirname: str = "studies"
 
     @property
     def studies_dir(self) -> Path:
-        return self._sub("studies")
+        p = REPO_ROOT / self.studies_dirname
+        p.mkdir(parents=True, exist_ok=True)
+        return p
 
     @property
     def requests_per_second(self) -> float:

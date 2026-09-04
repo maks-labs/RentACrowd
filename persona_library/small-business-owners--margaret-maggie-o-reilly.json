@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-business-owners--margaret-maggie-o-reilly",
+  "segment": "Small-business owners",
+  "name": "Margaret 'Maggie' O'Reilly",
+  "age": 52,
+  "gender": "Female",
+  "occupation": "Proprietor, independent bookstore-cafe hybrid",
+  "location": "Cobh, County Cork, Ireland",
+  "household": "Partner (55), adult daughter (23) living at home during gaps in university",
+  "income_band": "\u20ac48,000 EUR annually",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritises community connection and tactile experience; believes a physical bookstore is a cultural anchor in a digital world.",
+  "current_solutions": "Uses Square for payments and till operations; manages staff rosters on Google Calendar; relies on Instagram for daily specials.",
+  "frustration": "Had to manually reconcile the till drawer at 11:30 PM last Friday after a rush; the Square sync lagged, forcing her to count coins by hand for 45 minutes while the shop was closed to the public.",
+  "decision_style": "Prefers to test POS systems in person during quiet hours; often asks other local retailers for recommendations before switching from her trusted Square setup.",
+  "voice": "Rambling but warm; frequently pauses to look at books or gesturing at the caf\u00e9 counter. Uses Irish slang like 'deadly' and 'grand' but switches to formal register when discussing finances.",
+  "tags": [
+    "community-focused",
+    "hospitality",
+    "older demo"
+  ]
+}

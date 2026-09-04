@@ -1,0 +1,23 @@
+{
+  "persona_id": "empty-nesters--arthur-penhaligon",
+  "segment": "Empty nesters",
+  "name": "Arthur Penhaligon",
+  "age": 62,
+  "gender": "Male",
+  "occupation": "Retired Civil Engineer",
+  "location": "Cheltenham, UK",
+  "household": "Partner (60), no children at home",
+  "income_band": "\u00a358,000 per annum",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Values practicality and financial security over trends; enjoys routine and tangible results.",
+  "current_solutions": "Manages finances via Lloyds Bank online banking; shops weekly at Waitrose; uses a Kindle Paperwhite for reading.",
+  "frustration": "Forgot his Lloyds Bank PIN while trying to pay a bill at 9:15 AM on a Tuesday, locking the account for 20 minutes.",
+  "decision_style": "Compares features in-store for major purchases; reads Which? reviews religiously before buying appliances.",
+  "voice": "Rambling but polite; often starts sentences with 'Well, to be fair...' and circles back to the main point.",
+  "tags": [
+    "retired",
+    "UK",
+    "cautious spender"
+  ]
+}

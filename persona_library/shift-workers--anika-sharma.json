@@ -1,0 +1,23 @@
+{
+  "persona_id": "shift-workers--anika-sharma",
+  "segment": "Shift workers",
+  "name": "Anika Sharma",
+  "age": 33,
+  "gender": "Female",
+  "occupation": "Warehouse Supervisor",
+  "location": "Birmingham, UK",
+  "household": "Flat-share with two friends",
+  "income_band": "\u00a328,000",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Organised chaos manager; thrives on structure but hates rigid schedules that don't match her body clock.",
+  "current_solutions": "Instagram for shift swaps with colleagues; Deliveroo for late-night meals; MyFitnessPal to track energy levels.",
+  "frustration": "Logged into the warehouse shift app at 03:30am to request a swap; the app timed out and logged her out, forcing her to message her supervisor on WhatsApp to fix it.",
+  "decision_style": "Reads Reddit threads about warehouse work before trying new apps; switches to cheaper alternatives quickly if they glitch.",
+  "voice": "Fast-paced and colloquial; sprinkles sentences with 'like', 'literally' and British slang 'mate', 'sorted'.",
+  "tags": [
+    "warehouse",
+    "shift_swaps",
+    "budget conscious"
+  ]
+}

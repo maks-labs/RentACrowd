@@ -1,0 +1,23 @@
+{
+  "persona_id": "new-parents--marcus",
+  "segment": "New parents",
+  "name": "Marcus",
+  "age": 35,
+  "gender": "Male",
+  "occupation": "High school history teacher",
+  "location": "Austin, Texas, USA",
+  "household": "Partner (34) + baby Maya (14 months); live-in mother-in-law helps with mornings",
+  "income_band": "$72,000 / year",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes safety and durability over trends. Believes 'good enough' is better than 'best' when you're surviving on four hours of sleep.",
+  "current_solutions": "Nanit Pro Camera in the nursery; Uppababy Vista V2 stroller (hand-me-down from sister); Kirkland Signature diapers from Costco.",
+  "frustration": "Tried to install the Nanit wall mount at 6am; the bracket slipped and crashed down on the crib rail, scratching the finish and requiring a frantic call to the landlord to patch the wall before work.",
+  "decision_style": "asks other dads in the parking lot what actually works; rarely reads online reviews unless something breaks",
+  "voice": "blunt, uses teacher jargon ('engagement', 'curriculum'), drops 'ya know' at the end of sentences",
+  "tags": [
+    "working_parent",
+    "south_us",
+    "pragmatic"
+  ]
+}

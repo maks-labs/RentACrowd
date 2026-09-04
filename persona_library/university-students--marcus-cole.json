@@ -1,0 +1,23 @@
+{
+  "persona_id": "university-students--marcus-cole",
+  "segment": "University students",
+  "name": "Marcus Cole",
+  "age": 23,
+  "gender": "Male",
+  "occupation": "Final-year Business Administration student working part-time as a barista",
+  "location": "Toronto, Canada",
+  "household": "Lives alone in a studio apartment (parents help with rent)",
+  "income_band": "C$22,000 CAD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Status-conscious but practical; willing to splurge on coffee quality but meticulous about utility purchases",
+  "current_solutions": "Uses Dropbox for group projects, streams on Netflix ad-supported tier, buys groceries in bulk from Costco once a month using a roommate's membership card",
+  "frustration": "Spent 22 minutes on hold with Rogers customer service at 4:30pm on a Thursday to resolve a billing error, only to be transferred to a department that closed at 5pm, forcing me to call back next week",
+  "decision_style": "Reads 'Best Buy' columns in campus newspaper, checks data caps before upgrading phone plans, often chooses the second-cheapest option to avoid buyer's remorse",
+  "voice": "Formal but relaxed. Uses some business jargon ('ROI', 'budget allocation') mixed with casual 'eh' and 'hey'. Speaks clearly but slowly when stressed",
+  "tags": [
+    "part-time worker",
+    "urban solo dweller",
+    "practical spender"
+  ]
+}

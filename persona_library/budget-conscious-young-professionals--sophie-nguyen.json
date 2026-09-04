@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-young-professionals--sophie-nguyen",
+  "segment": "Budget-Conscious Young Professionals",
+  "name": "Sophie Nguyen",
+  "age": 27,
+  "gender": "Female",
+  "occupation": "Account Manager",
+  "location": "Melbourne, Australia",
+  "household": "Partner (no kids)",
+  "income_band": "A$58,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Relaxed about spending if it saves time; often forgets to cancel trial subscriptions but loves a good discount.",
+  "current_solutions": "Uses the Woolworths Rewards app; relies heavily on 'Yellow Sticker' discounts at the end of the day for meat and produce.",
+  "frustration": "Last Monday at 7:45pm, she arrived at her local Woolworths to find the yellow sticker aisle completely empty; she had to buy pre-packaged salads at double the price because she was starving.",
+  "decision_style": "Impulse-buy driven by discounts; often regrets purchases after checking her banking app on Sunday.",
+  "voice": "Casual and slang-heavy; frequently uses 'totes' and 'obvs' when talking about deals.",
+  "tags": [
+    "discount-hunter",
+    "partner-cook",
+    "subscription-forgetter"
+  ]
+}

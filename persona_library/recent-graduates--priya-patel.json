@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-graduates--priya-patel",
+  "segment": "Recent graduates",
+  "name": "Priya Patel",
+  "age": 25,
+  "gender": "Female",
+  "occupation": "Marketing Coordinator",
+  "location": "Bangalore, India",
+  "household": "Lives with parents in a joint family apartment",
+  "income_band": "\u20b96,50,000 INR",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Ambitious and socially active, loves planning trips but struggles to save due to family expectations.",
+  "current_solutions": "Uses JioCinema for movies and Disney+ Hotstar for serials; shares a family Netflix account that her parents control.",
+  "frustration": "Tried to order a new pair of Nike running shoes on the Nike app at 2:15 PM; the payment gateway failed twice, the order vanished, and she had to restart the entire checkout process, losing her size selection.",
+  "decision_style": "Scrolls Instagram ads for 20 minutes, reads 3 reviews on Amazon, then buys whatever is in stock.",
+  "voice": "Fast-paced and cheerful; switches between English and Hindi mid-sentence when excited about a deal.",
+  "tags": [
+    "family-oriented",
+    "brand-loyal",
+    "impulse-buyer"
+  ]
+}

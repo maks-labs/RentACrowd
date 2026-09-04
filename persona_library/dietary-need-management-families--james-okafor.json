@@ -1,0 +1,23 @@
+{
+  "persona_id": "dietary-need-management-families--james-okafor",
+  "segment": "Dietary-Need Management Families",
+  "name": "James Okafor",
+  "age": 29,
+  "gender": "Man",
+  "occupation": "Warehouse Shift Supervisor",
+  "location": "Lagos, Nigeria",
+  "household": "wife (26), baby daughter (1), mother-in-law (60)",
+  "income_band": "\u20a64,500,000 NGN",
+  "price_sensitivity": "high",
+  "tech_comfort": "low",
+  "psychographics": "Struggles to balance the cost of specialized foods with the need to feed three generations; relies heavily on community networks for safety information.",
+  "current_solutions": "Buys yam and plantain as staple carbohydrates; relies on a local market woman who understands his son's peanut allergy; uses a basic notepad app to track which local fruits are safe.",
+  "frustration": "Last month at the bustling Balogun Market, he bought a bag of 'mixed nuts' from a new vendor without checking the wrapper; his son had a mild reaction, and the vendor refused a refund, saying \"it's just a little dust.\"",
+  "decision_style": "Asks neighbors and family first; will drive 45 minutes to a trusted shop rather than risk buying something cheap and unsafe at the local stall.",
+  "voice": "Rhythmic and informal; peppered with Pidgin English idioms like \"abi\" and \"how far\"; sentences often trail off as he multitasks.",
+  "tags": [
+    "low-tech",
+    "high-price-sensitivity",
+    "familial-focus"
+  ]
+}

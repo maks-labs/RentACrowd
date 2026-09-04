@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-immigrants--priya-sharma",
+  "segment": "Recent immigrants",
+  "name": "Priya Sharma",
+  "age": 28,
+  "gender": "Female",
+  "occupation": "Graphic designer",
+  "location": "Toronto, Canada",
+  "household": "Lives alone in a studio apartment",
+  "income_band": "CAD 45,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Urban explorer who uses design thinking to adapt to new environments; balances nostalgia for Mumbai with curiosity about Canadian culture",
+  "current_solutions": "Uses Monzo for daily spending; orders groceries via Instacart; watches Bollywood movies on Netflix to feel connected; takes the TTC subway to work",
+  "frustration": "Tried to link her new Canadian phone number to her bank's two-factor authentication at 9:30 AM; the SMS code never arrived, and the automated helpline kept looping her back to the start after 20 minutes of waiting",
+  "decision_style": "Skimmed reviews on Behance for freelance gigs; often chooses designers based on portfolio aesthetics rather than rate",
+  "voice": "Rambling, enthusiastic, sprinkled with Hindi/Urdu idioms like 'yaar' and 'theek hai'; fast-paced Toronto cadence",
+  "tags": [
+    "young_professional",
+    "digital_nomad",
+    "culture_blender"
+  ]
+}

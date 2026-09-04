@@ -1,0 +1,23 @@
+{
+  "persona_id": "single-parents--kenji-tanaka",
+  "segment": "Single parents",
+  "name": "Kenji Tanaka",
+  "age": 51,
+  "gender": "Man",
+  "occupation": "Restaurant Manager",
+  "location": "Osaka, Japan",
+  "household": "Son (16)",
+  "income_band": "\u00a55,500,000 JPY",
+  "price_sensitivity": "medium",
+  "tech_comfort": "low",
+  "psychographics": "Prefers stability and predictability; wary of flashy new tech that complicates daily routines",
+  "current_solutions": "Supermarket weekly shop at Aeon; Local butcher for meat; Pays bills at the konbini (convenience store); Uses basic feature phone for calls only",
+  "frustration": "Forced to use the restaurant's POS system to transfer a takeout order at 2:15 PM on a Thursday; the interface was in English only, the screen froze twice, and he had to abandon the order and pay cash instead, losing the loyalty points",
+  "decision_style": "Sticks to familiar brands; will try a new product only if a colleague recommends it outright, otherwise ignores marketing entirely",
+  "voice": "Formal and reserved; speaks in complete, polite sentences; rarely uses slang, preferring standard Japanese business keigo when explaining problems",
+  "tags": [
+    "cash-preferred",
+    "tech-avoidant",
+    "established"
+  ]
+}

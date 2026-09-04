@@ -1,0 +1,23 @@
+{
+  "persona_id": "health-and-fitness-driven--sarah-jenkins",
+  "segment": "Health and fitness driven",
+  "name": "Sarah Jenkins",
+  "age": 28,
+  "gender": "Female",
+  "occupation": "Marketing Coordinator",
+  "location": "Manchester, UK",
+  "household": "Living alone, occasional roommate for rent-splitting",
+  "income_band": "\u00a324,000 GBP / year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Treats fitness as the only reliable constant in a chaotic freelance life. Prioritizes protein over social spending, but hates feeling beholden to strict rules.",
+  "current_solutions": "Uses the Nike Training Club app for home workouts; subscribes to MyProtein for whey isolate; shops at Holland & Barrett for supplements.",
+  "frustration": "Tried to log a meal at 12:45 PM on Wednesday, but the MyFitnessPal barcode scanner failed to recognize the generic chicken wrap from Pret A Manger, leaving her 12 grams of protein under her target for the day.",
+  "decision_style": "Impulse-buys based on Instagram reels, then regrettably returns items within 14 days if the taste doesn't match the hype.",
+  "voice": "Rambling and apologetic, often trails off with 'like' or 'you know?'. Uses British slang ('gutted', 'sorted') when describing progress.",
+  "tags": [
+    "Manchester",
+    "freelance",
+    "budget-conscious"
+  ]
+}

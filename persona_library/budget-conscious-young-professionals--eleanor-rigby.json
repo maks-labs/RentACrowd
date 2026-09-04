@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-young-professionals--eleanor-rigby",
+  "segment": "Budget-Conscious Young Professionals",
+  "name": "Eleanor Rigby",
+  "age": 27,
+  "gender": "Female",
+  "occupation": "Junior Data Analyst",
+  "location": "Leeds, UK",
+  "household": "Living alone, occasionally hosts parents for Sunday dinner",
+  "income_band": "\u00a324,500 per annum",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values autonomy and practicality; believes 'good enough' is better than 'perfect' when it comes to weekly food spend.",
+  "current_solutions": "Uses the 'Too Good To Go' app for discounted surplus meals from local cafes, and a Tesco Clubcard for fuel points. Prefers meal prepping on Sundays using own-brand ingredients.",
+  "frustration": "Tried to buy a \u00a33.99 meal deal at 2:15pm on a Tuesday at her local Tesco Extra, but the 'meal deal' shelf was empty and the self-checkout forced her to pay \u00a36.49 for a random sandwich, throwing off her weekly budget by \u00a32.50.",
+  "decision_style": "Compares unit prices on the shelf, checks the supermarket loyalty app for points, and rarely buys anything without a coupon code visible at checkout.",
+  "voice": "Short, clipped, and pragmatic. Often starts sentences with 'So I just...' and finishes with a sigh. Uses 'basically' as a filler word.",
+  "tags": [
+    "solo-dweller",
+    "app-savvy",
+    "budget-tracker"
+  ]
+}

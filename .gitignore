@@ -3,5 +3,4 @@ __pycache__/
 *.pyc
 .env
 .langgraph_api/
-.streamlit/
-~/.rentacrowd/
+studies/

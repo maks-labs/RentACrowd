@@ -102,10 +102,60 @@ def _extract_json(text: str) -> str:
     fence = re.search(r"```(?:json)?\s*(.*?)```", text, re.DOTALL)
     if fence:
         text = fence.group(1).strip()
-    start, end = text.find("{"), text.rfind("}")
-    if start == -1 or end == -1:
+    start = text.find("{")
+    if start == -1:
         raise ValueError(f"no JSON object in model output: {text[:200]!r}")
-    return text[start : end + 1]
+    end = text.rfind("}")
+    if end > start:
+        return text[start : end + 1]
+    return _repair_truncated(text[start:])
+
+
+def _repair_truncated(s: str) -> str:
+    """Best-effort close of a JSON object the model got cut off mid-emit.
+
+    Walk the text tracking string state and bracket depth; stop at the last
+    position that could be a valid value boundary, then append the missing
+    closers. Try json.loads while trimming back until it parses.
+    """
+    import json as _json
+
+    depth: list[str] = []
+    instr = esc = False
+    safe = 0  # last index right after a completed value / at a clean boundary
+    for i, ch in enumerate(s):
+        if instr:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                instr = False
+                safe = i + 1
+            continue
+        if ch == '"':
+            instr = True
+        elif ch in "{[":
+            depth.append(ch)
+        elif ch in "}]":
+            if depth:
+                depth.pop()
+            safe = i + 1
+        elif ch in "0123456789eE.+-" or ch in "truefalsn":
+            safe = i + 1
+        elif ch in " \t\n\r,:":
+            pass
+
+    head = s[:safe].rstrip().rstrip(",")
+    for _ in range(len(depth) + 1):
+        cand = head + "".join("}" if b == "{" else "]" for b in reversed(depth))
+        cand = re.sub(r",(\s*[}\]])", r"\1", cand)
+        try:
+            _json.loads(cand)
+            return cand
+        except Exception:
+            head = re.sub(r",?\s*(\"[^\"]*\"\s*:\s*)?[^,{}\[\]]*$", "", head).rstrip().rstrip(",")
+    return cand
 
 
 class _Retryable(Exception):

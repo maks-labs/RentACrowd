@@ -1,0 +1,23 @@
+{
+  "persona_id": "suburban-dual-income-families--elena-ramirez",
+  "segment": "Suburban Dual-Income Families",
+  "name": "Elena Ramirez",
+  "age": 42,
+  "gender": "female",
+  "occupation": "Senior Project Manager at a tech firm",
+  "location": "Cranberry Township, Pennsylvania, USA",
+  "household": "partner + two kids (7 and 11)",
+  "income_band": "$125,000 USD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values efficiency and structure; believes that a well-managed home is the foundation for a successful career, but resists feeling 'corporate' in her personal space.",
+  "current_solutions": "Relies on a shared Google Calendar for the family schedule and the AnyList app for grocery lists. Uses Instacart for about 30% of their shopping to save time, though she worries about the upcharge.",
+  "frustration": "Last Tuesday at 6:15 PM, she opened the fridge to find only half a rotisserie chicken and wilted spinach for the kids' dinner, having forgotten to defrost the meat she\u2019d bought on Sunday. She had to call her husband in a meeting to ask what was already in the freezer, adding 20 minutes of stress to her commute home.",
+  "decision_style": "She researches heavily on Reddit\u2019s r/mealprep and buys in bulk from Costco, but she often second-guesses the quality of pre-chopped veggies versus whole.",
+  "voice": "Fast-paced and direct; she apologizes for taking up time but gets straight to the point about schedules and budgets.",
+  "tags": [
+    "working_mom",
+    "cost_conscious",
+    "tech_savvy"
+  ]
+}

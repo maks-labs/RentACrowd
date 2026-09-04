@@ -1,0 +1,23 @@
+{
+  "persona_id": "urban-young-professionals--marcus-chen",
+  "segment": "Urban Young Professionals",
+  "name": "Marcus Chen",
+  "age": 34,
+  "gender": "male",
+  "occupation": "Software Engineer",
+  "location": "Brooklyn, NYC, USA",
+  "household": "partner (no kids)",
+  "income_band": "$115,000 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes quality and sustainability; will pay extra for ethically sourced food but hates wasted fridge space",
+  "current_solutions": "Instacart for weekly basics; habit of ordering lunch from the same bodega near his office; keeps a minimalist fridge",
+  "frustration": "His smart fridge alarm went off at 2am last Tuesday because the vegetable drawer was 2\u00b0C too warm, spoiling a $40 batch of prepped salads",
+  "decision_style": "reads deep-dive reviews on Reddit's r/foodprep, then orders via the app with one click",
+  "voice": "rambling tech-jargon; mixes metric and imperial units casually; frequently starts sentences with 'so the thing is...'",
+  "tags": [
+    "urban",
+    "early-career",
+    " sustainability-focused"
+  ]
+}

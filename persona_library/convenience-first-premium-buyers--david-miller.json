@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-first-premium-buyers--david-miller",
+  "segment": "Convenience-first premium buyers",
+  "name": "David Miller",
+  "age": 52,
+  "gender": "Male",
+  "occupation": "Senior Project Manager",
+  "location": "Leeds, UK",
+  "household": "Partner (48) and teenage daughter (16)",
+  "income_band": "\u00a385,000 GBP annual household",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Values time above all else; believes paying for convenience is an investment in mental health, not a luxury",
+  "current_solutions": "HelloFresh meal kits for dinners, HelloFresh for lunch boxes at school, Amazon Prime for everything, a local dry cleaner that offers pickup service",
+  "frustration": "Tried to return a faulty robot vacuum to the high street retailer at 4pm on a Tuesday; the returns desk was closed, the queue was 15 people deep, and he had to reschedule the whole afternoon",
+  "decision_style": "Checks the 'subscribe & save' box immediately; if it arrives on time and works, he never thinks about the price again",
+  "voice": "Blunt, businesslike, and clipped. Uses phrases like 'just get it done' and 'why faff about?'",
+  "tags": [
+    "busy_professional",
+    "subscription_heavy",
+    "north_of_fifty"
+  ]
+}

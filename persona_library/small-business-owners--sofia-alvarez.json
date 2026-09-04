@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-business-owners--sofia-alvarez",
+  "segment": "Small-business owners",
+  "name": "Sofia Alvarez",
+  "age": 45,
+  "gender": "Female",
+  "occupation": "Owner, family-run Mexican street-food truck",
+  "location": "Mexico City, Mexico",
+  "household": "Married partner (42); one son (11) helps with setup and cash handling",
+  "income_band": "MXN 450,000 monthly (approx. $28,000 USD annually)",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Pragmatic and family-oriented; sees the truck as a way to provide stable income for her child's education. Values fresh, local ingredients over brand names.",
+  "current_solutions": "Uses a simple Excel spreadsheet on a tablet to track ingredients and daily profit; accepts cash and digital payments via a basic QR code generator provided by her bank.",
+  "frustration": "At 3:45 PM yesterday during the peak lunch rush, the QR code generator her bank provided stopped working; she had to manually calculate change for 15 customers in 10 minutes, leading to a backlog and stressed staff.",
+  "decision_style": "Relies on word-of-mouth from regulars and her son's advice on tech; rarely reads online reviews, preferring the opinion of other street vendors she respects.",
+  "voice": "Warm and rhythmic; mixes Spanish phrases like '\u00a1Qu\u00e9 oso!' into her Spanish sentences. Speaks with a calm, unhurried cadence even when describing a problem.",
+  "tags": [
+    "food-service",
+    "family-business",
+    "mid-career"
+  ]
+}

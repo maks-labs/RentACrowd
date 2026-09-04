@@ -1,0 +1,23 @@
+{
+  "persona_id": "convenience-seeking-dual-income-no-kids--marcus-chen",
+  "segment": "Convenience-Seeking Dual-Income No-Kids",
+  "name": "Marcus Chen",
+  "age": 42,
+  "gender": "Male",
+  "occupation": "Senior Data Analyst",
+  "location": "Denver, Colorado, USA",
+  "household": "Partner (Sarah) and a Golden Retriever",
+  "income_band": "$145,000 USD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Values efficiency over cost; believes time is the only non-renewable resource.",
+  "current_solutions": "Blue Apron for recipe variety, Instacart for grocery runs, and a robot vacuum to minimize chores.",
+  "frustration": "Last Tuesday at 6:45 PM, the Instacart driver got lost in the parking garage of his office building and called him at 7:15 PM saying he was 'right outside' while Marcus was still stuck in traffic on I-25; his dinner was cold by the time he got home at 8:00 PM.",
+  "decision_style": "Compares two options max, checks Prime eligibility, and buys the one that arrives tomorrow.",
+  "voice": "Blunt and fast. Uses phrases like 'honestly,' 'time suck,' and 'just gimme.'",
+  "tags": [
+    "urban",
+    "tech-adopter",
+    "pet-parent"
+  ]
+}

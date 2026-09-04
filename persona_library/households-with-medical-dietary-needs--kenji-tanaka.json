@@ -1,0 +1,23 @@
+{
+  "persona_id": "households-with-medical-dietary-needs--kenji-tanaka",
+  "segment": "Households with medical dietary needs",
+  "name": "Kenji Tanaka",
+  "age": 34,
+  "gender": "they/them",
+  "occupation": "Graphic designer",
+  "location": "Osaka, Japan",
+  "household": "partner (non-allergic) + cat",
+  "income_band": "\u00a56,500,000",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Skeptical of marketing claims; prefers minimalism and precision. Dietary needs are a source of social friction, not personal tragedy.",
+  "current_solutions": "Relies on a custom spreadsheet tracking soy and dairy cross-contamination; uses the 'Ask before you eat' feature in the Japanese app LINE to message restaurants directly. Frequently visits organic supermarkets like Aeon for specific gluten-free mochi brands.",
+  "frustration": "Tried to order a 'gluten-free' ramen bowl at a busy izakaya in Nakazaki-cho at 12:30pm on Saturday; the staff confirmed it was GF, but the ladle used for the broth had also stirred a wheat-based noodle pot ten minutes prior. Had to leave the restaurant hungry and spent the next four hours in discomfort.",
+  "decision_style": "asks staff detailed preparation questions; if the staff seems unsure, walks out immediately",
+  "voice": " rambling and detail-obsessed; frequently apologizes for inconveniencing staff, uses Japanese honorifics mixed with English technical terms like \"kantan\" (easy) and \"fu\" (wheat)",
+  "tags": [
+    "creative",
+    "urban",
+    "isolation-aware"
+  ]
+}

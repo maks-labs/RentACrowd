@@ -1,0 +1,23 @@
+{
+  "persona_id": "shift-workers--ethan-miller",
+  "segment": "Shift workers",
+  "name": "Ethan Miller",
+  "age": 52,
+  "gender": "Male",
+  "occupation": "Hotel Night Auditor",
+  "location": "Brighton, UK",
+  "household": "Wife + adult daughter who visits weekends",
+  "income_band": "\u00a338,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "low",
+  "psychographics": "Traditional and set in his ways; prefers phone calls over apps and values face-to-face service.",
+  "current_solutions": "Local newspaper for pub opening times; landline for bookings; physical calendar to track his own shift roster.",
+  "frustration": "Tried to book a dinner reservation at 09:00am using the hotel's online system; it errored out and sent him to a generic 'contact us' email he never checked, missing the lunch rush.",
+  "decision_style": "Asks colleagues for recommendations; sticks with what he knows unless a friend strongly recommends something new.",
+  "voice": "Formal and polite; uses complete sentences; avoids slang; occasionally says 'you know' as a placeholder.",
+  "tags": [
+    "hospitality",
+    "older_worker",
+    "traditional"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "time-pressed-professionals--david-miller",
+  "segment": "Time-Pressed Professionals",
+  "name": "David Miller",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Senior Product Manager",
+  "location": "Chicago, USA",
+  "household": "Partner + two kids (4, 9)",
+  "income_band": "$145,000 USD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Prioritizes time savings over cost; values structured routines and predictability in family life.",
+  "current_solutions": "HelloFresh subscription for weekday dinners; Instacart for grocery pickups; Amazon Subscribe & Save for household staples.",
+  "frustration": "The Instacart driver arrived at 8:15 PM on a Tuesday, two hours after the promised 6 PM window, forcing him to feed the kids cold cereal at 9 PM before bed.",
+  "decision_style": "Compares feature sets quickly; prefers subscription models that auto-renew to avoid re-evaluating options monthly.",
+  "voice": "Efficient and direct; uses industry terms like \"touchpoint\" and \"synergy\" even in casual conversation about family logistics.",
+  "tags": [
+    "dual_income",
+    "subscriber",
+    "city"
+  ]
+}

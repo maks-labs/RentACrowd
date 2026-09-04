@@ -1,0 +1,24 @@
+{
+  "persona_id": "households-with-medical-dietary-needs--maria-gonzalez",
+  "segment": "Households with medical dietary needs",
+  "name": "Maria Gonzalez",
+  "age": 28,
+  "gender": "she/her",
+  "occupation": "Junior data analyst",
+  "location": "Manchester, UK",
+  "household": "living alone",
+  "income_band": "\u00a324,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Values autonomy and safety; treats grocery shopping as a tactical mission rather than a social activity.",
+  "current_solutions": "Uses the 'Coeliac UK' app to scan barcodes; relies heavily on Free From sections in Sainsbury's, but often ends up cooking from scratch using gluten-free flour blends from Amazon.",
+  "frustration": "Spent 22 minutes at 7:45pm in a Tesco Extra in Manchester last Tuesday searching for gluten-free pasta, only to find the shelf stripped bare because a delivery driver had left the pallet in the wrong aisle. Had to abandon the meal plan and order an expensive emergency box from Deliveroo just to feed herself dinner.",
+  "decision_style": "reads reviews for weeks, then buys in bulk online to avoid in-store disappointment",
+  "voice": " blunt and short; switches between English and Spanish when stressed about cross-contamination, uses phrases like \"cross-contact is a real buzzkill\"",
+  "tags": [
+    "urban",
+    "single",
+    "price-conscious",
+    "tech-savvy"
+  ]
+}

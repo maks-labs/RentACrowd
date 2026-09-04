@@ -1,0 +1,23 @@
+{
+  "persona_id": "tech-enthusiast-empty-nesters--margaret-maggie-o-malley",
+  "segment": "Tech-Enthusiast Empty Nesters",
+  "name": "Margaret 'Maggie' O'Malley",
+  "age": 65,
+  "gender": "Female",
+  "occupation": "Freelance Graphic Designer",
+  "location": "Austin, TX",
+  "household": "single, lives alone",
+  "income_band": "$115,000 USD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Treats her kitchen like a studio; loves experimenting with molecular gastronomy kits but hates when a software update breaks her ingredient-tracking spreadsheet",
+  "current_solutions": "Joule Sous Vide immersion circulator connected to Yummly; Smart fridge with internal camera; Apple HomeKit for all lighting",
+  "frustration": "At 11:00 AM last Saturday, a Yummly app update reset her saved temperature presets, erasing 3 weeks of tracked experiments and forcing her to restart her steak doneness log from scratch",
+  "decision_style": "subscribes to cooking tech newsletters; will pay premium for seamless integration, but abandons a product if the onboarding takes longer than 15 minutes",
+  "voice": "formal and articulate, peppered with cooking jargon like 'emulsification' and 'sous', yet slips into playful slang when describing a failed recipe",
+  "tags": [
+    "experimental-cook",
+    "solopreneur",
+    "early-adopter"
+  ]
+}

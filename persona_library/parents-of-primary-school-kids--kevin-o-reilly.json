@@ -1,0 +1,23 @@
+{
+  "persona_id": "parents-of-primary-school-kids--kevin-o-reilly",
+  "segment": "Parents of primary-school kids",
+  "name": "Kevin O'Reilly",
+  "age": 45,
+  "gender": "Male",
+  "occupation": "Civil Engineer",
+  "location": "Dublin, Ireland",
+  "household": "Partner + three kids (5, 8, 11)",
+  "income_band": "\u20ac75,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Pragmatic to a fault; believes if it works, don't fix it; avoids apps if a spreadsheet will do.",
+  "current_solutions": "Shared Excel spreadsheet for extracurricular schedules; physical wall calendar in kitchen; Eir grid broadband.",
+  "frustration": "Had to drive to the school to pick up a sick kid at 2:30 PM because the school's SMS alert system failed to send the 'early pick-up' notification, leaving me stuck in traffic for 45 minutes.",
+  "decision_style": "Buys the first thing that fits the spec; never browses alternatives once a decision is made.",
+  "voice": "Formal and measured; uses full sentences, avoids slang, speaks with a steady Dublin accent cadence.",
+  "tags": [
+    "engineer",
+    "multi_child",
+    "traditional"
+  ]
+}

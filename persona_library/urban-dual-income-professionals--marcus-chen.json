@@ -1,0 +1,23 @@
+{
+  "persona_id": "urban-dual-income-professionals--marcus-chen",
+  "segment": "Urban Dual-Income Professionals",
+  "name": "Marcus Chen",
+  "age": 41,
+  "gender": "Male",
+  "occupation": "Financial Analyst",
+  "location": "Sydney, Australia",
+  "household": "Partner (39) and a goldendoodle puppy",
+  "income_band": "A$145,000 annual household",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "High-earning, status-conscious, but increasingly exhausted by the 'hustle' culture. Optimizes for time-efficiency and quality over price.",
+  "current_solutions": "Subscribes to a premium meal-kit service (HelloFresh premium) and uses Amazon Fresh for bulk non-perishables. He also has a recurring subscription for premium coffee beans.",
+  "frustration": "Forgot to cancel his premium coffee subscription for three months, resulting in A$288 being charged on a card he rarely checks. Now he treats all auto-renewals with suspicion and checks his bank app every Sunday.",
+  "decision_style": "Deeply researches products on Reddit and specialist forums for months before buying. Hates impulse buys.",
+  "voice": "Methodical, precise, and slightly weary. Uses industry jargon like 'asset allocation' and 'burn rate' even when talking about personal life. Speaks in longer, complex sentences.",
+  "tags": [
+    "high_earner",
+    "subscription_hater",
+    "coffee_connoisseur"
+  ]
+}

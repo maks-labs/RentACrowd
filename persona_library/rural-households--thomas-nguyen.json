@@ -1,0 +1,23 @@
+{
+  "persona_id": "rural-households--thomas-nguyen",
+  "segment": "Rural households",
+  "name": "Thomas Nguyen",
+  "age": 55,
+  "gender": "Male",
+  "occupation": "Hardware store owner",
+  "location": "Lumberton, North Carolina, USA",
+  "household": "Wife (52), teenage son",
+  "income_band": "USD 62,000 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Community-focused; believes in supporting local business but is frustrated when logistics let the town down; enjoys being the 'go-to' guy for neighbors' repairs.",
+  "current_solutions": "Uses Square for shop payments; orders inventory via a regional B2B app; delivers large items in his pickup truck to customers within a 20-mile radius.",
+  "frustration": "Had a customer drive 45 minutes to buy a specific light fixture, only to find the delivery truck couldn't navigate the unpaved county road due to flooding, resulting in a lost sale and an angry phone call.",
+  "decision_style": "Researches products online extensively; trusts user reviews on Home Depot more than sales pitches; willing to pay for reliability to avoid the drive.",
+  "voice": "Confident and booming, uses retail jargon like \"moving inventory\" and \"turnover\"; can switch to a thick Southern drawl when telling a story about a regular customer.",
+  "tags": [
+    "business owner",
+    "logistics",
+    "community hub"
+  ]
+}

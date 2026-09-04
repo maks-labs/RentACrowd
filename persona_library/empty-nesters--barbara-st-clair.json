@@ -1,0 +1,23 @@
+{
+  "persona_id": "empty-nesters--barbara-st-clair",
+  "segment": "Empty nesters",
+  "name": "Barbara St. Clair",
+  "age": 58,
+  "gender": "Female",
+  "occupation": "Part-time University Lecturer",
+  "location": "Portland, Oregon, USA",
+  "household": "Partner (60), two cats",
+  "income_band": "$112,000 per annum",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Early adopter of smart home tech; interested in sustainability and wellness; enjoys intellectual stimulation.",
+  "current_solutions": "Uses a Ring doorbell and Nest thermostat; subscribes to Audible and The New York Times; shops on Amazon Fresh.",
+  "frustration": "Her iPhone updated at 3:42 AM, draining the battery to 15% by her 7:00 AM alarm, forcing her to scramble for a charger.",
+  "decision_style": "Reads long-form articles and watches YouTube tutorials; often buys based on influencer recommendations.",
+  "voice": "Formal and articulate; uses specific tech jargon like 'ecosystem' and 'latency' naturally.",
+  "tags": [
+    "educator",
+    "west-coast",
+    "tech-savvy"
+  ]
+}

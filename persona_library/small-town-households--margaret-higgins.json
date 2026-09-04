@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-town-households--margaret-higgins",
+  "segment": "Small-town households",
+  "name": "Margaret Higgins",
+  "age": 78,
+  "gender": "Female",
+  "occupation": "Retired school administrator",
+  "location": "Mapleton, Iowa, USA",
+  "household": "Spouse, grown daughter visits weekly",
+  "income_band": "$38,000 USD",
+  "price_sensitivity": "high",
+  "tech_comfort": "low",
+  "psychographics": "Values self-sufficiency and community stability above all else",
+  "current_solutions": "Uses the local co-op for groceries and buys clothes from the thrift store on Main Street",
+  "frustration": "Tried to order medicine from the pharmacy app at 2 PM on Tuesday; the app froze on the payment screen and she had to drive 20 miles to the brick-and-mortar shop because the local line was already closed",
+  "decision_style": "Sticks with brands she has used for decades; rarely tries new products unless a neighbor recommends them",
+  "voice": "Soft-spoken but firm, moves slowly through sentences, often stops to clarify a word, rarely uses slang",
+  "tags": [
+    "senior",
+    "fixed-income",
+    "rural"
+  ]
+}

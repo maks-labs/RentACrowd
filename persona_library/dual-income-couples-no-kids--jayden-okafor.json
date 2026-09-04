@@ -1,0 +1,23 @@
+{
+  "persona_id": "dual-income-couples-no-kids--jayden-okafor",
+  "segment": "Dual-income couples, no kids",
+  "name": "Jayden Okafor",
+  "age": 38,
+  "gender": "Male",
+  "occupation": "Financial Analyst",
+  "location": "Toronto, Canada",
+  "household": "Partner (f 37)",
+  "income_band": "C$130,000 CAD per annum",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Balanced spender who enjoys occasional luxury but meticulously tracks net worth via apps; risk-averse with big purchases.",
+  "current_solutions": "Uses Wealthsimple for joint investments, Instacart for grocery runs, and a shared Google Calendar for scheduling staycations.",
+  "frustration": "The TD Bank mobile app crashed exactly at 6:47pm on the day his rent was due, preventing him from transferring funds and causing a late-fee scare.",
+  "decision_style": "Checks credit-card rewards calculators religiously; will switch banks for a better interest rate but hates paperwork.",
+  "voice": "Short, clipped, and numbers-focused; prefers data points over stories, often responding with grunts or 'yeah, no' to open-ended questions.",
+  "tags": [
+    "financially-responsible",
+    "urban-professional",
+    "app-heavy"
+  ]
+}

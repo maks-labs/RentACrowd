@@ -1,0 +1,23 @@
+{
+  "persona_id": "new-parents--ellen",
+  "segment": "New parents",
+  "name": "Ellen",
+  "age": 28,
+  "gender": "Female",
+  "occupation": "Graphic designer",
+  "location": "Manchester, UK",
+  "household": "Partner (32) + baby Leo (6 months)",
+  "income_band": "\u00a338,000 / year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values flexibility and quick problem-solving. Struggles with the loss of creative control but loves the efficiency of streamlined routines.",
+  "current_solutions": "The Baby Brezza Formula Pro Advanced for feeding; the Owlet Smart Sock 3 for monitoring; Instagram reels for quick entertainment bursts.",
+  "frustration": "Spent 20 minutes at 2am trying to reattach the silicone nipple of the Tommee Tippee Closer to Nature bottle after Leo bit through it, only to realize the replacement parts aren't shipped until Tuesday.",
+  "decision_style": "reads reviews for weeks, then buys the cheapest option available on Amazon Prime to avoid thinking about it later",
+  "voice": "rambling when exhausted, snaps to short sentences after 9pm; mixes British slang ('cheers') with design jargon ('layout hierarchy')",
+  "tags": [
+    "first_time_parent",
+    "urban",
+    "design_conscious"
+  ]
+}

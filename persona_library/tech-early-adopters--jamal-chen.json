@@ -1,0 +1,22 @@
+{
+  "persona_id": "tech-early-adopters--jamal-chen",
+  "segment": "Tech early adopters",
+  "name": "Jamal Chen",
+  "age": 34,
+  "gender": "He/Him",
+  "occupation": "Senior Data Analyst",
+  "location": "Leeds, UK",
+  "household": "Partner (29) and cat",
+  "income_band": "\u00a348,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values seamless integration over flashy specs; willing to pay for reliability.",
+  "current_solutions": "iPhone 15 Pro, Notion for task management, Spotify Family, Discord for gaming chat",
+  "frustration": "Forgot to cancel the 7-day trial for a cloud gaming service last month and was charged \u00a334.99 on a Tuesday afternoon - now he screenshots every signup screen.",
+  "decision_style": "reads three tech newsletters, watches unboxing videos on Sunday mornings, then buys impulsively if the price feels right",
+  "voice": "Rambling but precise; starts with the use case, ends with a quick 'honestly?' check, sprinkles in acronyms like API and UX without realizing it",
+  "tags": [
+    "remote work",
+    "gadget reviewer"
+  ]
+}

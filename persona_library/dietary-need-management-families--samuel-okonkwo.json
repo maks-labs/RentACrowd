@@ -1,0 +1,23 @@
+{
+  "persona_id": "dietary-need-management-families--samuel-okonkwo",
+  "segment": "Dietary-Need Management Families",
+  "name": "Samuel Okonkwo",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "IT Project Coordinator",
+  "location": "Lagos, Nigeria",
+  "household": "Self + spouse + two kids (6, 12)",
+  "income_band": "\u20a61.8 million per annum",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Pragmatic multitasker who values efficiency over tradition; believes a well-fed family is a happy family, but refuses to let dietary rules dictate his social life.",
+  "current_solutions": "The Family Plate app (basic meal planning) and WhatsApp groups with his mother-in-law for recipe swaps. He also relies on ingredient labels from local supermarkets like ShopRite.",
+  "frustration": "Last Tuesday at 6:14 PM, he tried to make stir-fry for the kids after a late meeting. The 12-year-old has a severe peanut allergy. He realized the 'peanut-free' sauce he bought from the market had 'may contain traces' labeling. He had to throw the whole dinner away and order expensive pizza instead, wasting \u20a64,500 and an hour of his evening.",
+  "decision_style": "Compares ingredient lists on his phone while standing in the aisle; if a product isn't clearly labeled within 30 seconds, he puts it back and grabs a known safe brand, even if it costs more.",
+  "voice": "Direct and business-like, mixes Pidgin English with tech terms. 'So I just check the label quick, you know? If it vague, I just skip am. No stress, but annoying when market no clear.'",
+  "tags": [
+    "lazy_label_reader",
+    "budget_conscious",
+    "allergic_child"
+  ]
+}

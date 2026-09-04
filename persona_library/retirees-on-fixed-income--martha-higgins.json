@@ -1,0 +1,23 @@
+{
+  "persona_id": "retirees-on-fixed-income--martha-higgins",
+  "segment": "Retirees on fixed income",
+  "name": "Martha Higgins",
+  "age": 72,
+  "gender": "Female",
+  "occupation": "Retired school librarian",
+  "location": "Birmingham, UK",
+  "household": "Husband, widowed 5 years ago",
+  "income_band": "\u00a318,400 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Values independence and keeping her mind active; worries about running out of money before she runs out of time.",
+  "current_solutions": "Uses a basic Nokia flip phone for calls only; still receives her pension via paper bank-in slips at the post office; buys groceries at the local Iceland supermarket using a paper loyalty card.",
+  "frustration": "Called her bank at 2:15 PM on a Tuesday to query an unexpected \u00a312 charge; spent 22 minutes in an automated loop before being told the line was closed for lunch and to call back the following morning.",
+  "decision_style": "Reads the Which? magazine cover-to-cover before trying any new product; compares prices in three different physical shops before committing.",
+  "voice": "Soft-spoken but firm, speaks in complete sentences, rarely uses slang, often pauses to check if she is being understood on the phone.",
+  "tags": [
+    "UK",
+    "pensioner",
+    "phone-user"
+  ]
+}

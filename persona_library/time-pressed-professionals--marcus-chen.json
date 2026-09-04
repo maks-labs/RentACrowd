@@ -1,0 +1,23 @@
+{
+  "persona_id": "time-pressed-professionals--marcus-chen",
+  "segment": "Time-Pressed Professionals",
+  "name": "Marcus Chen",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Senior Consultant",
+  "location": "Boston, USA",
+  "household": "Partner + two kids (6, 10)",
+  "income_band": "$165,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Optimizes for time above all else; believes 'good enough' is better than perfect when it comes to meals.",
+  "current_solutions": "Blue Apron for weekend cooking projects; Seamless for weekday dinners; Instacart for grocery runs on Sunday evenings.",
+  "frustration": "The Seamless driver got lost in the Back Bay rotary at 6:15 PM on a Tuesday, delivered cold pad thai to the wrong apartment, and the $28 order arrived 45 minutes late despite the 'track order' feature.",
+  "decision_style": "Checks 'ready in 30 minutes' filter first; if it has 4+ stars and free delivery, clicks add to cart immediately.",
+  "voice": "Fast-paced, clipped sentences; uses industry jargon like 'bandwidth' and 'deliverables' even when talking about dinner; rarely uses emojis.",
+  "tags": [
+    "dual-income",
+    "city-dweller",
+    "tech-savvy"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "university-students--chen-wei",
+  "segment": "University students",
+  "name": "Chen Wei",
+  "age": 19,
+  "gender": "Male",
+  "occupation": "First-year Engineering student",
+  "location": "Manchester, UK",
+  "household": "Flatmates (3rd year med student and art history grad)",
+  "income_band": "\u00a312,000 GBP",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Pragmatic and anxious about future earnings; values efficiency over brand loyalty",
+  "current_solutions": "Uses Amazon Music Student for playlists, splits a family Netflix login with parents, downloads free PDF textbooks from library sites",
+  "frustration": "Tried to book a \u00a33.50 lunch deal at Pret A Manger at 1:15pm on a Tuesday, but the app showed 'out of stock' and the till said the deal ended at 2pm, forcing me to pay full price for a sad sandwich",
+  "decision_style": "Compares unit prices on Grocery Compare app, waits for voucher codes before topping up phone credit, rarely buys anything without at least 3 weeks of consideration",
+  "voice": "Short, clipped sentences. Uses 'mate' and 'basically' constantly. Sounds tired during 9am lectures",
+  "tags": [
+    "budget-conscious",
+    "tech-native",
+    "commuter"
+  ]
+}

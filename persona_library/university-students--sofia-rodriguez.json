@@ -1,0 +1,23 @@
+{
+  "persona_id": "university-students--sofia-rodriguez",
+  "segment": "University students",
+  "name": "Sofia Rodriguez",
+  "age": 21,
+  "gender": "Female",
+  "occupation": "Creative Writing major",
+  "location": "Melbourne, Australia",
+  "household": "Sharehouse with 2 other arts students",
+  "income_band": "A$18,500 AUD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Idealistic and creatively driven; lives for the 'aesthetic' of cheap experiences, often sacrifices practicality for vibe",
+  "current_solutions": "Relies on UniStudent discount codes for Uber Eats, uses Spotify Premium Family shared across cousins, buys second-hand textbooks from a Facebook group called 'Uni Textbooks Melbourne'",
+  "frustration": "Woke up at 7am to claim the 8am early-bird cinema ticket for $12, but the online system crashed at 7:05am and by the time it recovered, the 8am session was sold out, leaving me to pay $22 for a standard ticket",
+  "decision_style": "Impulse-buys festival tickets during late-night study sessions, then regrets it when rent is due, often trades items with flatmates instead of buying new",
+  "voice": "Rambling, poetic, uses a lot of 'like' and 'literally'. Frequently pauses mid-sentence to check if something is 'cringe'",
+  "tags": [
+    "creative",
+    "sharehouse",
+    "discount-hunter"
+  ]
+}

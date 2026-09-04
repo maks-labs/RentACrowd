@@ -1,0 +1,23 @@
+{
+  "persona_id": "time-pressed-professionals--elena-rostova",
+  "segment": "Time-Pressed Professionals",
+  "name": "Elena Rostova",
+  "age": 44,
+  "gender": "Female",
+  "occupation": "Civil Engineer",
+  "location": "Toronto, Canada",
+  "household": "Partner + two dogs (Golden Retrievers)",
+  "income_band": "CAD $130,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Values work-life balance highly; believes convenience services should free up time for hobbies, not just more work emails.",
+  "current_solutions": "HelloFresh for dinner kits; DoorDash for occasional date night takeout; local laundromat pickup service on weekends.",
+  "frustration": "The laundromat pickup service closed early on a Saturday at 2 PM, two hours before her shift ended, forcing her to wash clothes by hand in the apartment sink after a 10-hour workday.",
+  "decision_style": "Reads user reviews on forums for weeks; values peer recommendations and reliability over the lowest price point.",
+  "voice": "Blunt and practical; speaks in short, clipped sentences; frequently uses slang like \"frickin'\" or \"kinda\" when expressing frustration with services.",
+  "tags": [
+    "dual_income",
+    "pet_owner",
+    "professional"
+  ]
+}

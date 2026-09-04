@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-graduates--ethan-miller",
+  "segment": "Recent graduates",
+  "name": "Ethan Miller",
+  "age": 28,
+  "gender": "Male",
+  "occupation": "Secondary School Teacher",
+  "location": "Melbourne, Australia",
+  "household": "Rents a room in a sharehouse with two other guys",
+  "income_band": "A$58,000 AUD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Cautiously optimistic, prioritises experiences over things, but often feels overwhelmed by 'adulting' admin.",
+  "current_solutions": "Uses a shared Netflix account from his brother interstate and Spotify Premium via a university alumni discount that expires in 3 months.",
+  "frustration": "Attempted to pay his HECS-HELP university fee via the government portal at 8:57 AM; the server was undergoing maintenance, the page refreshed, and he lost his login session, forcing him to call the enrolment office on hold for 22 minutes.",
+  "decision_style": "Asks colleagues for recommendations, checks Canstar ratings, then often postpones the purchase until a sale appears.",
+  "voice": "Laid-back and rambling; often trails off mid-sentence and uses Australian slang like 'mate' and 'fair dinkum'.",
+  "tags": [
+    "experience-seeker",
+    "teacher",
+    "sharehouse"
+  ]
+}

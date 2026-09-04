@@ -1,0 +1,22 @@
+{
+  "persona_id": "tech-early-adopters--sarah-jenkins",
+  "segment": "Tech early adopters",
+  "name": "Sarah Jenkins",
+  "age": 21,
+  "gender": "She/Her",
+  "occupation": "Barista",
+  "location": "Portland, OR, USA",
+  "household": "Lives alone",
+  "income_band": "$28,000",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Treats tech as a hobby budget; prioritizes experiences over owning the latest device.",
+  "current_solutions": "Pixel 7a, Cash App for budgeting, YouTube Music Premium, local thrift stores for phone cases",
+  "frustration": "Got locked out of her Google account at 2am yesterday because of a suspicious login attempt from another state - lost access to her photos and saved passwords for six hours.",
+  "decision_style": "scrolls TikTok for 'best cheap tech' recommendations, trusts micro-influencers more than brand websites",
+  "voice": "Blunt, short, uses a lot of 'like' and 'literally' but cuts straight to the point about battery life or price",
+  "tags": [
+    "budget conscious",
+    "indie music"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "urban-dual-income-power-couple--marcus-chen",
+  "segment": "Urban Dual-Income Power Couple",
+  "name": "Marcus Chen",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Senior Marketing Analyst",
+  "location": "Seoul, South Korea",
+  "household": "Partner (Soo-jin) + cat",
+  "income_band": "$142,000 USD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Values efficiency and work-life integration; believes time is the most scarce resource.",
+  "current_solutions": "Uses DoorDash Premium for lunch, HelloFresh for dinners, and Notion AI to generate weekly shopping lists.",
+  "frustration": "The HelloFresh box arrived at 9 PM on a Tuesday after he worked late; the ice packs had melted, and the vegetables were limp, forcing him to throw away $45 worth of produce.",
+  "decision_style": "Compares subscription costs instantly on credit card apps; switches services if a better promo code appears within two weeks.",
+  "voice": "Blunt and direct; often multitasks while speaking, so sentences are short and focused on getting to the point.",
+  "tags": [
+    "city_dweller",
+    "tech_early_adopter",
+    "meal_prep_hater"
+  ]
+}

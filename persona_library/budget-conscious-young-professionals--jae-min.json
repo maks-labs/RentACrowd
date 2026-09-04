@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-young-professionals--jae-min",
+  "segment": "Budget-Conscious Young Professionals",
+  "name": "Jae Min",
+  "age": 31,
+  "gender": "Non-binary",
+  "occupation": "Graphic Designer",
+  "location": "Seoul, South Korea",
+  "household": "Roommates (2 friends)",
+  "income_band": "\u20a935,000,000",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Cautious spender who values efficiency; prefers cooking in bulk to avoid the 'decision fatigue' of daily meals.",
+  "current_solutions": "Uses the SSG (Supermarket Service Grocery) app for bulk rice and kimchi; splits the bill via KakaoPay with roommates.",
+  "frustration": "Last Friday at 11:00pm, the SSG app failed to process his payment, leaving his cart of frozen dumplings stuck in 'pending' for two hours until he called customer service.",
+  "decision_style": "Checks Naver review scores; only buys items with 4.5 stars or higher to avoid waste.",
+  "voice": "Formal and measured; switches to casual slang only when texting close friends about food trends.",
+  "tags": [
+    "bulk-buyer",
+    "digital-native",
+    "roommate-shopper"
+  ]
+}

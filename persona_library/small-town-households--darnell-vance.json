@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-town-households--darnell-vance",
+  "segment": "Small-town households",
+  "name": "Darnell Vance",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Welding technician",
+  "location": "Brunswick, Georgia, USA",
+  "household": "Partner, one toddler (2)",
+  "income_band": "$52,000 USD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Pragmatic; believes time is as valuable as money and shops for the best combo of both",
+  "current_solutions": "Uses Facebook Marketplace for kids' gear; buys gas at the county station with the loyalty card; streams Netflix on the family TV",
+  "frustration": "Tried to order a specific brand of infant formula at 11 PM via the store app; the checkout kept erroring out with 'payment declined'; had to wake his partner to use her card, wasting 20 minutes before giving up and driving to the 24-hour Walmart",
+  "decision_style": "Checks local flyers and asks coworkers for recommendations; buys in bulk when he finds a good price on non-perishables",
+  "voice": "Direct and concise, uses workshop slang like 'job site' and 'stock', gets to the point quickly",
+  "tags": [
+    "working-class",
+    "young_family",
+    "tech-savvy-enough"
+  ]
+}

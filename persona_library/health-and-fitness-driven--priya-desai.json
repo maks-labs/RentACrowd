@@ -1,0 +1,23 @@
+{
+  "persona_id": "health-and-fitness-driven--priya-desai",
+  "segment": "Health and fitness driven",
+  "name": "Priya Desai",
+  "age": 52,
+  "gender": "Female",
+  "occupation": "High School Physics Teacher",
+  "location": "Bangalore, India",
+  "household": "Husband (55) and mother (80) living in joint family setup",
+  "income_band": "\u20b91,800,000 INR / year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Balances traditional cooking values with modern fitness tracking. Treats health as a family responsibility, often preparing separate meals to meet her strict macro goals while respecting household norms.",
+  "current_solutions": "Uses HealthifyMe app for calorie counting; buys roasted grams and millets from local 'Kirana' stores; follows a strict vegetarian 'clean eating' regimen.",
+  "frustration": "At 9:00 AM on Thursday, the HealthifyMe app showed a 'network error' right as she was about to log her breakfast of idli and sambar, forcing her to estimate macros from memory and miss her protein goal by 15 grams.",
+  "decision_style": "Consults family elders and reads health columns in local newspapers before trying new products; trusts brands with long-standing local presence over flashy imports.",
+  "voice": "Formal yet warm, interspersed with Hindi phrases like 'achha' and 'theek hai'. Speaks slowly, prioritizing clarity over speed when discussing diet plans.",
+  "tags": [
+    "Bangalore",
+    "teacher",
+    "family-focused"
+  ]
+}

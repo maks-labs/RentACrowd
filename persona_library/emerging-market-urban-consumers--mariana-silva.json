@@ -1,0 +1,23 @@
+{
+  "persona_id": "emerging-market-urban-consumers--mariana-silva",
+  "segment": "Emerging-market urban consumers",
+  "name": "Mariana Silva",
+  "age": 34,
+  "gender": "Female",
+  "occupation": "High school chemistry teacher",
+  "location": "Salvador, Brazil",
+  "household": "Lives with parents and younger brother",
+  "income_band": "R$ 3,800 per month",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes family stability and safety; prefers trusted local brands even if slightly more expensive, wary of online scams.",
+  "current_solutions": "Uses WhatsApp Pay for splitting bills with family, Magazine Luiza app for home goods, and buys bus passes via the city's Bilhete \u00danico app.",
+  "frustration": "Attempted to pay her university tuition fee via PIX at 2:15 PM on a Tuesday; the bank's system was down for maintenance, and she had to queue at a lot\u00e9rica for 45 minutes to pay in cash.",
+  "decision_style": "Reads product reviews on Reclame Aqui for about 10 minutes; if a product has more than two negative comments about durability, she crosses it off her list.",
+  "voice": "Rambling but warm; switches between Portuguese and Spanish slang depending on who she's talking to, uses filler phrases like 'tipo' and 'a gente sabe'.",
+  "tags": [
+    "education_professional",
+    "family_oriented",
+    "digital_pay_user"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "persona_id": "frugal-optimisers--jae-park",
+  "segment": "Frugal optimisers",
+  "name": "Jae Park",
+  "age": 28,
+  "gender": "Male",
+  "occupation": "Graphic Designer",
+  "location": "Seoul, South Korea",
+  "household": "Lives alone in a studio apartment",
+  "income_band": "\u20a935,000,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Treats discount hunting as a competitive sport; obsessively tracks point expiration dates on credit cards.",
+  "current_solutions": "Uses Naver SmartSave for cashback, buys private-label products at Olive Young, and flips unused items on Joonggonara.",
+  "frustration": "Tried to redeem a 10,000 won discount coupon on Coupang at 2:15 AM; the app timed out and the coupon auto-cancelled, losing the savings.",
+  "decision_style": "Compares at least three price comparison apps before buying any non-essential item; never buys without checking the daily deal feed.",
+  "voice": "Rambling and detail-oriented; often prefixes opinions with 'Honestly,' and explains the math of savings out loud.",
+  "tags": [
+    "digital-native",
+    "point-chaser"
+  ]
+}

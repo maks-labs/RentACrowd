@@ -18,7 +18,8 @@ from langgraph.config import get_stream_writer
 
 EventKind = Literal[
     "start",      # node began
-    "cache",      # persona cache hit / miss
+    "route",      # supervisor chose the next worker
+    "cache",      # persona library reuse / miss
     "spawn",      # a sub-agent / parallel worker was created
     "llm",        # an LLM call was made
     "compute",    # deterministic (Python) work, no LLM

@@ -1,0 +1,23 @@
+{
+  "persona_id": "urban-dual-income-professionals--elena-rostova",
+  "segment": "Urban Dual-Income Professionals",
+  "name": "Elena Rostova",
+  "age": 32,
+  "gender": "Female",
+  "occupation": "Senior Marketing Manager",
+  "location": "Berlin, Germany",
+  "household": "Partner (34) and cat (Miso)",
+  "income_band": "\u20ac85,000 annual household",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Prioritizes work-life balance over career climbing; values sustainable choices but will pay for convenience to protect her limited free time.",
+  "current_solutions": "Uses Hellofresh for 2 dinners a week and orders groceries via Gorillas for quick top-ups. She also has a Blue Aprk subscription she rarely uses.",
+  "frustration": "Tried to order a specific specialty cheese from a gourmet app at 2:15 PM on a Tuesday; the delivery ETA kept jumping from 45 to 90 minutes, and it arrived at 8 PM, completely cold.",
+  "decision_style": "Compares two options quickly on Instagram, reads 3 reviews, and buys. Will switch brands if a competitor offers faster delivery.",
+  "voice": "Fast-paced, slightly breathless, mixes English loanwords with German. Uses phrases like 'Echt jetzt?' and 'Ich hab keine Zeit daf\u00fcr.'",
+  "tags": [
+    "city_dweller",
+    "gadget_enthusiast",
+    "flexible_diet"
+  ]
+}

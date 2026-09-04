@@ -1,0 +1,23 @@
+{
+  "persona_id": "dietary-need-management-families--elena-rossi",
+  "segment": "Dietary-Need Management Families",
+  "name": "Elena Rossi",
+  "age": 45,
+  "gender": "Woman",
+  "occupation": "High School History Teacher",
+  "location": "Bristol, UK",
+  "household": "partner (42), son (13), daughter (10)",
+  "income_band": "\u00a342,000 GBP",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes family harmony and health above all else; feels guilty when she has to cook separate meals, but refuses to compromise on her daughter's coeliac safety.",
+  "current_solutions": "Instagram saved posts for gluten-free bakers; weekly trip to Whole Foods for specialty flours; uses the NHS recipe database as a baseline.",
+  "frustration": "At 7:30 PM on a Tuesday in March, she realized the pre-made gluten-free pizza base she bought for \u00a38 was actually labelled 'may contain wheat' in fine print; had to throw it away and make a rushed, soggy rice-base pizza the kids refused to eat.",
+  "decision_style": "Asks two friends for recommendations, checks the allergy label twice, then buys the same brand out of habit every time.",
+  "voice": "Rambling and apologetic; often starts sentences with \"I feel like...\" or \"Sorry to bother you,\" but gets fiercely technical when discussing ingredient lists.",
+  "tags": [
+    "middle-income",
+    "suburban",
+    "health-conscious"
+  ]
+}

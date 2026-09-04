@@ -1,0 +1,23 @@
+{
+  "persona_id": "dietary-need-management-families--sarah-jenkins",
+  "segment": "Dietary-Need Management Families",
+  "name": "Sarah Jenkins",
+  "age": 52,
+  "gender": "Woman",
+  "occupation": "Clinical Data Analyst",
+  "location": "Melbourne, Australia",
+  "household": "husband (55), step-daughter (22), dog",
+  "income_band": "$95,000 AUD",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Approaches food as data; loves optimizing nutrition but hates the emotional labor of constant label-reading. Believes transparency should be mandatory, not optional.",
+  "current_solutions": "MyFitnessPal for macro tracking; occasional use of the Coeliac Australia app to scan barcodes; subscribes to a local organic fruit box that labels allergens clearly.",
+  "frustration": "At 5:15 PM last Thursday, she scanned a 'healthy' muesli bar with her phone only to discover it contained soy, which her step-daughter is severely allergic to; the app flagged it 2 seconds too late, and the daughter had already taken a bite.",
+  "decision_style": "Reads the fine print obsessively; if a product doesn't have a clear 'free-from' badge on the front, she assumes it's unsafe and puts it back.",
+  "voice": "Formal and precise; uses data terminology like \"anomaly\" and \"compliance\"; speaks with a calm, measured Australian cadence even when frustrated.",
+  "tags": [
+    "data-driven",
+    "urban professional",
+    "allergy-aware"
+  ]
+}

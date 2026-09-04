@@ -1,0 +1,23 @@
+{
+  "persona_id": "health-and-fitness-driven--kenji-tanaka",
+  "segment": "Health and fitness driven",
+  "name": "Kenji Tanaka",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Senior Data Analyst",
+  "location": "Tokyo, Japan",
+  "household": "Partner (32) and one cat",
+  "income_band": "\u00a58,500,000 JPY / year",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Believes performance is a discipline, not a hobby. Optimizes life like a system, but gets frustrated when tech gets in the way of gains.",
+  "current_solutions": "WHOOP Strap 4.0 for recovery metrics; MyFitnessPal for macro tracking; buys premium protein from iHerb Japan.",
+  "frustration": "At 8:17 PM on Tuesday, the WHOOP app crashed right before the sleep performance summary loaded, forcing him to manually input data into a spreadsheet just to hit his daily recovery target.",
+  "decision_style": "Reads deep-dive reviews on Japanese fitness forums for three weeks before committing; will import niche supplements from the US if the data justifies the cost.",
+  "voice": "Short, precise, switches between English and Japanese mid-sentence when stressed. Uses terms like 'recovery score' and 'macro split' without thinking.",
+  "tags": [
+    "Tokyo",
+    "gym-rat",
+    "data-obsessive"
+  ]
+}

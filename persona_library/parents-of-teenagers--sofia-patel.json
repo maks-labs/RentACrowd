@@ -1,0 +1,23 @@
+{
+  "persona_id": "parents-of-teenagers--sofia-patel",
+  "segment": "Parents of teenagers",
+  "name": "Sofia Patel",
+  "age": 38,
+  "gender": "Female",
+  "occupation": "Marketing coordinator",
+  "location": "Mumbai, India",
+  "household": "Joint family + two teens (14, 16)",
+  "income_band": "\u20b918,00,000",
+  "price_sensitivity": "high",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes family harmony and home-cooked meals; skeptical of fast-fashion trends but follows her kids' style choices",
+  "current_solutions": "Uses Swiggy Instamart for last-minute groceries; buys clothes at local markets; daughter watches YouTube tutorials for makeup",
+  "frustration": "The auto-rickshaw driver refused the meter and demanded \u20b9200 for a 5km ride at 2 PM during peak heat; she had to walk 2km home with two heavy grocery bags because she didn't have cash to negotiate",
+  "decision_style": "Compares price per kilogram across 3 local vendors before buying; uses cash over UPI for better tracking",
+  "voice": "Formal and polite; switches to Hindi slang when talking about her kids' food cravings; measured pace",
+  "tags": [
+    "cost-sensitive",
+    "family-oriented",
+    "local-market"
+  ]
+}

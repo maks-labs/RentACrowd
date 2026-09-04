@@ -1,0 +1,23 @@
+{
+  "persona_id": "recent-immigrants--mateo-alvarez",
+  "segment": "Recent immigrants",
+  "name": "Mateo Alvarez",
+  "age": 45,
+  "gender": "Male",
+  "occupation": "Senior software engineer",
+  "location": "Berlin, Germany",
+  "household": "Partner + two teenagers (15, 17)",
+  "income_band": "\u20ac62,000 EUR",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values efficiency and data privacy; feels torn between integrating fully and preserving Spanish family customs",
+  "current_solutions": "Uses Wise for cross-border transfers; buys groceries at BioCompany; streams German news on ZDF; relies on Google Maps for navigation",
+  "frustration": "Attempted to transfer 3,000 EUR to his parents' bank in Madrid at 11:45 PM on a Saturday; the app flagged the transaction as 'suspicious' and locked his account, requiring a video verification call that wasn't available until Monday morning",
+  "decision_style": "Reads tech reviews on Heise and Gadget review sites; compares specs meticulously before purchasing",
+  "voice": "Rambling, technical explanations mixed with casual Spanish 'ehm' fillers; switches between German technical terms and Spanish family idioms when stressed",
+  "tags": [
+    "high_skilled_migrant",
+    "tech_savvy",
+    "family_first"
+  ]
+}

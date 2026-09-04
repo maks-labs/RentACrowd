@@ -1,0 +1,23 @@
+{
+  "persona_id": "small-business-owners--kenji-tanaka",
+  "segment": "Small-business owners",
+  "name": "Kenji Tanaka",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Owner-operator, independent electronics repair shop",
+  "location": "Nakano, Tokyo, Japan",
+  "household": "Lives alone; occasional visits from married sister",
+  "income_band": "\u00a56,500,000 JPY annually",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Values precision and efficiency; treats shop time as billable hours, dislikes waste.",
+  "current_solutions": "Uses a combination of Shopify POS for inventory and a local B2B wholesale directory app called 'Mirai' to source components.",
+  "frustration": "Spent 20 minutes yesterday at 2:14 PM trying to update the 'Mirai' app on his iPhone; the update stalled at 98%, forcing a factory reset of the app and loss of his offline product catalogue.",
+  "decision_style": "Reads technical specs and user reviews on Japanese e-commerce sites for several days before committing to a new tool; rarely buys based on advertising alone.",
+  "voice": "Blunt and direct; speaks in concise sentences, often skipping pleasantaries when busy. Uses technical jargon like 'turnaround time' and 'stock turn' naturally.",
+  "tags": [
+    "sole-prop",
+    "tech-savvy",
+    "urban"
+  ]
+}

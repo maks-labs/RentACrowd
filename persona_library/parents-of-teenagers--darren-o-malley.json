@@ -1,0 +1,23 @@
+{
+  "persona_id": "parents-of-teenagers--darren-o-malley",
+  "segment": "Parents of teenagers",
+  "name": "Darren O'Malley",
+  "age": 51,
+  "gender": "Male",
+  "occupation": "Factory shift supervisor",
+  "location": "Dublin, Ireland",
+  "household": "Partner + one teen (15) and a dog",
+  "income_band": "\u20ac52,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "low",
+  "psychographics": "Pragmatic; believes a job well done matters more than gadgets; often forgets to update apps",
+  "current_solutions": "Uses a basic Nokia flip phone; buys groceries at Tesco Local; son plays on an old PlayStation 4; Darren still writes his shopping list on paper",
+  "frustration": "Tried to update the family's banking app at 9 PM; the interface was in English but the error messages were in Gaelic; locked himself out of his account and had to wait until the bank opened at 9 AM the next day",
+  "decision_style": "Buys whatever is on special offer at the end of the aisle; rarely compares brands; prefers in-store over online",
+  "voice": "Heavy Dublin accent in text; short, clipped sentences; uses slang like 'deadly' and 'shift'; very direct",
+  "tags": [
+    "traditional",
+    "low-tech",
+    "practical"
+  ]
+}

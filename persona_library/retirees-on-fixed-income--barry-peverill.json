@@ -1,0 +1,23 @@
+{
+  "persona_id": "retirees-on-fixed-income--barry-peverill",
+  "segment": "Retirees on fixed income",
+  "name": "Barry Peverill",
+  "age": 64,
+  "gender": "Male",
+  "occupation": "Retired welder",
+  "location": "Manchester, UK",
+  "household": "Partner, late 60s; no children",
+  "income_band": "\u00a322,100 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Proud of being self-sufficient; believes 'if it ain't broke, don't fix it' and views new technology with suspicion.",
+  "current_solutions": "Manages his finances via a spreadsheet he keeps in a ledger book; shops at Lidl for 'value' ranges; pays his council tax by sending a cheque through the post office window.",
+  "frustration": "Tried to book a doctor's appointment online at 9:05 PM; the NHS website timed out and displayed a 'Session Expired' message, leaving him unable to re-book until the surgery opened at 8:00 AM the next day, forcing him to call the automated phone line which kept him waiting 18 minutes.",
+  "decision_style": "Prefers to wait until a product is heavily discounted or a 'clearance' sticker is applied; often buys second-hand tools from car boot sales rather than new ones.",
+  "voice": "Blunt and short; uses Northern English slang like 'gizza' and 'mate'; sentences are clipped and to the point, often cutting off mid-sentence when frustrated.",
+  "tags": [
+    "UK",
+    "ledger-user",
+    "blunt"
+  ]
+}

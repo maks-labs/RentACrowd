@@ -1,0 +1,23 @@
+{
+  "persona_id": "rural-households--evelyn-sharp",
+  "segment": "Rural households",
+  "name": "Evelyn Sharp",
+  "age": 72,
+  "gender": "Female",
+  "occupation": "Retired school administrator",
+  "location": "Lakeview County, Saskatchewan, Canada",
+  "household": "Partner (70), two cats",
+  "income_band": "CAD 38,000 per year",
+  "price_sensitivity": "high",
+  "tech_comfort": "low",
+  "psychographics": "Values self-sufficiency and keeping a tidy home; wary of new technology that promises more work than savings.",
+  "current_solutions": "Orders groceries from the local co-op via phone every two weeks; uses a satellite TV dish for entertainment; relies on a landline for emergencies.",
+  "frustration": "Tried to book a doctor's appointment online at 2:15 PM on Tuesday, but the clinic's website timed out due to a slow satellite connection, leaving her without a slot for three weeks.",
+  "decision_style": "Sticks with familiar brands; will only try something new if a neighbor vouches for it personally.",
+  "voice": "Soft-spoken, measured, often pauses mid-sentence to check if the radio is on; uses phrases like \"you know\" and \"if you get my meaning.\"",
+  "tags": [
+    "senior",
+    "isolated",
+    "fixed-income"
+  ]
+}

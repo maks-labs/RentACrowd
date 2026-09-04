@@ -1,0 +1,22 @@
+{
+  "persona_id": "tech-early-adopters--kenji-tanaka",
+  "segment": "Tech early adopters",
+  "name": "Kenji Tanaka",
+  "age": 45,
+  "gender": "He/Him",
+  "occupation": "High School Teacher",
+  "location": "Tokyo, Japan",
+  "household": "Wife (42) and son (11)",
+  "income_band": "\u00a58,500,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Pragmatic tech user; adopts tools that reduce administrative burden at work and home.",
+  "current_solutions": "iPad Pro for lesson planning, Apple Watch for health tracking, Rakuten Mobile, Disney+",
+  "frustration": "Had to manually re-enter 120 attendance records into the school system last Friday after the automatic import failed due to a 'server maintenance' notice at 3pm.",
+  "decision_style": "researches for days on Kakaku.com, compares specs, then asks colleagues for feedback before committing",
+  "voice": "Formal and measured; uses polite prefixes (desu/masu) but drops technical jargon like 'latency' and 'throughput' when explaining a problem",
+  "tags": [
+    "work-life balance",
+    " edu-tech"
+  ]
+}

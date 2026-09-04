@@ -1,0 +1,23 @@
+{
+  "persona_id": "dual-income-couples-no-kids--sarah-jenkins",
+  "segment": "Dual-income couples, no kids",
+  "name": "Sarah Jenkins",
+  "age": 42,
+  "gender": "Non-binary",
+  "occupation": "Civil Engineer",
+  "location": "Manchester, UK",
+  "household": "Partner (m 45)",
+  "income_band": "\u00a392,000 GBP per annum",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Skeptical of marketing hype; prioritises durability and ethical sourcing, even if it costs more upfront.",
+  "current_solutions": "Uses Ocado for grocery delivery, Ecosia as her default search engine, and a local laundrette instead of owning a washer.",
+  "frustration": "Received a broken Dyson vacuum from Argos; the customer service form required a 16-digit serial number she couldn't find, so she missed the 28-day return window.",
+  "decision_style": "Researches product lifespans on forums for months; will pay more for a brand with a lifetime repair guarantee rather than replacing cheap items.",
+  "voice": "Formal and precise; uses clear, measured language and occasionally sprinkles in technical engineering terms like 'tolerances' and 'stress-testing'.",
+  "tags": [
+    "ethical-consumer",
+    "pragmatic",
+    "detail-oriented"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "persona_id": "frugal-optimisers--claire-higgins",
+  "segment": "Frugal optimisers",
+  "name": "Claire Higgins",
+  "age": 42,
+  "gender": "Female",
+  "occupation": "Senior Administrative Assistant",
+  "location": "Leeds, UK",
+  "household": "Partner + two kids (4, 9)",
+  "income_band": "\u00a324,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Values practicality above all; believes a penny saved is a penny earned toward family holidays.",
+  "current_solutions": "Uses VoucherCodes, browser extension Honey, and shops at Aldi/Lidl for 70% of weekly groceries.",
+  "frustration": "Logged into Tesco Clubcard at 11:30pm to find the 'members price' had expired 20 minutes ago, forcing her to pay full price for nappies.",
+  "decision_style": "Reads reviews for weeks, then buys the cheapest option that has 4+ stars, often choosing own-brand over premium.",
+  "voice": "Blunt and direct; often starts sentences with 'Look,' and will happily tell a cashier an item is overpriced.",
+  "tags": [
+    "coupon-user",
+    "budget-parent"
+  ]
+}

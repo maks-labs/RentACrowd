@@ -1,0 +1,23 @@
+{
+  "persona_id": "suburban-dual-income-families--sarah-jian",
+  "segment": "Suburban Dual-Income Families",
+  "name": "Sarah Jian",
+  "age": 29,
+  "gender": "female",
+  "occupation": "Financial Analyst",
+  "location": "Melbourne, Victoria, Australia",
+  "household": "partner + no children yet, two cats",
+  "income_band": "$95,000 AUD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Optimizes for time and mental bandwidth; views grocery shopping as a low-priority admin task to be outsourced so she can focus on her career and fitness.",
+  "current_solutions": "Uses the Woolworths Rewards app for click-and-collect. She prefers the efficiency of ordering ahead and picking up on the way home from the office, avoiding the aisles entirely.",
+  "frustration": "Last Monday at 5:45 PM, she arrived at the Woolworths click-and-collect bay only to find her order 'unavailable' due to a system glitch. She had to wheel her trolley through the crowded store at peak hour, defeating the purpose of ordering online and making her late for a client call.",
+  "decision_style": "She compares unit prices on the app's dashboard religiously and switches brands based on the best 'per 100g' value, rarely loyal to one label.",
+  "voice": "Formal and clipped; she uses precise terminology ('bandwidth', 'optimization') and speaks in concise sentences.",
+  "tags": [
+    "career_first",
+    "urban_suburban",
+    "digital_native"
+  ]
+}

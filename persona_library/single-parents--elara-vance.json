@@ -1,0 +1,23 @@
+{
+  "persona_id": "single-parents--elara-vance",
+  "segment": "Single parents",
+  "name": "Elara Vance",
+  "age": 28,
+  "gender": "Non-binary",
+  "occupation": "Freelance Graphic Designer",
+  "location": "Portland, OR, USA",
+  "household": "Daughter (3)",
+  "income_band": "$38,000 USD",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Skeptical of corporate sustainability claims; prefers DIY and second-hand to avoid supporting fast fashion",
+  "current_solutions": "Meals prepared with HelloFresh promotional codes; Clothing from thredUP and local Buy Nothing groups; Budgeting tool: Monarch Money",
+  "frustration": "Signed up for a 'free trial' of a project management app on March 1st; on March 31st, the app auto-charged $15.99 to her card without sending a renewal notice, and she only noticed when her banking alert popped up at 7:30 AM",
+  "decision_style": "Reads Reddit threads for user experiences before downloading any free software; strongly prefers open-source alternatives",
+  "voice": "Rambling and reflective; often starts sentences with 'So, I was thinking...' and trails off into considerations of consumer ethics",
+  "tags": [
+    "minimalist",
+    "budget-stretched",
+    "digital-native"
+  ]
+}

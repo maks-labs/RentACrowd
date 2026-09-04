@@ -1,77 +1,86 @@
 # RentACrowd
 
-Synthetic market-research panels on an explicit LangGraph, served by NVIDIA NIM.
+Synthetic market-research panels driven by a **LangGraph supervisor**, served by NVIDIA NIM.
 
-Give it a product; it structures a test stimulus, builds a panel of AI personas
-across market segments, simulates their reactions in parallel, runs a moderator
-debrief, and produces a decision-ready readout (purchase intent, WTP, objections,
-segment cuts).
+Give it a product; a supervisor agent runs the study — structuring the brief,
+scraping real customer language about your competitors, recruiting a persona
+panel, fanning out parallel workers to simulate every persona's reaction,
+debriefing as a moderator, and writing a decision readout.
 
 > Synthetic research is a **complement, not a replacement** for real fieldwork.
-> Use it to run 10x more iterations before spending on a human panel, then
-> validate the promising ones with the moderator's probe questions.
+> Run many iterations fast, then validate the promising ones with the moderator's
+> probe questions.
 
-## The graph
+## The team
 
 ```
-START
-  -> intake              free-text product -> structured Stimulus + segments
-  -> generate_personas   build (or load cached) the persona panel
-  -> respond_batch  x N   parallel panel workers (Send API, concurrency-capped)
-  -> moderator           qualitative debrief + probes for a real validation panel
-  -> analyze             deterministic stats + LLM-written readout
-END
+              ┌─────────────┐
+   START ────▶│  supervisor  │◀──── every worker reports back
+              └─────────────┘
+                    │ decides who runs next (reacts to your notes)
+   ┌────────┬───────┼────────┬───────────┬──────────┐
+ intake  research  recruit  run_panel  moderator  analyze
+                    panel       │
+                          panel_worker ×N  (parallel, Send API)
 ```
 
-Every stage is a named node, visible in LangGraph Studio.
+Every worker is a named node — the whole team is visible in LangGraph Studio.
 
-### Why not `deepagents` for the core?
+- **research** — scrapes App Store reviews + Hacker News (and Reddit, if you set
+  `REDDIT_CLIENT_ID`/`REDDIT_CLIENT_SECRET`) for the competitors you name,
+  distils the real objections and vocabulary, and feeds them into every panel
+  worker so reactions echo real customer language. Runs only when competitors
+  are named; degrades gracefully when nothing is found.
+- **recruit_panel** — matches library personas to each segment by keyword
+  overlap (deterministic, instant) and only generates the shortfall.
 
-The pipeline is structured, not open-ended, so an explicit graph gives us:
-visible sub-agents, controllable fan-out width, predictable cost, and
-reproducible runs under the NIM ~40 req/min ceiling. `deepagents` is reserved
-for a Phase-2 research-powered `intake` node.
+## Persona library
+
+`persona_library/` holds a reusable population — one JSON file per synthetic
+person, hand-editable, versioned. Studies **recruit from here first** and only
+manufacture new people for the shortfall (or when your notes ask for fresh ones).
+New hires are written back, so the population compounds.
+
+```bash
+uv run rentacrowd-seed --per 4      # ~100 people across 25 audience slices (parallel, ~4 min)
+```
 
 ## Setup
 
 ```bash
 uv sync
-cp .env.example .env      # add your NVIDIA_API_KEY (nvapi-...)
+cp .env.example .env                # add NVIDIA_API_KEY (nvapi-...)
+uv run rentacrowd-seed              # populate the library (~4 min, one-time)
 ```
 
-## Run — presentation UI (recommended)
+## Run — the UI
 
 ```bash
-uv run streamlit run rentacrowd/ui.py
+uv run rentacrowd-ui               # http://127.0.0.1:8000
 ```
 
-Enter the product and its full working, hit **Run study**, and watch the pipeline
-execute node by node — every sub-agent spawned, every persona-cache hit, every
-LLM call is streamed live under its node — then read the decision readout, the
-synthetic panel, and the raw responses.
+A landing page explains the system; a 3-step form takes the company, the product,
+and its competitors. On submit it flies into the study view, where the supervisor
+dispatches work between agents in a 3D constellation — a packet travels from the
+supervisor to each worker and back, the fan-out workers spring in, and the
+decision readout rises as a sheet. Studies are saved to `studies/<timestamp>--<name>/`.
 
 ## Run — terminal
 
 ```bash
-uv run rentacrowd "A $49/mo AI meal planner that auto-orders your groceries"
+uv run rentacrowd "A $49/mo AI meal planner that auto-orders groceries" \
+  --notes "focus on rural households"
 ```
 
-Writes a full JSON transcript to `~/.rentacrowd/studies/`. Persona panels are
-cached in `~/.rentacrowd/personas/` and reused across studies (0 LLM calls on a hit).
-
-## Inspect / debug the graph
+## Inspect the graph
 
 ```bash
-uv run langgraph dev --no-reload      # opens LangGraph Studio
+uv run langgraph dev --no-reload
 ```
 
-## Throughput
+## Speed
 
-Sub-agents are graph nodes, not extra LLM calls. One `respond_batch` call
-role-plays `RAC_BATCH_SIZE` personas at once, so a 200-persona study is ~20
-calls. A shared process-wide rate limiter keeps the combined rate under
-`RAC_REQUESTS_PER_MINUTE`. Tune everything in `.env`.
-
-The free NIM nemotron models are "thinking" models; RentACrowd disables that
-(`chat_template_kwargs={"thinking": false}`) so calls return in seconds instead
-of tens of seconds. A full study at demo size is ~2-3 minutes.
+Every LLM step is a call to the free `nemotron-3.5-lightning` model (~28 tok/s).
+Library recruitment is deterministic (no LLM), and the scrapers are fast, so a
+small-panel study with a fully-seeded library runs in **~80 seconds**. Bigger
+panels add one panel-worker call per batch. Tune panel size and models in `.env`.

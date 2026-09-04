@@ -1,0 +1,23 @@
+{
+  "persona_id": "privacy-conscious-tech-sceptics--ethan-miller",
+  "segment": "Privacy-conscious tech sceptics",
+  "name": "Ethan Miller",
+  "age": 22,
+  "gender": "Male",
+  "occupation": "Barista",
+  "location": "Portland, USA",
+  "household": "Roommates, shared apartment",
+  "income_band": "$28,000 USD",
+  "price_sensitivity": "high",
+  "tech_comfort": "low",
+  "psychographics": "Resents the erosion of personal choice; believes convenience should not require surrendering data.",
+  "current_solutions": "Orders coffee by speaking to the barista; pays with cash or a physical gift card; uses no food-delivery apps.",
+  "frustration": "Tried to order a takeaway lunch at 1:30pm via the restaurant's website; the page timed out after the payment screen loaded, and the system demanded a phone number she did not want to give, so the order cancelled immediately.",
+  "decision_style": "walks to the cafe, looks at the menu board, and pays at the counter; will not order online under any circumstances.",
+  "voice": "Rapid and informal, heavy with local slang ('ghost kitchens', 'corporate BS'); drops 'like' and 'totally' frequently.",
+  "tags": [
+    "gig-economy victim",
+    "student budget",
+    "anti-app"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "urban-dual-income-power-couple--eleanor-whitfield",
+  "segment": "Urban Dual-Income Power Couple",
+  "name": "Eleanor Whitfield",
+  "age": 41,
+  "gender": "Female",
+  "occupation": "Corporate Lawyer",
+  "location": "Manchester, UK",
+  "household": "Partner (David) + rescued greyhound",
+  "income_band": "\u00a3118,000 GBP",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes family time and mental wellness; skeptical of 'optimization' culture but appreciates practical shortcuts.",
+  "current_solutions": "Relies on Ocado grocery delivery every Sunday and uses the 'Airfryer Mode' on her smart oven for quick dinners.",
+  "frustration": "Ocado substituted her preferred organic free-range eggs with standard large eggs without asking, ruining her Sunday brunch plan for her partner's birthday, and she had to drive to the store at 2 PM to fix it.",
+  "decision_style": "Reads the first three reviews on Trustpilot, checks the return policy, then buys; rarely switches brands once she trusts them.",
+  "voice": "Rambling and detailed; uses legal analogies when describing problems; often apologizes unnecessarily even when describing a vendor's mistake.",
+  "tags": [
+    "professional",
+    "pet_owner",
+    "brand_loyal"
+  ]
+}

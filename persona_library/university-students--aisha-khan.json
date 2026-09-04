@@ -1,0 +1,23 @@
+{
+  "persona_id": "university-students--aisha-khan",
+  "segment": "University students",
+  "name": "Aisha Khan",
+  "age": 20,
+  "gender": "Female",
+  "occupation": "Computer Science sophomore",
+  "location": "Bangalore, India",
+  "household": "Lives with parents and younger brother in a 2-bedroom apartment",
+  "income_band": "\u20b98,50,000 INR",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Digitally native and cost-aware; parents strictly monitor data usage and app subscriptions, forcing her to be resourceful",
+  "current_solutions": "Uses JioCinema Premium (shared family account), relies on free tier of Canva for design projects, orders food via Zomato Gold for the discount delivery fee, uses cracked versions of Adobe suite for coursework",
+  "frustration": "Parents cut off the Wi-Fi at 11pm sharp to enforce study hours, but my Zoom seminar for 'Advanced Algorithms' runs until 11:45pm, so I have to sit in the dark using mobile data which exhausts my daily 1.5GB limit in 20 minutes",
+  "decision_style": "Compares feature-for-feature on tech forums before downloading, often sticks with free/open-source software despite better UI of paid alternatives, avoids in-app purchases entirely",
+  "voice": "Fluid code-switches between English and Hindi/Kannada. Uses tech slang like 'debug', 'patch', 'lag'. Speaks quickly when excited about a project",
+  "tags": [
+    "tech-savvy",
+    "family-oriented",
+    "frugal"
+  ]
+}

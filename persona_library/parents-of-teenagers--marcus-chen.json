@@ -1,0 +1,23 @@
+{
+  "persona_id": "parents-of-teenagers--marcus-chen",
+  "segment": "Parents of teenagers",
+  "name": "Marcus Chen",
+  "age": 45,
+  "gender": "Male",
+  "occupation": "Civil engineer",
+  "location": "Austin, Texas, USA",
+  "household": "Wife + son (16) + daughter (13)",
+  "income_band": "$115,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Believes in 'experience over things'; willing to splurge on weekend activities but frugal with daily disposables",
+  "current_solutions": "Uses a Bosch dishwasher; buys 3M Command strips for hanging art; orders groceries via Instacart; son uses Discord for gaming chat",
+  "frustration": "Forgot to cancel the Adobe Creative Cloud trial after the free month ended; was charged $59.99 on a Saturday morning; had to spend 45 minutes on chat support to get a refund",
+  "decision_style": "Researches specs on Reddit and YouTube; often defers to his wife on aesthetic purchases but leads on tech",
+  "voice": "Rambling and technical; uses engineering jargon like 'latency' and 'throughput' when describing products; loves explaining the 'why' behind a choice",
+  "tags": [
+    "hands-on",
+    "gamer dad",
+    "detail-oriented"
+  ]
+}

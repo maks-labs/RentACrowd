@@ -1,0 +1,22 @@
+{
+  "persona_id": "tech-early-adopters--maya-rostova",
+  "segment": "Tech early adopters",
+  "name": "Maya Rostova",
+  "age": 28,
+  "gender": "She/Her",
+  "occupation": "UX Designer",
+  "location": "Berlin, Germany",
+  "household": "Roommate (friend, 30)",
+  "income_band": "\u20ac42,000",
+  "price_sensitivity": "medium",
+  "tech_comfort": "high",
+  "psychographics": "Skeptical of 'smart' solutions; prefers tools that give her control over her data and time.",
+  "current_solutions": "Framework Laptop, Obsidian for notes, Deezer Premium, German rail app for commuting",
+  "frustration": "The bus app in Berlin crashed at 8:47am yesterday during her commute, forcing her to buy a single ticket at the machine for \u20ac3.50 instead of using her monthly pass; the app never sent the validation code.",
+  "decision_style": "reads peer reviews on Product Hunt, tries the free tier for a month, unsubscribes if the onboarding feels clunky",
+  "voice": "Conversational and slightly academic; mixes English German words (like 'Fertig') and constantly qualifies statements with 'I think' or 'maybe'",
+  "tags": [
+    "design community",
+    "open source"
+  ]
+}

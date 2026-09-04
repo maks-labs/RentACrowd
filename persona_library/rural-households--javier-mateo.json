@@ -1,0 +1,23 @@
+{
+  "persona_id": "rural-households--javier-mateo",
+  "segment": "Rural households",
+  "name": "Javier Mateo",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Farmer / Agri-tech consultant",
+  "location": "Buda\u00f6rs District, Pest County, Hungary",
+  "household": "Partner (32), infant daughter",
+  "income_band": "HUF 12,000,000 per year",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Pragmatic about efficiency; balances traditional farming methods with tools that genuinely save time during planting season.",
+  "current_solutions": "Uses a WhatsApp group with other local farmers to coordinate seed purchases; orders tractor parts from an online Hungarian distributor; watches YouTube tutorials for equipment repair.",
+  "frustration": "Attempted to upload a 2GB drone mapping file at 9:40 PM to check crop health, but the upload stalled at 12% due to the ISP's 10 PM throttling limit, forcing him to wait until morning.",
+  "decision_style": "Compares specs on forums; often buys mid-range tools that offer the best price-to-performance ratio rather than the cheapest option.",
+  "voice": "Direct and professional, switches to rapid Hungarian technical jargon when discussing machinery, then back to English for general chat.",
+  "tags": [
+    "farmer",
+    "tech-savvy",
+    "young family"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-young-professionals--liam-o-connor",
+  "segment": "Budget-Conscious Young Professionals",
+  "name": "Liam O'Connor",
+  "age": 29,
+  "gender": "Male",
+  "occupation": "Junior Data Analyst",
+  "location": "Leeds, UK",
+  "household": "Partner only",
+  "income_band": "\u00a324,800",
+  "price_sensitivity": "high",
+  "tech_comfort": "high",
+  "psychographics": "Pragmatic and frugal; values control over his schedule and dislikes feeling rushed at mealtimes.",
+  "current_solutions": "Meal prepping on Sundays using recipes from the BBC Good Food app; uses a Tesco Grocery Pass for weekly basics.",
+  "frustration": "Last Tuesday at 6:30pm, he opened Deliveroo to find the minimum order was \u00a325 and his cart was only \u00a318, so he had to abandon it and cook stale pasta instead.",
+  "decision_style": "Compares unit prices on the shelf; buys store brand if the difference is under 10p.",
+  "voice": "Blunt and practical; often says 'I just need it to work' when a app glitches.",
+  "tags": [
+    "solo-cook",
+    "loyalty-card-user",
+    "meal-prep"
+  ]
+}

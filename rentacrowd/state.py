@@ -1,7 +1,8 @@
 """Graph state.
 
-`StudyState` is the top-level channel set. `BatchState` is the per-worker state
-handed to each parallel `respond_batch` node via the Send API.
+`StudyState` is the supervisor's shared blackboard - every worker reads from it
+and writes its slice back. `PanelWorkerState` is the private state handed to each
+parallel panel worker via the Send API.
 """
 
 from __future__ import annotations
@@ -17,30 +18,49 @@ from rentacrowd.schemas import (
     StudyReport,
 )
 
+# Workers the supervisor can dispatch to, in their natural order.
+WORKERS = ["intake", "research", "recruit_panel", "run_panel", "moderator", "analyze"]
+
 
 class StudyState(TypedDict, total=False):
-    # inputs
-    raw_product: str            # free-text product description from the user
-    stimulus: Stimulus          # structured by the intake node
+    # --- request ---
+    raw_product: str        # the product brief, free text
+    request_notes: str      # e.g. "use fresh personas", "focus on rural India"
+    panel_size: int         # personas wanted per segment
+    competitors: list[str]  # named competitors -> the research worker scrapes these
+    company: dict           # name / industry / what_they_do, for context
+
+    # --- intake ---
+    stimulus: Stimulus
     segments: list[SegmentSpec]
 
-    # persona layer
-    personas_cache_key: str
-    personas: list[Persona]
+    # --- research ---
+    market_evidence: list[dict]   # distilled real customer language per competitor
 
-    # simulation layer - responses accumulate from parallel workers
+    # --- recruitment ---
+    personas: list[Persona]
+    recruitment_note: str   # how the panel was assembled: reused vs newly created
+
+    # --- simulation (parallel workers append here) ---
     responses: Annotated[list[PersonaResponse], operator.add]
 
-    # moderator layer
-    moderator_probes: list[str]
+    # --- moderation ---
     moderator_notes: str
+    moderator_probes: list[str]
 
-    # output
+    # --- output ---
     report: StudyReport
+    study_dir: str          # where this study was written on disk
+
+    # --- supervisor bookkeeping ---
+    completed: Annotated[list[str], operator.add]
+    supervisor_log: Annotated[list[str], operator.add]
+    next_action: str
 
 
-class BatchState(TypedDict):
-    """One parallel persona-panel worker's slice of the job."""
+class PanelWorkerState(TypedDict):
+    """One parallel panel worker's slice of the job."""
 
     stimulus: Stimulus
     persona_batch: list[Persona]
+    evidence: str          # rendered market-evidence block (may be empty)

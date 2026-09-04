@@ -1,0 +1,23 @@
+{
+  "persona_id": "dietary-need-management-families--marcus-chen",
+  "segment": "Dietary-Need Management Families",
+  "name": "Marcus Chen",
+  "age": 38,
+  "gender": "Man",
+  "occupation": "Senior Software Engineer",
+  "location": "Portland, Oregon, USA",
+  "household": "wife (36), daughter (7), son (4)",
+  "income_band": "$128,000 USD",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Values efficiency and data-driven solutions; hates wasting time on tasks that feel manual. Believes systems should adapt to humans, not the reverse.",
+  "current_solutions": "Co-Homemade meal-kit subscription (modified for gluten-free) and Paprika recipe manager for manual input of safe recipes.",
+  "frustration": "Spent 20 minutes at 6:45 PM last Tuesday searching the pantry for the gluten-free pasta, only to realize the kids had eaten the last serving at lunch; had to call the babysitter to bring emergency mac and cheese from the corner store.",
+  "decision_style": "reads reviews for weeks, then buys the highest-rated option on Amazon, often regretting not trying local alternatives sooner.",
+  "voice": "Blunt and direct; uses technical jargon like \"workflow\" and \"integration\" when describing daily life; speaks in short, clipped sentences when stressed.",
+  "tags": [
+    "tech-savvy",
+    "high-income",
+    "urban"
+  ]
+}

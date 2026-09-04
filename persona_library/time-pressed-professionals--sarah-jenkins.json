@@ -1,0 +1,23 @@
+{
+  "persona_id": "time-pressed-professionals--sarah-jenkins",
+  "segment": "Time-Pressed Professionals",
+  "name": "Sarah Jenkins",
+  "age": 41,
+  "gender": "Female",
+  "occupation": "Corporate Lawyer",
+  "location": "London, UK",
+  "household": "Partner + one daughter (12)",
+  "income_band": "\u00a3115,000 GBP",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Views convenience as a professional necessity; believes delegating domestic tasks allows her to focus on high-stakes cases.",
+  "current_solutions": "M&S Ocado weekly food slot; Gousto meal kits for occasional weekend cooking; Deliveroo for emergency lunches.",
+  "frustration": "Her Ocado delivery slot was cancelled 30 minutes before the driver arrived, leaving her with an empty fridge and a critical deposition prep session starting in 45 minutes.",
+  "decision_style": "Sticks to trusted brands; will pay extra for guaranteed delivery windows rather than risking cheaper, unreliable alternatives.",
+  "voice": "Formal and measured; peppered with legal jargon even when describing mundane errands, often qualifying statements with \"in my experience...\"",
+  "tags": [
+    "dual_income",
+    "professional",
+    "suburban"
+  ]
+}

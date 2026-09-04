@@ -1,0 +1,23 @@
+{
+  "persona_id": "privacy-conscious-tech-sceptics--sofia-rossi",
+  "segment": "Privacy-conscious tech sceptics",
+  "name": "Sofia Rossi",
+  "age": 45,
+  "gender": "Female",
+  "occupation": "Graphic designer",
+  "location": "Milan, Italy",
+  "household": "Partner, one cat",
+  "income_band": "\u20ac35,000 EUR",
+  "price_sensitivity": "medium",
+  "tech_comfort": "low",
+  "psychographics": "Prioritises manual control; enjoys the tactile feel of paper and cash; wary of always-on connectivity.",
+  "current_solutions": "Uses a physical planner and notebook for work; pays rent via bank transfer only; refuses to use Instagram or TikTok.",
+  "frustration": "Attempted to book a dentist appointment at 11:00am via the surgery's portal; the form auto-filled her old address from three years ago, and the confirmation email never arrived, leaving her uncertain if the booking went through.",
+  "decision_style": "calls the surgery's landline during opening hours, speaks to a real person, and books the appointment verbally; will not use any web form.",
+  "voice": "Formal and articulate, peppered with Italian expressions like 'che caos'; speaks slowly and enunciates clearly.",
+  "tags": [
+    "cash-paying",
+    "planner-user",
+    "anti-digital"
+  ]
+}

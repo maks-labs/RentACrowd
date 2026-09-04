@@ -1,0 +1,23 @@
+{
+  "persona_id": "urban-dual-income-professionals--anika-sharma",
+  "segment": "Urban Dual-Income Professionals",
+  "name": "Anika Sharma",
+  "age": 29,
+  "gender": "Non-binary",
+  "occupation": "Junior Product Designer",
+  "location": "Manchester, UK",
+  "household": "Lives alone, frequent Airbnb guests (often friends visiting from out of town)",
+  "income_band": "\u00a342,000 annual household",
+  "price_sensitivity": "high",
+  "tech_comfort": "medium",
+  "psychographics": "Strives for minimalism and ethical consumption; often feels guilty about convenience spending but justifies it as 'necessary stress relief'.",
+  "current_solutions": "Uses Olio to share surplus food with neighbours. Relies heavily on supermarket meal deals (e.g., meal deal meal deal) and cooks in bulk on Sundays using a cheap air fryer.",
+  "frustration": "Attempted to book a last-minute grocery slot on Ocado at 11:30 PM; the system crashed and displayed 'Error 404' for 20 minutes. She ended up ordering a costly Uber Eats meal just to eat something before bed.",
+  "decision_style": "Compares price per unit obsessively. Often chooses the cheaper option even if it means more prep time, justifying it as 'being smart with money'.",
+  "voice": "Rambling and self-deprecating, frequently apologizing. Uses British slang like 'cheeky' and 'sorted', but switches to formal language when discussing budgets or ethics.",
+  "tags": [
+    "minimalist",
+    "ethical_shopper",
+    "budget_watcher"
+  ]
+}

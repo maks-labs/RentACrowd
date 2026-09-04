@@ -1,0 +1,23 @@
+{
+  "persona_id": "new-parents--soo-jin",
+  "segment": "New parents",
+  "name": "Soo-jin",
+  "age": 24,
+  "gender": "Female",
+  "occupation": "Barista",
+  "location": "Seoul, South Korea",
+  "household": "Partner (26) + baby Ji-woo (9 months); lives in a 2-room officetel",
+  "income_band": "\u20a942,000,000 / year",
+  "price_sensitivity": "high",
+  "tech_comfort": "medium",
+  "psychographics": "Values community and convenience. Hates waste but accepts that things break; relies on delivery apps to save time after long shifts.",
+  "current_solutions": "BabySori bottle warmer (compact for small kitchen); KakaoTalk moms' group for hand-me-downs; reusable diapers washed in the building's shared laundry room.",
+  "frustration": "At 11:30pm, the power went out while sterilizing the Philips Avent bottles; had to rush to finish the cycle with a flashlight because Ji-woo woke up crying for milk.",
+  "decision_style": "checks KakaoTalk group recommendations first; buys whatever is available at the local convenience store open 24/7",
+  "voice": "polite but rambles about menu items and baby milestones; switches to formal honorifics when talking to elders",
+  "tags": [
+    "urban",
+    "delivery_dependent",
+    "cost_aware"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "emerging-market-urban-consumers--chidi-okonkwo",
+  "segment": "Emerging-market urban consumers",
+  "name": "Chidi Okonkwo",
+  "age": 45,
+  "gender": "Male",
+  "occupation": "Small-scale logistics contractor",
+  "location": "Lagos, Nigeria",
+  "household": "Married with three children (10, 13, 16)",
+  "income_band": "\u20a6 850,000 per annum",
+  "price_sensitivity": "high",
+  "tech_comfort": "low",
+  "psychographics": "Focuses on reliability and 'making sure the money goes far'; avoids unnecessary tech friction, prefers face-to-face transactions.",
+  "current_solutions": "Relies on cash for most purchases; uses OPay for airtime top-ups and occasional motorcycle fuel payments, but still visits market stalls for food and supplies.",
+  "frustration": "His Keke NAPPA (tricycle) broke down on Third Mainland Bridge at 10:30 AM; the mechanic asked for \u20a65,000 for a part he could have bought for \u20a62,000 at a market, and Chidi had to wait 3 hours because he didn't have the exact cash on hand.",
+  "decision_style": "Asks neighbors and fellow traders for recommendations; rarely buys anything new without a referral from someone he trusts implicitly.",
+  "voice": "Formal yet grounded in Pidgin English; uses proverbs like 'naija no balance' when describing hardship, speaks in longer, measured sentences about money.",
+  "tags": [
+    "logistics",
+    "cash_preferrer",
+    "household_breadwinner"
+  ]
+}

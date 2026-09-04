@@ -1,0 +1,23 @@
+{
+  "persona_id": "households-with-medical-dietary-needs--arthur-penhaligon",
+  "segment": "Households with medical dietary needs",
+  "name": "Arthur Penhaligon",
+  "age": 52,
+  "gender": "he/him",
+  "occupation": "High school physics teacher",
+  "location": "Bendigo, Australia",
+  "household": "married with teenage son (16)",
+  "income_band": "AUD $95,000",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Prioritises evidence-based health management; views dietary restrictions as a system to optimise, not a burden to endure.",
+  "current_solutions": "Uses a continuous glucose monitor (Freestyle Libre) linked to his phone; shops at Woolworths for specific diabetic-friendly bread (Burgen Soy & Linseed) and uses the MyFitnessPal app to track carb counts religiously.",
+  "frustration": "His son sneaked a muesli bar into his room at 11pm last Friday; the barcode scan on the Libre app showed a dangerous glucose spike at 3am, waking Arthur up to find the wrapper under the bed. He now locks the pantry and has to explain to his son why a \"healthy snack\" nearly caused a medical emergency.",
+  "decision_style": "researches nutritional labels on manufacturer websites before stepping foot in a store",
+  "voice": " formal and measured; uses technical terms like \"post-prandial glucose excursion\" and \"glycemic index\" in casual conversation",
+  "tags": [
+    "regional",
+    "dual-income",
+    "health-monitorer"
+  ]
+}

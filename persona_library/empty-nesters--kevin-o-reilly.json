@@ -1,0 +1,23 @@
+{
+  "persona_id": "empty-nesters--kevin-o-reilly",
+  "segment": "Empty nesters",
+  "name": "Kevin O'Reilly",
+  "age": 66,
+  "gender": "Male",
+  "occupation": "Small Business Owner",
+  "location": "Dublin, Ireland",
+  "household": "Partner (65), occasional visits from grandchildren",
+  "income_band": "\u20ac65,000 per annum",
+  "price_sensitivity": "medium",
+  "tech_comfort": "low",
+  "psychographics": "Traditionalist; prefers face-to-face interactions; skeptical of new gadgets unless they solve a clear problem.",
+  "current_solutions": "Uses an AIB Bank debit card for all transactions; reads the Irish Examinator daily; listens to RT\u00c9 Radio 1 during his commute.",
+  "frustration": "Spent 45 minutes at 11:00 AM trying to navigate the AIB online portal to transfer funds, only to be met with a 'session expired' error message.",
+  "decision_style": "Asks friends and family for recommendations; rarely reads online reviews, trusts word-of-mouth more.",
+  "voice": "Blunt and concise; uses Irish slang like 'sure look' and 'deadly' naturally; short sentences.",
+  "tags": [
+    "entrepreneur",
+    "irish",
+    "traditional"
+  ]
+}

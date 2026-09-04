@@ -1,0 +1,1902 @@
+[
+  {
+    "persona_id": "budget-conscious-solo-parent--david-okonkwo",
+    "segment": "Budget-Conscious Solo Parent",
+    "who": "David Okonkwo, 52, Warehouse Supervisor, Atlanta, USA",
+    "household": "Solo parent, one teenager age 15",
+    "income": "$38,000 per year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "single father",
+      "suburban",
+      "app_enthusiast"
+    ]
+  },
+  {
+    "persona_id": "budget-conscious-solo-parent--maria-fernandez",
+    "segment": "Budget-Conscious Solo Parent",
+    "who": "Maria Fernandez, 34, Administrative Assistant, Manchester, UK",
+    "household": "Solo parent, one child age 7",
+    "income": "\u00a322,400 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "single parent",
+      "urban",
+      "loyalty_card_user"
+    ]
+  },
+  {
+    "persona_id": "budget-conscious-young-professionals--anika-patel",
+    "segment": "Budget-Conscious Young Professionals",
+    "who": "Anika Patel, 34, Marketing Coordinator, Manchester, UK",
+    "household": "Lives alone",
+    "income": "\u00a332,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "urban-rural-commute",
+      "app-loyalty",
+      "health-conscious"
+    ]
+  },
+  {
+    "persona_id": "budget-conscious-young-professionals--eleanor-rigby",
+    "segment": "Budget-Conscious Young Professionals",
+    "who": "Eleanor Rigby, 27, Junior Data Analyst, Leeds, UK",
+    "household": "Living alone, occasionally hosts parents for Sunday dinner",
+    "income": "\u00a324,500 per annum",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "solo-dweller",
+      "app-savvy",
+      "budget-tracker"
+    ]
+  },
+  {
+    "persona_id": "budget-conscious-young-professionals--jae-min",
+    "segment": "Budget-Conscious Young Professionals",
+    "who": "Jae Min, 31, Graphic Designer, Seoul, South Korea",
+    "household": "Roommates (2 friends)",
+    "income": "\u20a935,000,000",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "bulk-buyer",
+      "digital-native",
+      "roommate-shopper"
+    ]
+  },
+  {
+    "persona_id": "budget-conscious-young-professionals--liam-o-connor",
+    "segment": "Budget-Conscious Young Professionals",
+    "who": "Liam O'Connor, 29, Junior Data Analyst, Leeds, UK",
+    "household": "Partner only",
+    "income": "\u00a324,800",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "solo-cook",
+      "loyalty-card-user",
+      "meal-prep"
+    ]
+  },
+  {
+    "persona_id": "budget-conscious-young-professionals--miguel-santos",
+    "segment": "Budget-Conscious Young Professionals",
+    "who": "Miguel Santos, 34, Marketing Coordinator, Mexico City, Mexico",
+    "household": "Lives with partner and a cat; shares cooking duties",
+    "income": "350,000 MXN per annum",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "dual-income",
+      "market-shopper",
+      "waste-reducer"
+    ]
+  },
+  {
+    "persona_id": "budget-conscious-young-professionals--sophie-nguyen",
+    "segment": "Budget-Conscious Young Professionals",
+    "who": "Sophie Nguyen, 27, Account Manager, Melbourne, Australia",
+    "household": "Partner (no kids)",
+    "income": "A$58,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "discount-hunter",
+      "partner-cook",
+      "subscription-forgetter"
+    ]
+  },
+  {
+    "persona_id": "convenience-first-premium-buyers--brandon-chen",
+    "segment": "Convenience-first premium buyers",
+    "who": "Brandon Chen, 68, Retired High-School Principal, Scottsdale, Arizona, USA",
+    "household": "Wife (67), lives in a retirement community",
+    "income": "$140,000 USD annual pension + investments",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "retirement",
+      "tech_avoider",
+      "southwest_us"
+    ]
+  },
+  {
+    "persona_id": "convenience-first-premium-buyers--david-miller",
+    "segment": "Convenience-first premium buyers",
+    "who": "David Miller, 52, Senior Project Manager, Leeds, UK",
+    "household": "Partner (48) and teenage daughter (16)",
+    "income": "\u00a385,000 GBP annual household",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "busy_professional",
+      "subscription_heavy",
+      "north_of_fifty"
+    ]
+  },
+  {
+    "persona_id": "convenience-first-premium-buyers--eleanor-rigby",
+    "segment": "Convenience-first premium buyers",
+    "who": "Eleanor Rigby, 37, Freelance Copywriter, Cape Town, South Africa",
+    "household": "Partner (40) and one toddler (2)",
+    "income": "R450,000 ZAR annual household",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "mental_load_delegator",
+      "sandwich_gen",
+      "cape_town_professional"
+    ]
+  },
+  {
+    "persona_id": "convenience-first-premium-buyers--sakura-tanaka",
+    "segment": "Convenience-first premium buyers",
+    "who": "Sakura Tanaka, 29, Urban Planner, Shibuya, Tokyo",
+    "household": "Lives alone, cat named Mochi",
+    "income": "\u00a59,500,000 JPY annual",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "digital_native",
+      "minimalist",
+      "tokyo_young_professional"
+    ]
+  },
+  {
+    "persona_id": "convenience-seeking-dual-income-no-kids--elena-rossi",
+    "segment": "Convenience-Seeking Dual-Income No-Kids",
+    "who": "Elena Rossi, 35, Graphic Designer, Milan, Italy",
+    "household": "Partner (Luca) and a cat named Figo",
+    "income": "\u20ac92,000 EUR",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "mediterranean",
+      "design-conscious",
+      "pet-owner"
+    ]
+  },
+  {
+    "persona_id": "convenience-seeking-dual-income-no-kids--jayden-okonkwo",
+    "segment": "Convenience-Seeking Dual-Income No-Kids",
+    "who": "Jayden Okonkwo, 48, Finance Manager, Toronto, Ontario, Canada",
+    "household": "Partner (Maya) and a fish tank",
+    "income": "CAD $165,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "corporate",
+      "systems-thinker",
+      "urban professional"
+    ]
+  },
+  {
+    "persona_id": "convenience-seeking-dual-income-no-kids--marcus-chen",
+    "segment": "Convenience-Seeking Dual-Income No-Kids",
+    "who": "Marcus Chen, 42, Senior Data Analyst, Denver, Colorado, USA",
+    "household": "Partner (Sarah) and a Golden Retriever",
+    "income": "$145,000 USD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "urban",
+      "tech-adopter",
+      "pet-parent"
+    ]
+  },
+  {
+    "persona_id": "convenience-seeking-dual-income-no-kids--sophie-nakamura",
+    "segment": "Convenience-Seeking Dual-Income No-Kids",
+    "who": "Sophie Nakamura, 31, Project Manager, Sydney, New South Wales, Australia",
+    "household": "Partner (Leo) and a Border Collie",
+    "income": "AUD $120,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "australian",
+      "subscription-hater",
+      "dog-owner"
+    ]
+  },
+  {
+    "persona_id": "dietary-need-management-families--elara-petridis",
+    "segment": "Dietary-Need Management Families",
+    "who": "Elara Petridis, 42, High School English Teacher, Suburban Melbourne, Australia",
+    "household": "Partner (45) + three kids (10, 13, 16)",
+    "income": "A$115,000 per annum",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "celiac_mom",
+      "schedule_adherent",
+      "brand_loyal"
+    ]
+  },
+  {
+    "persona_id": "dietary-need-management-families--elena-rossi",
+    "segment": "Dietary-Need Management Families",
+    "who": "Elena Rossi, 45, High School History Teacher, Bristol, UK",
+    "household": "partner (42), son (13), daughter (10)",
+    "income": "\u00a342,000 GBP",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "middle-income",
+      "suburban",
+      "health-conscious"
+    ]
+  },
+  {
+    "persona_id": "dietary-need-management-families--james-okafor",
+    "segment": "Dietary-Need Management Families",
+    "who": "James Okafor, 29, Warehouse Shift Supervisor, Lagos, Nigeria",
+    "household": "wife (26), baby daughter (1), mother-in-law (60)",
+    "income": "\u20a64,500,000 NGN",
+    "price_sensitivity": "high",
+    "tech_comfort": "low",
+    "tags": [
+      "low-tech",
+      "high-price-sensitivity",
+      "familial-focus"
+    ]
+  },
+  {
+    "persona_id": "dietary-need-management-families--marcus-chen",
+    "segment": "Dietary-Need Management Families",
+    "who": "Marcus Chen, 38, Senior Software Engineer, Portland, Oregon, USA",
+    "household": "wife (36), daughter (7), son (4)",
+    "income": "$128,000 USD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "tech-savvy",
+      "high-income",
+      "urban"
+    ]
+  },
+  {
+    "persona_id": "dietary-need-management-families--samuel-okonkwo",
+    "segment": "Dietary-Need Management Families",
+    "who": "Samuel Okonkwo, 34, IT Project Coordinator, Lagos, Nigeria",
+    "household": "Self + spouse + two kids (6, 12)",
+    "income": "\u20a61.8 million per annum",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "lazy_label_reader",
+      "budget_conscious",
+      "allergic_child"
+    ]
+  },
+  {
+    "persona_id": "dietary-need-management-families--sarah-jenkins",
+    "segment": "Dietary-Need Management Families",
+    "who": "Sarah Jenkins, 52, Clinical Data Analyst, Melbourne, Australia",
+    "household": "husband (55), step-daughter (22), dog",
+    "income": "$95,000 AUD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "data-driven",
+      "urban professional",
+      "allergy-aware"
+    ]
+  },
+  {
+    "persona_id": "dual-income-couples-no-kids--elena-rostova",
+    "segment": "Dual-income couples, no kids",
+    "who": "Elena Rostova, 34, Senior Marketing Manager, Leeds, UK",
+    "household": "Partner (m 36)",
+    "income": "\u00a385,000 GBP per annum",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "urban",
+      "career-focused",
+      "tech-savvy"
+    ]
+  },
+  {
+    "persona_id": "dual-income-couples-no-kids--jayden-okafor",
+    "segment": "Dual-income couples, no kids",
+    "who": "Jayden Okafor, 38, Financial Analyst, Toronto, Canada",
+    "household": "Partner (f 37)",
+    "income": "C$130,000 CAD per annum",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "financially-responsible",
+      "urban-professional",
+      "app-heavy"
+    ]
+  },
+  {
+    "persona_id": "dual-income-couples-no-kids--marcus-chen",
+    "segment": "Dual-income couples, no kids",
+    "who": "Marcus Chen, 29, Software Engineer, Melbourne, Australia",
+    "household": "Partner (f 28)",
+    "income": "A$145,000 AUD per annum",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "tech-native",
+      "early-adopter",
+      "gadget-lover"
+    ]
+  },
+  {
+    "persona_id": "dual-income-couples-no-kids--sarah-jenkins",
+    "segment": "Dual-income couples, no kids",
+    "who": "Sarah Jenkins, 42, Civil Engineer, Manchester, UK",
+    "household": "Partner (m 45)",
+    "income": "\u00a392,000 GBP per annum",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "ethical-consumer",
+      "pragmatic",
+      "detail-oriented"
+    ]
+  },
+  {
+    "persona_id": "early-career-professionals--aisha-hassan",
+    "segment": "Early-career professionals",
+    "who": "Aisha Hassan, 27, Junior Marketing Analyst, Manchester, UK",
+    "household": "Lives alone",
+    "income": "\u00a332,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "urban",
+      "foodie",
+      "subscription_user"
+    ]
+  },
+  {
+    "persona_id": "early-career-professionals--elena-rossi",
+    "segment": "Early-career professionals",
+    "who": "Elena Rossi, 26, Financial Analyst, Berlin, Germany",
+    "household": "Lives with partner, no children",
+    "income": "\u20ac48,000",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "budget-conscious",
+      "European",
+      "methodical"
+    ]
+  },
+  {
+    "persona_id": "early-career-professionals--jayden-brooks",
+    "segment": "Early-career professionals",
+    "who": "Jayden Brooks, 31, Entry-level Project Manager, Sydney, Australia",
+    "household": "Lives with sibling who pays half the rent",
+    "income": "A$75,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "social",
+      "Australian",
+      "app_heavy"
+    ]
+  },
+  {
+    "persona_id": "early-career-professionals--marcus-chen",
+    "segment": "Early-career professionals",
+    "who": "Marcus Chen, 29, Software Developer, San Francisco, USA",
+    "household": "Roommates with two other developers",
+    "income": "$95,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "tech-savvy",
+      "urban",
+      "gadget_lover"
+    ]
+  },
+  {
+    "persona_id": "emerging-market-urban-consumers--arjun-patel",
+    "segment": "Emerging-market urban consumers",
+    "who": "Arjun Patel, 28, Junior data analyst, Mumbai, India",
+    "household": "Lives alone in a shared flat",
+    "income": "\u20b94.2 lakh per annum",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "mobile_first",
+      "price_conscious",
+      "gig_economy_user"
+    ]
+  },
+  {
+    "persona_id": "emerging-market-urban-consumers--chidi-okonkwo",
+    "segment": "Emerging-market urban consumers",
+    "who": "Chidi Okonkwo, 45, Small-scale logistics contractor, Lagos, Nigeria",
+    "household": "Married with three children (10, 13, 16)",
+    "income": "\u20a6 850,000 per annum",
+    "price_sensitivity": "high",
+    "tech_comfort": "low",
+    "tags": [
+      "logistics",
+      "cash_preferrer",
+      "household_breadwinner"
+    ]
+  },
+  {
+    "persona_id": "emerging-market-urban-consumers--mariana-silva",
+    "segment": "Emerging-market urban consumers",
+    "who": "Mariana Silva, 34, High school chemistry teacher, Salvador, Brazil",
+    "household": "Lives with parents and younger brother",
+    "income": "R$ 3,800 per month",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "education_professional",
+      "family_oriented",
+      "digital_pay_user"
+    ]
+  },
+  {
+    "persona_id": "emerging-market-urban-consumers--siti-aisyah",
+    "segment": "Emerging-market urban consumers",
+    "who": "Siti Aisyah, 22, Freelance graphic designer, Jakarta, Indonesia",
+    "household": "Lives with roommates in a co-working colony",
+    "income": "Rp 45 million per year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "creative_professional",
+      "digital_nomad",
+      "app_enthusiast"
+    ]
+  },
+  {
+    "persona_id": "empty-nesters--arthur-penhaligon",
+    "segment": "Empty nesters",
+    "who": "Arthur Penhaligon, 62, Retired Civil Engineer, Cheltenham, UK",
+    "household": "Partner (60), no children at home",
+    "income": "\u00a358,000 per annum",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "retired",
+      "UK",
+      "cautious spender"
+    ]
+  },
+  {
+    "persona_id": "empty-nesters--barbara-st-clair",
+    "segment": "Empty nesters",
+    "who": "Barbara St. Clair, 58, Part-time University Lecturer, Portland, Oregon, USA",
+    "household": "Partner (60), two cats",
+    "income": "$112,000 per annum",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "educator",
+      "west-coast",
+      "tech-savvy"
+    ]
+  },
+  {
+    "persona_id": "empty-nesters--kevin-o-reilly",
+    "segment": "Empty nesters",
+    "who": "Kevin O'Reilly, 66, Small Business Owner, Dublin, Ireland",
+    "household": "Partner (65), occasional visits from grandchildren",
+    "income": "\u20ac65,000 per annum",
+    "price_sensitivity": "medium",
+    "tech_comfort": "low",
+    "tags": [
+      "entrepreneur",
+      "irish",
+      "traditional"
+    ]
+  },
+  {
+    "persona_id": "empty-nesters--sarah-juh-sz",
+    "segment": "Empty nesters",
+    "who": "Sarah Juh\u00e1sz, 55, Senior Project Manager, Budapest, Hungary",
+    "household": "Partner (56), one grown daughter visits monthly",
+    "income": "18,500 EUR per annum",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "professional",
+      "hungarian",
+      "value-conscious"
+    ]
+  },
+  {
+    "persona_id": "freelancers-and-gig-workers--anika-sharma",
+    "segment": "Freelancers and gig workers",
+    "who": "Anika Sharma, 28, Graphic designer & UI contractor, Bangalore, India",
+    "household": "Lives with parents, pays rent contribution",
+    "income": "\u20b912,00,000 per year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "creative-freelancer",
+      "digital-native",
+      "portfolio-builder"
+    ]
+  },
+  {
+    "persona_id": "freelancers-and-gig-workers--kevin-okafor",
+    "segment": "Freelancers and gig workers",
+    "who": "Kevin Okafor, 32, Ride-share and delivery driver, Leeds, UK",
+    "household": "Lives alone",
+    "income": "\u00a318,500 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "gig-economy",
+      "blue-collar-freelancer",
+      "cash-flow-conscious"
+    ]
+  },
+  {
+    "persona_id": "freelancers-and-gig-workers--marcus-thorne",
+    "segment": "Freelancers and gig workers",
+    "who": "Marcus Thorne, 55, Consultant (IT security audits), Portland, OR, USA",
+    "household": "Partner (full-time employee) + cat",
+    "income": "$95,000 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "established-freelancer",
+      "benefits-focused",
+      "skeptical-of-hype"
+    ]
+  },
+  {
+    "persona_id": "freelancers-and-gig-workers--sofia-rahman",
+    "segment": "Freelancers and gig workers",
+    "who": "Sofia Rahman, 22, Social media manager & content creator, Dhaka, Bangladesh",
+    "household": "Lives with extended family, sends money home",
+    "income": "\u09f3 3,200,000 per year",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "young-freelancer",
+      "cash-strapped",
+      "mobile-first"
+    ]
+  },
+  {
+    "persona_id": "frugal-optimisers--claire-higgins",
+    "segment": "Frugal optimisers",
+    "who": "Claire Higgins, 42, Senior Administrative Assistant, Leeds, UK",
+    "household": "Partner + two kids (4, 9)",
+    "income": "\u00a324,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "coupon-user",
+      "budget-parent"
+    ]
+  },
+  {
+    "persona_id": "frugal-optimisers--jae-park",
+    "segment": "Frugal optimisers",
+    "who": "Jae Park, 28, Graphic Designer, Seoul, South Korea",
+    "household": "Lives alone in a studio apartment",
+    "income": "\u20a935,000,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "digital-native",
+      "point-chaser"
+    ]
+  },
+  {
+    "persona_id": "frugal-optimisers--mira-singh",
+    "segment": "Frugal optimisers",
+    "who": "Mira Singh, 33, Secondary School Teacher, Mumbai, India",
+    "household": "Joint family: parents, brother, sister-in-law, and nephew",
+    "income": "\u20b912,00,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "household-budgeter",
+      "bulk-buyer"
+    ]
+  },
+  {
+    "persona_id": "frugal-optimisers--walter-jenkins",
+    "segment": "Frugal optimisers",
+    "who": "Walter Jenkins, 61, Retired High School Principal, Portland, OR, USA",
+    "household": "Spouse, divorced adult children visit occasionally",
+    "income": "$48,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "senior",
+      "thrift-shopper"
+    ]
+  },
+  {
+    "persona_id": "health-and-fitness-driven--dimitri-vasiliev",
+    "segment": "Health and fitness driven",
+    "who": "Dimitri Vasiliev, 45, Civil Engineer, Moscow, Russia",
+    "household": "Wife (42) and teenage daughter (16)",
+    "income": "\u20bd3,200,000 RUB / month",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "Moscow",
+      "engineer",
+      "IIFYM"
+    ]
+  },
+  {
+    "persona_id": "health-and-fitness-driven--kenji-tanaka",
+    "segment": "Health and fitness driven",
+    "who": "Kenji Tanaka, 34, Senior Data Analyst, Tokyo, Japan",
+    "household": "Partner (32) and one cat",
+    "income": "\u00a58,500,000 JPY / year",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "Tokyo",
+      "gym-rat",
+      "data-obsessive"
+    ]
+  },
+  {
+    "persona_id": "health-and-fitness-driven--priya-desai",
+    "segment": "Health and fitness driven",
+    "who": "Priya Desai, 52, High School Physics Teacher, Bangalore, India",
+    "household": "Husband (55) and mother (80) living in joint family setup",
+    "income": "\u20b91,800,000 INR / year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "Bangalore",
+      "teacher",
+      "family-focused"
+    ]
+  },
+  {
+    "persona_id": "health-and-fitness-driven--sarah-jenkins",
+    "segment": "Health and fitness driven",
+    "who": "Sarah Jenkins, 28, Marketing Coordinator, Manchester, UK",
+    "household": "Living alone, occasional roommate for rent-splitting",
+    "income": "\u00a324,000 GBP / year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "Manchester",
+      "freelance",
+      "budget-conscious"
+    ]
+  },
+  {
+    "persona_id": "households-with-medical-dietary-needs--arthur-penhaligon",
+    "segment": "Households with medical dietary needs",
+    "who": "Arthur Penhaligon, 52, High school physics teacher, Bendigo, Australia",
+    "household": "married with teenage son (16)",
+    "income": "AUD $95,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "regional",
+      "dual-income",
+      "health-monitorer"
+    ]
+  },
+  {
+    "persona_id": "households-with-medical-dietary-needs--elaine-mcallister",
+    "segment": "Households with medical dietary needs",
+    "who": "Elaine McAllister, 61, Retired civil servant, Belfast, Northern Ireland",
+    "household": "widowed, lives alone",
+    "income": "\u00a318,500",
+    "price_sensitivity": "high",
+    "tech_comfort": "low",
+    "tags": [
+      "elderly",
+      "isolated",
+      "brand-loyal"
+    ]
+  },
+  {
+    "persona_id": "households-with-medical-dietary-needs--kenji-tanaka",
+    "segment": "Households with medical dietary needs",
+    "who": "Kenji Tanaka, 34, Graphic designer, Osaka, Japan",
+    "household": "partner (non-allergic) + cat",
+    "income": "\u00a56,500,000",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "creative",
+      "urban",
+      "isolation-aware"
+    ]
+  },
+  {
+    "persona_id": "households-with-medical-dietary-needs--maria-gonzalez",
+    "segment": "Households with medical dietary needs",
+    "who": "Maria Gonzalez, 28, Junior data analyst, Manchester, UK",
+    "household": "living alone",
+    "income": "\u00a324,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "urban",
+      "single",
+      "price-conscious",
+      "tech-savvy"
+    ]
+  },
+  {
+    "persona_id": "new-parents--ellen",
+    "segment": "New parents",
+    "who": "Ellen, 28, Graphic designer, Manchester, UK",
+    "household": "Partner (32) + baby Leo (6 months)",
+    "income": "\u00a338,000 / year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "first_time_parent",
+      "urban",
+      "design_conscious"
+    ]
+  },
+  {
+    "persona_id": "new-parents--julian",
+    "segment": "New parents",
+    "who": "Julian, 31, Librarian, Portland, Oregon, USA",
+    "household": "Partner (30) + baby Sage (19 months); chosen family network for childcare",
+    "income": "$65,000 / year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "lgbtq_parent",
+      "sustainability_focused",
+      "urban"
+    ]
+  },
+  {
+    "persona_id": "new-parents--marcus",
+    "segment": "New parents",
+    "who": "Marcus, 35, High school history teacher, Austin, Texas, USA",
+    "household": "Partner (34) + baby Maya (14 months); live-in mother-in-law helps with mornings",
+    "income": "$72,000 / year",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "working_parent",
+      "south_us",
+      "pragmatic"
+    ]
+  },
+  {
+    "persona_id": "new-parents--soo-jin",
+    "segment": "New parents",
+    "who": "Soo-jin, 24, Barista, Seoul, South Korea",
+    "household": "Partner (26) + baby Ji-woo (9 months); lives in a 2-room officetel",
+    "income": "\u20a942,000,000 / year",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "urban",
+      "delivery_dependent",
+      "cost_aware"
+    ]
+  },
+  {
+    "persona_id": "parents-of-primary-school-kids--anika-sharma",
+    "segment": "Parents of primary-school kids",
+    "who": "Anika Sharma, 39, Graphic Designer, Sydney, Australia",
+    "household": "Partner + one child (8)",
+    "income": "A$95,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "creative",
+      "high_earner",
+      "digital_native"
+    ]
+  },
+  {
+    "persona_id": "parents-of-primary-school-kids--david-chen",
+    "segment": "Parents of primary-school kids",
+    "who": "David Chen, 41, Senior Marketing Manager, Manchester, UK",
+    "household": "Partner + two kids (6, 9)",
+    "income": "\u00a358,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "working_parent",
+      "urban",
+      "tech_comfortable"
+    ]
+  },
+  {
+    "persona_id": "parents-of-primary-school-kids--kevin-o-reilly",
+    "segment": "Parents of primary-school kids",
+    "who": "Kevin O'Reilly, 45, Civil Engineer, Dublin, Ireland",
+    "household": "Partner + three kids (5, 8, 11)",
+    "income": "\u20ac75,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "engineer",
+      "multi_child",
+      "traditional"
+    ]
+  },
+  {
+    "persona_id": "parents-of-primary-school-kids--maria-santos",
+    "segment": "Parents of primary-school kids",
+    "who": "Maria Santos, 36, Primary School Teacher, Bristol, UK",
+    "household": "Partner + one child (7)",
+    "income": "\u00a332,000",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "teacher",
+      "budget_conscious",
+      "local_food"
+    ]
+  },
+  {
+    "persona_id": "parents-of-teenagers--darren-o-malley",
+    "segment": "Parents of teenagers",
+    "who": "Darren O'Malley, 51, Factory shift supervisor, Dublin, Ireland",
+    "household": "Partner + one teen (15) and a dog",
+    "income": "\u20ac52,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "low",
+    "tags": [
+      "traditional",
+      "low-tech",
+      "practical"
+    ]
+  },
+  {
+    "persona_id": "parents-of-teenagers--evelyn-reed",
+    "segment": "Parents of teenagers",
+    "who": "Evelyn Reed, 42, High school English teacher, Leeds, UK",
+    "household": "Partner + two teens (15, 17)",
+    "income": "\u00a348,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "budget-conscious",
+      "tech-savvy",
+      "school-run"
+    ]
+  },
+  {
+    "persona_id": "parents-of-teenagers--marcus-chen",
+    "segment": "Parents of teenagers",
+    "who": "Marcus Chen, 45, Civil engineer, Austin, Texas, USA",
+    "household": "Wife + son (16) + daughter (13)",
+    "income": "$115,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "hands-on",
+      "gamer dad",
+      "detail-oriented"
+    ]
+  },
+  {
+    "persona_id": "parents-of-teenagers--sofia-patel",
+    "segment": "Parents of teenagers",
+    "who": "Sofia Patel, 38, Marketing coordinator, Mumbai, India",
+    "household": "Joint family + two teens (14, 16)",
+    "income": "\u20b918,00,000",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "cost-sensitive",
+      "family-oriented",
+      "local-market"
+    ]
+  },
+  {
+    "persona_id": "privacy-conscious-tech-sceptics--ethan-miller",
+    "segment": "Privacy-conscious tech sceptics",
+    "who": "Ethan Miller, 22, Barista, Portland, USA",
+    "household": "Roommates, shared apartment",
+    "income": "$28,000 USD",
+    "price_sensitivity": "high",
+    "tech_comfort": "low",
+    "tags": [
+      "gig-economy victim",
+      "student budget",
+      "anti-app"
+    ]
+  },
+  {
+    "persona_id": "privacy-conscious-tech-sceptics--jia-wei",
+    "segment": "Privacy-conscious tech sceptics",
+    "who": "Jia Wei, 34, Secondary school teacher, Shanghai, China",
+    "household": "Living with parents, no partner",
+    "income": "\u00a5120,000 CNY",
+    "price_sensitivity": "medium",
+    "tech_comfort": "low",
+    "tags": [
+      "cash-user",
+      "market-shopper",
+      "app-averse"
+    ]
+  },
+  {
+    "persona_id": "privacy-conscious-tech-sceptics--margaret-higgins",
+    "segment": "Privacy-conscious tech sceptics",
+    "who": "Margaret Higgins, 68, Retired civil servant, Leeds, UK",
+    "household": "Partner, widowed sister lives nearby",
+    "income": "\u00a318,500 GBP",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "low-tech",
+      "cash-user",
+      "community-reliant"
+    ]
+  },
+  {
+    "persona_id": "privacy-conscious-tech-sceptics--sofia-rossi",
+    "segment": "Privacy-conscious tech sceptics",
+    "who": "Sofia Rossi, 45, Graphic designer, Milan, Italy",
+    "household": "Partner, one cat",
+    "income": "\u20ac35,000 EUR",
+    "price_sensitivity": "medium",
+    "tech_comfort": "low",
+    "tags": [
+      "cash-paying",
+      "planner-user",
+      "anti-digital"
+    ]
+  },
+  {
+    "persona_id": "recent-graduates--ethan-miller",
+    "segment": "Recent graduates",
+    "who": "Ethan Miller, 28, Secondary School Teacher, Melbourne, Australia",
+    "household": "Rents a room in a sharehouse with two other guys",
+    "income": "A$58,000 AUD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "experience-seeker",
+      "teacher",
+      "sharehouse"
+    ]
+  },
+  {
+    "persona_id": "recent-graduates--marcus-chen",
+    "segment": "Recent graduates",
+    "who": "Marcus Chen, 23, Junior Data Analyst, Manchester, UK",
+    "household": "Lives in a 3-bed flat with 3 other graduates",
+    "income": "\u00a322,000 GBP",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "budget-conscious",
+      "shared-accounts",
+      "commuter"
+    ]
+  },
+  {
+    "persona_id": "recent-graduates--priya-patel",
+    "segment": "Recent graduates",
+    "who": "Priya Patel, 25, Marketing Coordinator, Bangalore, India",
+    "household": "Lives with parents in a joint family apartment",
+    "income": "\u20b96,50,000 INR",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "family-oriented",
+      "brand-loyal",
+      "impulse-buyer"
+    ]
+  },
+  {
+    "persona_id": "recent-graduates--sophie-okonkwo",
+    "segment": "Recent graduates",
+    "who": "Sophie Okonkwo, 22, Graphic Designer, Toronto, Canada",
+    "household": "Lives in a studio apartment alone, pays rent independently",
+    "income": "CAD $42,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "independent",
+      "creative",
+      "urban"
+    ]
+  },
+  {
+    "persona_id": "recent-immigrants--aisha-hassan",
+    "segment": "Recent immigrants",
+    "who": "Aisha Hassan, 32, Warehouse associate, Manchester, UK",
+    "household": "Partner + one child (6)",
+    "income": "\u00a318,500 GBP",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "new_to_uk",
+      "remittance_user",
+      "budget_shopper"
+    ]
+  },
+  {
+    "persona_id": "recent-immigrants--dimitri-volkov",
+    "segment": "Recent immigrants",
+    "who": "Dimitri Volkov, 58, Retail manager, Melbourne, Australia",
+    "household": "Solo dweller, adult children live overseas",
+    "income": "AUD 78,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "established_migrant",
+      "routine_lover",
+      "financially_stable"
+    ]
+  },
+  {
+    "persona_id": "recent-immigrants--mateo-alvarez",
+    "segment": "Recent immigrants",
+    "who": "Mateo Alvarez, 45, Senior software engineer, Berlin, Germany",
+    "household": "Partner + two teenagers (15, 17)",
+    "income": "\u20ac62,000 EUR",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "high_skilled_migrant",
+      "tech_savvy",
+      "family_first"
+    ]
+  },
+  {
+    "persona_id": "recent-immigrants--priya-sharma",
+    "segment": "Recent immigrants",
+    "who": "Priya Sharma, 28, Graphic designer, Toronto, Canada",
+    "household": "Lives alone in a studio apartment",
+    "income": "CAD 45,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "young_professional",
+      "digital_nomad",
+      "culture_blender"
+    ]
+  },
+  {
+    "persona_id": "retirees-on-fixed-income--barry-peverill",
+    "segment": "Retirees on fixed income",
+    "who": "Barry Peverill, 64, Retired welder, Manchester, UK",
+    "household": "Partner, late 60s; no children",
+    "income": "\u00a322,100 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "UK",
+      "ledger-user",
+      "blunt"
+    ]
+  },
+  {
+    "persona_id": "retirees-on-fixed-income--evelyn-rojas",
+    "segment": "Retirees on fixed income",
+    "who": "Evelyn Rojas, 78, Retired administrative assistant, Mexico City, Mexico",
+    "household": "Lives alone; daughter visits weekly",
+    "income": "MXN 280,000 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "Mexico",
+      "landline-user",
+      "frugal"
+    ]
+  },
+  {
+    "persona_id": "retirees-on-fixed-income--kenji-tanaka",
+    "segment": "Retirees on fixed income",
+    "who": "Kenji Tanaka, 68, Retored factory supervisor, Osaka, Japan",
+    "household": "Wife, married 45 years; adult daughter lives nearby",
+    "income": "\u00a52,100,000 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "Japan",
+      "fixed-income",
+      "convenience-store-payer"
+    ]
+  },
+  {
+    "persona_id": "retirees-on-fixed-income--martha-higgins",
+    "segment": "Retirees on fixed income",
+    "who": "Martha Higgins, 72, Retired school librarian, Birmingham, UK",
+    "household": "Husband, widowed 5 years ago",
+    "income": "\u00a318,400 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "UK",
+      "pensioner",
+      "phone-user"
+    ]
+  },
+  {
+    "persona_id": "rural-households--brenda-o-connor",
+    "segment": "Rural households",
+    "who": "Brenda O'Connor, 28, Remote customer service representative, Ballycastle, County Mayo, Ireland",
+    "household": "Solo living, frequent visits from parents",
+    "income": "EUR 24,000 per year",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "remote worker",
+      "budget-conscious",
+      "digital nomad (rural)"
+    ]
+  },
+  {
+    "persona_id": "rural-households--evelyn-sharp",
+    "segment": "Rural households",
+    "who": "Evelyn Sharp, 72, Retired school administrator, Lakeview County, Saskatchewan, Canada",
+    "household": "Partner (70), two cats",
+    "income": "CAD 38,000 per year",
+    "price_sensitivity": "high",
+    "tech_comfort": "low",
+    "tags": [
+      "senior",
+      "isolated",
+      "fixed-income"
+    ]
+  },
+  {
+    "persona_id": "rural-households--javier-mateo",
+    "segment": "Rural households",
+    "who": "Javier Mateo, 34, Farmer / Agri-tech consultant, Buda\u00f6rs District, Pest County, Hungary",
+    "household": "Partner (32), infant daughter",
+    "income": "HUF 12,000,000 per year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "farmer",
+      "tech-savvy",
+      "young family"
+    ]
+  },
+  {
+    "persona_id": "rural-households--thomas-nguyen",
+    "segment": "Rural households",
+    "who": "Thomas Nguyen, 55, Hardware store owner, Lumberton, North Carolina, USA",
+    "household": "Wife (52), teenage son",
+    "income": "USD 62,000 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "business owner",
+      "logistics",
+      "community hub"
+    ]
+  },
+  {
+    "persona_id": "rural-value-conscious-households--chloe-bennett",
+    "segment": "Rural Value-Conscious Households",
+    "who": "Chloe Bennett, 29, Graphic designer working from a home studio, Exmoor, Somerset, England",
+    "household": "Live-in partner, two cats",
+    "income": "$31,200 / year",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "somerset",
+      "designer",
+      "eco-conscious",
+      "millennial"
+    ]
+  },
+  {
+    "persona_id": "rural-value-conscious-households--darnell-vance",
+    "segment": "Rural Value-Conscious Households",
+    "who": "Darnell Vance, 34, Maintenance technician at a local factory, St. Mary's, Ontario, Canada",
+    "household": "Fianc\u00e9e and a newborn daughter",
+    "income": "$42,000 / year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "young family",
+      "ontario",
+      "blue-collar",
+      "tech-savvy-but-broke"
+    ]
+  },
+  {
+    "persona_id": "rural-value-conscious-households--margaret-higgins",
+    "segment": "Rural Value-Conscious Households",
+    "who": "Margaret Higgins, 72, Retired school bus driver, Owens Cross Roads, Alabama, USA",
+    "household": "Partner, widowed brother living in the guest wing",
+    "income": "$28,400 / year",
+    "price_sensitivity": "low",
+    "tech_comfort": "low",
+    "tags": [
+      "retired",
+      "fixed-income",
+      "alabama",
+      "self-sufficient"
+    ]
+  },
+  {
+    "persona_id": "shift-workers--anika-sharma",
+    "segment": "Shift workers",
+    "who": "Anika Sharma, 33, Warehouse Supervisor, Birmingham, UK",
+    "household": "Flat-share with two friends",
+    "income": "\u00a328,000",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "warehouse",
+      "shift_swaps",
+      "budget conscious"
+    ]
+  },
+  {
+    "persona_id": "shift-workers--david-chen",
+    "segment": "Shift workers",
+    "who": "David Chen, 45, Long-haul Truck Driver, Manchester, UK",
+    "household": "Solo",
+    "income": "\u00a348,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "transport",
+      "solo",
+      "long_haul"
+    ]
+  },
+  {
+    "persona_id": "shift-workers--ethan-miller",
+    "segment": "Shift workers",
+    "who": "Ethan Miller, 52, Hotel Night Auditor, Brighton, UK",
+    "household": "Wife + adult daughter who visits weekends",
+    "income": "\u00a338,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "low",
+    "tags": [
+      "hospitality",
+      "older_worker",
+      "traditional"
+    ]
+  },
+  {
+    "persona_id": "shift-workers--maria-santos",
+    "segment": "Shift workers",
+    "who": "Maria Santos, 28, Registered Nurse, Leeds, UK",
+    "household": "Partner + one child (3)",
+    "income": "\u00a332,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "healthcare",
+      "night_shift",
+      "parent"
+    ]
+  },
+  {
+    "persona_id": "single-parents--david-okonkwo",
+    "segment": "Single parents",
+    "who": "David Okonkwo, 42, Civil Engineer, Lagos, Nigeria",
+    "household": "Son (5)",
+    "income": "\u20a63,200,000 NGN",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "tech-native",
+      "investor-mindset",
+      "urban"
+    ]
+  },
+  {
+    "persona_id": "single-parents--elara-vance",
+    "segment": "Single parents",
+    "who": "Elara Vance, 28, Freelance Graphic Designer, Portland, OR, USA",
+    "household": "Daughter (3)",
+    "income": "$38,000 USD",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "minimalist",
+      "budget-stretched",
+      "digital-native"
+    ]
+  },
+  {
+    "persona_id": "single-parents--kenji-tanaka",
+    "segment": "Single parents",
+    "who": "Kenji Tanaka, 51, Restaurant Manager, Osaka, Japan",
+    "household": "Son (16)",
+    "income": "\u00a55,500,000 JPY",
+    "price_sensitivity": "medium",
+    "tech_comfort": "low",
+    "tags": [
+      "cash-preferred",
+      "tech-avoidant",
+      "established"
+    ]
+  },
+  {
+    "persona_id": "single-parents--maria-chen",
+    "segment": "Single parents",
+    "who": "Maria Chen, 34, Primary School Teacher, Leeds, UK",
+    "household": "Daughter (7) and Son (10)",
+    "income": "\u00a324,800 GBP",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "budget-conscious",
+      "time-poor",
+      "tech-savvy-enough"
+    ]
+  },
+  {
+    "persona_id": "small-business-owners--darius-vance",
+    "segment": "Small-business owners",
+    "who": "Darius Vance, 28, Mobile dog-grooming contractor, Manchester, UK",
+    "household": "Rents a ground-floor flat with two rescued cats; no partner",
+    "income": "\u00a322,000 GBP annually",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "gig-economy",
+      "price-sensitive",
+      "young"
+    ]
+  },
+  {
+    "persona_id": "small-business-owners--kenji-tanaka",
+    "segment": "Small-business owners",
+    "who": "Kenji Tanaka, 34, Owner-operator, independent electronics repair shop, Nakano, Tokyo, Japan",
+    "household": "Lives alone; occasional visits from married sister",
+    "income": "\u00a56,500,000 JPY annually",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "sole-prop",
+      "tech-savvy",
+      "urban"
+    ]
+  },
+  {
+    "persona_id": "small-business-owners--margaret-maggie-o-reilly",
+    "segment": "Small-business owners",
+    "who": "Margaret 'Maggie' O'Reilly, 52, Proprietor, independent bookstore-cafe hybrid, Cobh, County Cork, Ireland",
+    "household": "Partner (55), adult daughter (23) living at home during gaps in university",
+    "income": "\u20ac48,000 EUR annually",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "community-focused",
+      "hospitality",
+      "older demo"
+    ]
+  },
+  {
+    "persona_id": "small-business-owners--sofia-alvarez",
+    "segment": "Small-business owners",
+    "who": "Sofia Alvarez, 45, Owner, family-run Mexican street-food truck, Mexico City, Mexico",
+    "household": "Married partner (42); one son (11) helps with setup and cash handling",
+    "income": "MXN 450,000 monthly (approx. $28,000 USD annually)",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "food-service",
+      "family-business",
+      "mid-career"
+    ]
+  },
+  {
+    "persona_id": "small-town-households--brendon-o-connor",
+    "segment": "Small-town households",
+    "who": "Brendon O'Connor, 52, Hardware store manager, Springfield, Missouri, USA",
+    "household": "Wife, teenage son (15)",
+    "income": "$70,000 USD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "middle-management",
+      "homeowner",
+      "practical"
+    ]
+  },
+  {
+    "persona_id": "small-town-households--darnell-vance",
+    "segment": "Small-town households",
+    "who": "Darnell Vance, 34, Welding technician, Brunswick, Georgia, USA",
+    "household": "Partner, one toddler (2)",
+    "income": "$52,000 USD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "working-class",
+      "young_family",
+      "tech-savvy-enough"
+    ]
+  },
+  {
+    "persona_id": "small-town-households--margaret-higgins",
+    "segment": "Small-town households",
+    "who": "Margaret Higgins, 78, Retired school administrator, Mapleton, Iowa, USA",
+    "household": "Spouse, grown daughter visits weekly",
+    "income": "$38,000 USD",
+    "price_sensitivity": "high",
+    "tech_comfort": "low",
+    "tags": [
+      "senior",
+      "fixed-income",
+      "rural"
+    ]
+  },
+  {
+    "persona_id": "small-town-households--sofia-ramos",
+    "segment": "Small-town households",
+    "who": "Sofia Ramos, 29, Remote graphic designer, Cedar Rapids, Iowa, USA",
+    "household": "Lives alone, parents live 30 minutes away",
+    "income": "$45,000 USD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "millennial",
+      "remote_work",
+      "urban-sprawl-escape"
+    ]
+  },
+  {
+    "persona_id": "suburban-dual-income-families--arthur-penhaligon",
+    "segment": "Suburban Dual-Income Families",
+    "who": "Arthur Penhaligon, 35, High School History Teacher, Leeds, West Yorkshire, UK",
+    "household": "partner + one child (3) and a golden retriever",
+    "income": "$78,000 GBP",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "teacher",
+      "budget_minimalist",
+      "foodie"
+    ]
+  },
+  {
+    "persona_id": "suburban-dual-income-families--elena-ramirez",
+    "segment": "Suburban Dual-Income Families",
+    "who": "Elena Ramirez, 42, Senior Project Manager at a tech firm, Cranberry Township, Pennsylvania, USA",
+    "household": "partner + two kids (7 and 11)",
+    "income": "$125,000 USD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "working_mom",
+      "cost_conscious",
+      "tech_savvy"
+    ]
+  },
+  {
+    "persona_id": "suburban-dual-income-families--sarah-jian",
+    "segment": "Suburban Dual-Income Families",
+    "who": "Sarah Jian, 29, Financial Analyst, Melbourne, Victoria, Australia",
+    "household": "partner + no children yet, two cats",
+    "income": "$95,000 AUD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "career_first",
+      "urban_suburban",
+      "digital_native"
+    ]
+  },
+  {
+    "persona_id": "tech-early-adopters--jamal-chen",
+    "segment": "Tech early adopters",
+    "who": "Jamal Chen, 34, Senior Data Analyst, Leeds, UK",
+    "household": "Partner (29) and cat",
+    "income": "\u00a348,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "remote work",
+      "gadget reviewer"
+    ]
+  },
+  {
+    "persona_id": "tech-early-adopters--kenji-tanaka",
+    "segment": "Tech early adopters",
+    "who": "Kenji Tanaka, 45, High School Teacher, Tokyo, Japan",
+    "household": "Wife (42) and son (11)",
+    "income": "\u00a58,500,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "work-life balance",
+      " edu-tech"
+    ]
+  },
+  {
+    "persona_id": "tech-early-adopters--maya-rostova",
+    "segment": "Tech early adopters",
+    "who": "Maya Rostova, 28, UX Designer, Berlin, Germany",
+    "household": "Roommate (friend, 30)",
+    "income": "\u20ac42,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "design community",
+      "open source"
+    ]
+  },
+  {
+    "persona_id": "tech-early-adopters--sarah-jenkins",
+    "segment": "Tech early adopters",
+    "who": "Sarah Jenkins, 21, Barista, Portland, OR, USA",
+    "household": "Lives alone",
+    "income": "$28,000",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "budget conscious",
+      "indie music"
+    ]
+  },
+  {
+    "persona_id": "tech-enthusiast-empty-nesters--barbara-jensen",
+    "segment": "Tech-Enthusiast Empty Nesters",
+    "who": "Barbara Jensen, 62, Retired High School Chemistry Teacher, Portland, OR",
+    "household": "partner + two cats",
+    "income": "$78,000 USD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "early-adopter",
+      "home-cook",
+      "pet-parent"
+    ]
+  },
+  {
+    "persona_id": "tech-enthusiast-empty-nesters--harold-whitfield",
+    "segment": "Tech-Enthusiast Empty Nesters",
+    "who": "Harold Whitfield, 71, Retired Air Traffic Controller, Sheffield, UK",
+    "household": "wife of 45 years",
+    "income": "\u00a342,000 GBP",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "reliability-seeker",
+      "retired-professional",
+      "partner-oriented"
+    ]
+  },
+  {
+    "persona_id": "tech-enthusiast-empty-nesters--kenji-tanaka-2",
+    "segment": "Tech-Enthusiast Empty Nesters",
+    "who": "Kenji Tanaka, 58, Freelance Translator, Kawasaki, Japan",
+    "household": "Wife, Akiko; grown son moved out last year",
+    "income": "\u00a518,000,000 JPY",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "precision_hobbyist",
+      "gadget_researcher",
+      "methodical"
+    ]
+  },
+  {
+    "persona_id": "tech-enthusiast-empty-nesters--kenji-tanaka",
+    "segment": "Tech-Enthusiast Empty Nesters",
+    "who": "Kenji Tanaka, 58, Civil Engineer, Fukuoka, Japan",
+    "household": "wife, divorced daughter visits monthly",
+    "income": "\u00a512,000,000 JPY",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "bento-planner",
+      "engineer-mindset",
+      "cautious-upgrader"
+    ]
+  },
+  {
+    "persona_id": "tech-enthusiast-empty-nesters--margaret-higgins",
+    "segment": "Tech-Enthusiast Empty Nesters",
+    "who": "Margaret Higgins, 62, Retired University Librarian, Portland, Oregon, USA",
+    "household": "Partner, David",
+    "income": "$145,000 USD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "early_adopter",
+      "detail_oriented",
+      "social_cook"
+    ]
+  },
+  {
+    "persona_id": "tech-enthusiast-empty-nesters--margaret-maggie-o-malley",
+    "segment": "Tech-Enthusiast Empty Nesters",
+    "who": "Margaret 'Maggie' O'Malley, 65, Freelance Graphic Designer, Austin, TX",
+    "household": "single, lives alone",
+    "income": "$115,000 USD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "experimental-cook",
+      "solopreneur",
+      "early-adopter"
+    ]
+  },
+  {
+    "persona_id": "time-pressed-professionals--david-miller",
+    "segment": "Time-Pressed Professionals",
+    "who": "David Miller, 34, Senior Product Manager, Chicago, USA",
+    "household": "Partner + two kids (4, 9)",
+    "income": "$145,000 USD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "dual_income",
+      "subscriber",
+      "city"
+    ]
+  },
+  {
+    "persona_id": "time-pressed-professionals--elena-rostova",
+    "segment": "Time-Pressed Professionals",
+    "who": "Elena Rostova, 44, Civil Engineer, Toronto, Canada",
+    "household": "Partner + two dogs (Golden Retrievers)",
+    "income": "CAD $130,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "dual_income",
+      "pet_owner",
+      "professional"
+    ]
+  },
+  {
+    "persona_id": "time-pressed-professionals--jia-chen",
+    "segment": "Time-Pressed Professionals",
+    "who": "Jia Chen, 29, Startup Founder, Shanghai, China",
+    "household": "Partner + newborn + nanny share",
+    "income": "\u00a51,200,000 CNY",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "entrepreneur",
+      "tech_native",
+      "urban"
+    ]
+  },
+  {
+    "persona_id": "time-pressed-professionals--marcus-chen",
+    "segment": "Time-Pressed Professionals",
+    "who": "Marcus Chen, 34, Senior Consultant, Boston, USA",
+    "household": "Partner + two kids (6, 10)",
+    "income": "$165,000",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "dual-income",
+      "city-dweller",
+      "tech-savvy"
+    ]
+  },
+  {
+    "persona_id": "time-pressed-professionals--sarah-jenkins-2",
+    "segment": "Time-Pressed Professionals",
+    "who": "Sarah Jenkins, 41, High School Principal, Manchester, UK",
+    "household": "Partner + three kids (8, 11, 14)",
+    "income": "$135,000",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "family-first",
+      "budget-aware",
+      "school-focused"
+    ]
+  },
+  {
+    "persona_id": "time-pressed-professionals--sarah-jenkins",
+    "segment": "Time-Pressed Professionals",
+    "who": "Sarah Jenkins, 41, Corporate Lawyer, London, UK",
+    "household": "Partner + one daughter (12)",
+    "income": "\u00a3115,000 GBP",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "dual_income",
+      "professional",
+      "suburban"
+    ]
+  },
+  {
+    "persona_id": "university-students--aisha-khan",
+    "segment": "University students",
+    "who": "Aisha Khan, 20, Computer Science sophomore, Bangalore, India",
+    "household": "Lives with parents and younger brother in a 2-bedroom apartment",
+    "income": "\u20b98,50,000 INR",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "tech-savvy",
+      "family-oriented",
+      "frugal"
+    ]
+  },
+  {
+    "persona_id": "university-students--chen-wei",
+    "segment": "University students",
+    "who": "Chen Wei, 19, First-year Engineering student, Manchester, UK",
+    "household": "Flatmates (3rd year med student and art history grad)",
+    "income": "\u00a312,000 GBP",
+    "price_sensitivity": "high",
+    "tech_comfort": "high",
+    "tags": [
+      "budget-conscious",
+      "tech-native",
+      "commuter"
+    ]
+  },
+  {
+    "persona_id": "university-students--marcus-cole",
+    "segment": "University students",
+    "who": "Marcus Cole, 23, Final-year Business Administration student working part-time as a barista, Toronto, Canada",
+    "household": "Lives alone in a studio apartment (parents help with rent)",
+    "income": "C$22,000 CAD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "part-time worker",
+      "urban solo dweller",
+      "practical spender"
+    ]
+  },
+  {
+    "persona_id": "university-students--sofia-rodriguez",
+    "segment": "University students",
+    "who": "Sofia Rodriguez, 21, Creative Writing major, Melbourne, Australia",
+    "household": "Sharehouse with 2 other arts students",
+    "income": "A$18,500 AUD",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "creative",
+      "sharehouse",
+      "discount-hunter"
+    ]
+  },
+  {
+    "persona_id": "urban-dual-income-power-couple--eleanor-whitfield",
+    "segment": "Urban Dual-Income Power Couple",
+    "who": "Eleanor Whitfield, 41, Corporate Lawyer, Manchester, UK",
+    "household": "Partner (David) + rescued greyhound",
+    "income": "\u00a3118,000 GBP",
+    "price_sensitivity": "medium",
+    "tech_comfort": "medium",
+    "tags": [
+      "professional",
+      "pet_owner",
+      "brand_loyal"
+    ]
+  },
+  {
+    "persona_id": "urban-dual-income-power-couple--marcus-chen",
+    "segment": "Urban Dual-Income Power Couple",
+    "who": "Marcus Chen, 34, Senior Marketing Analyst, Seoul, South Korea",
+    "household": "Partner (Soo-jin) + cat",
+    "income": "$142,000 USD",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "city_dweller",
+      "tech_early_adopter",
+      "meal_prep_hater"
+    ]
+  },
+  {
+    "persona_id": "urban-dual-income-professionals--anika-sharma",
+    "segment": "Urban Dual-Income Professionals",
+    "who": "Anika Sharma, 29, Junior Product Designer, Manchester, UK",
+    "household": "Lives alone, frequent Airbnb guests (often friends visiting from out of town)",
+    "income": "\u00a342,000 annual household",
+    "price_sensitivity": "high",
+    "tech_comfort": "medium",
+    "tags": [
+      "minimalist",
+      "ethical_shopper",
+      "budget_watcher"
+    ]
+  },
+  {
+    "persona_id": "urban-dual-income-professionals--elena-rostova",
+    "segment": "Urban Dual-Income Professionals",
+    "who": "Elena Rostova, 32, Senior Marketing Manager, Berlin, Germany",
+    "household": "Partner (34) and cat (Miso)",
+    "income": "\u20ac85,000 annual household",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "city_dweller",
+      "gadget_enthusiast",
+      "flexible_diet"
+    ]
+  },
+  {
+    "persona_id": "urban-dual-income-professionals--marcus-chen",
+    "segment": "Urban Dual-Income Professionals",
+    "who": "Marcus Chen, 41, Financial Analyst, Sydney, Australia",
+    "household": "Partner (39) and a goldendoodle puppy",
+    "income": "A$145,000 annual household",
+    "price_sensitivity": "low",
+    "tech_comfort": "high",
+    "tags": [
+      "high_earner",
+      "subscription_hater",
+      "coffee_connoisseur"
+    ]
+  },
+  {
+    "persona_id": "urban-young-professionals--aisha-patel",
+    "segment": "Urban Young Professionals",
+    "who": "Aisha Patel, 39, Senior Analyst, Sydney, Australia",
+    "household": "lives with two roommates",
+    "income": "A$95,000 per year",
+    "price_sensitivity": "high",
+    "tech_comfort": "low",
+    "tags": [
+      "budget-conscious",
+      "time-poor",
+      "practical"
+    ]
+  },
+  {
+    "persona_id": "urban-young-professionals--marcus-chen",
+    "segment": "Urban Young Professionals",
+    "who": "Marcus Chen, 34, Software Engineer, Brooklyn, NYC, USA",
+    "household": "partner (no kids)",
+    "income": "$115,000 per year",
+    "price_sensitivity": "low",
+    "tech_comfort": "medium",
+    "tags": [
+      "urban",
+      "early-career",
+      " sustainability-focused"
+    ]
+  },
+  {
+    "persona_id": "urban-young-professionals--sarah-jenkins",
+    "segment": "Urban Young Professionals",
+    "who": "Sarah Jenkins, 27, Marketing Coordinator, Leeds, UK",
+    "household": "lives alone",
+    "income": "\u00a332,000 per year",
+    "price_sensitivity": "medium",
+    "tech_comfort": "high",
+    "tags": [
+      "busy",
+      "tech-savvy",
+      "value-conscious"
+    ]
+  }
+]

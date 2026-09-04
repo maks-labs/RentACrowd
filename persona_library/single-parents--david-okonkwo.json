@@ -1,0 +1,23 @@
+{
+  "persona_id": "single-parents--david-okonkwo",
+  "segment": "Single parents",
+  "name": "David Okonkwo",
+  "age": 42,
+  "gender": "Man",
+  "occupation": "Civil Engineer",
+  "location": "Lagos, Nigeria",
+  "household": "Son (5)",
+  "income_band": "\u20a63,200,000 NGN",
+  "price_sensitivity": "low",
+  "tech_comfort": "high",
+  "psychographics": "Disciplined spender; believes in investing in quality that lasts rather than replacing cheap items frequently",
+  "current_solutions": "Buys groceries from Mama Ade's bulk store; Uses Carbon credit app for airtime and data; Son watches cartoons on YouTube Kids",
+  "frustration": "Received a \u20a612,000 data bundle charge on the 14th of the month that failed to activate; spent 45 minutes on hold with customer service before the bundle expired unused",
+  "decision_style": "Researches product specifications on forums for hours; will pay premium for durability but only if the warranty is iron-clad",
+  "voice": "Calm and measured; uses technical terms like 'bandwidth' and 'latency' when describing app issues, but switches to Pidgin when frustrated",
+  "tags": [
+    "tech-native",
+    "investor-mindset",
+    "urban"
+  ]
+}

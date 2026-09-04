@@ -1,0 +1,23 @@
+{
+  "persona_id": "budget-conscious-young-professionals--miguel-santos",
+  "segment": "Budget-Conscious Young Professionals",
+  "name": "Miguel Santos",
+  "age": 34,
+  "gender": "Male",
+  "occupation": "Marketing Coordinator",
+  "location": "Mexico City, Mexico",
+  "household": "Lives with partner and a cat; shares cooking duties",
+  "income_band": "350,000 MXN per annum",
+  "price_sensitivity": "high",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes family time and reducing waste; believes a home-cooked meal is the best way to save money and stay healthy.",
+  "current_solutions": "Uses Didi Food for occasional late-night cravings, but relies heavily on a shared Google Sheet with his partner to track pantry staples and avoid buying duplicates. Shops at local markets (Mercado) for fresh produce.",
+  "frustration": "Ordered groceries via the Didi Food app at 7:30pm last Thursday; the delivery ETA kept pushing from 8pm to 9:15pm, and the driver cancelled without notification, leaving him with no dinner and having to spend 450 pesos on a convenience store ramen cup.",
+  "decision_style": "Researches price per kilo across three different supermarkets before committing; buys in bulk only if the unit price is at least 20% cheaper than the corner store.",
+  "voice": "Rambling and detail-oriented. Uses lots of parenthetical phrases and switches between Spanish and English mid-sentence when talking about food origins. Frequently says 'you know?' at the end of thoughts.",
+  "tags": [
+    "dual-income",
+    "market-shopper",
+    "waste-reducer"
+  ]
+}

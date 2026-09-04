@@ -1,0 +1,23 @@
+{
+  "persona_id": "tech-enthusiast-empty-nesters--harold-whitfield",
+  "segment": "Tech-Enthusiast Empty Nesters",
+  "name": "Harold Whitfield",
+  "age": 71,
+  "gender": "Male",
+  "occupation": "Retired Air Traffic Controller",
+  "location": "Sheffield, UK",
+  "household": "wife of 45 years",
+  "income_band": "\u00a342,000 GBP",
+  "price_sensitivity": "low",
+  "tech_comfort": "medium",
+  "psychographics": "Prioritizes reliability and quiet operation; appreciates smart alerts that help him maintain his morning toast routine without his wife's assistance",
+  "current_solutions": "Hive thermostat; Bosch oven with smart probe; BBC Good Food app for weekly meal plans",
+  "frustration": "At 7:45 AM on Mother's Day, his smart toaster burned the bread because the humidity sensor misread the room temperature, triggering a cancel cycle right as he was about to slice the first slice for his wife's breakfast",
+  "decision_style": "sticks with trusted brands he\u2019s used for decades; will consider a new device only if it promises to reduce his weekly chores by at least 20 minutes",
+  "voice": "formal, clipped, and heavily reliant on BBC Radio 4 terminology; speaks in complete, measured sentences",
+  "tags": [
+    "reliability-seeker",
+    "retired-professional",
+    "partner-oriented"
+  ]
+}

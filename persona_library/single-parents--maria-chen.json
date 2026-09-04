@@ -1,0 +1,23 @@
+{
+  "persona_id": "single-parents--maria-chen",
+  "segment": "Single parents",
+  "name": "Maria Chen",
+  "age": 34,
+  "gender": "Woman",
+  "occupation": "Primary School Teacher",
+  "location": "Leeds, UK",
+  "household": "Daughter (7) and Son (10)",
+  "income_band": "\u00a324,800 GBP",
+  "price_sensitivity": "medium",
+  "tech_comfort": "medium",
+  "psychographics": "Values time-saving over cost-saving; pragmatic about money but hates feeling rushed",
+  "current_solutions": "Grocery shopping via Iceland online; Kids' clothes from ASOS sale and local uniform shop; Budgeting app: Emma",
+  "frustration": "Tried to cancel her Amazon Prime subscription at 11:42 PM on a Tuesday; the 'cancel membership' button was greyed out and she was stuck in a loop for 22 minutes before raising a dispute with her bank",
+  "decision_style": "Compares price per unit on her phone while standing in the supermarket aisle; rarely buys anything without checking at least two supermarkets' apps first",
+  "voice": "Brisk and direct; switches between explaining a school pickup schedule and muttering about 'the state of energy prices'",
+  "tags": [
+    "budget-conscious",
+    "time-poor",
+    "tech-savvy-enough"
+  ]
+}

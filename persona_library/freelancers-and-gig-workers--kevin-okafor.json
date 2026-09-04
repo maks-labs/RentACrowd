@@ -1,0 +1,23 @@
+{
+  "persona_id": "freelancers-and-gig-workers--kevin-okafor",
+  "segment": "Freelancers and gig workers",
+  "name": "Kevin Okafor",
+  "age": 32,
+  "gender": "Male",
+  "occupation": "Ride-share and delivery driver",
+  "location": "Leeds, UK",
+  "household": "Lives alone",
+  "income_band": "\u00a318,500 per year",
+  "price_sensitivity": "low",
+  "tech_comfort": "low",
+  "psychographics": "Prioritises flexibility over stability; views every unexpected bill as a threat to next month's rent",
+  "current_solutions": "Uses Monzo for budgeting, Uber app for jobs, and Cash App for instant transfers",
+  "frustration": "Tried to schedule a recurring \u00a315/month parking subscription on the 12th of the month, but the app flagged insufficient funds after the gig earnings dip that week, locking the account for 48 hours",
+  "decision_style": "Compares instant payout fees vs waiting time; chooses the fastest option that leaves enough cash for fuel",
+  "voice": "Short, direct sentences. Uses road slang like 'job' and 'shift'. Frequently says 'basically' at the start of explanations.",
+  "tags": [
+    "gig-economy",
+    "blue-collar-freelancer",
+    "cash-flow-conscious"
+  ]
+}
