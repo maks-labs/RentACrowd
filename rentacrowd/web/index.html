@@ -53,6 +53,7 @@
     box-shadow:0 0 18px rgba(10,132,255,.6)}
   nav .links{display:flex;gap:26px;font-size:13.5px;color:var(--ink-2)}
   nav .links a{transition:color .2s} nav .links a:hover{color:var(--ink)}
+  @media (max-width:640px){ nav .links{display:none} }
   nav .cta{font-size:13px;font-weight:600;padding:8px 16px;border-radius:20px;
     background:var(--glass-2);border:1px solid var(--line);transition:background .2s,transform .12s var(--spring)}
   nav .cta:hover{background:var(--glass-2)} nav .cta:active{transform:scale(.95)}
@@ -64,22 +65,7 @@
   body.in-study{overflow:hidden}
   body.in-study nav{opacity:0;transform:translateY(-100%);pointer-events:none}
 
-  /* ============ HERO ============ */
-  .hero{
-    min-height:100svh;display:flex;align-items:center;
-    padding:0 clamp(20px,5vw,80px);position:relative;overflow:hidden;
-  }
-  .hero-copy{max-width:600px;position:relative;z-index:4}
-  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;
-    color:var(--ink-2);letter-spacing:.02em;padding:6px 12px;border-radius:20px;
-    background:var(--glass);border:1px solid var(--line);margin-bottom:22px}
-  .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--k-cache);
-    box-shadow:0 0 8px var(--k-cache)}
-  .hero h1{font-size:clamp(2.4rem,4.6vw,3.9rem);font-weight:660;letter-spacing:-.035em;margin-bottom:20px}
-  .hero h1 .grad{background:linear-gradient(110deg,#fff 20%,#8fc2ff 55%,#c9a3ff);
-    -webkit-background-clip:text;background-clip:text;color:transparent}
-  .hero p.lede{font-size:clamp(1rem,1.5vw,1.2rem);color:var(--ink-2);line-height:1.6;margin-bottom:32px}
-  .hero .btns{display:flex;gap:14px;flex-wrap:wrap}
+  /* ============ HERO / CTA BUTTONS ============ */
   .btn{cursor:pointer;font:600 15px/1 -apple-system,system-ui;border:0;
     padding:15px 26px;border-radius:var(--r-md);transition:transform .12s var(--spring),filter .2s}
   .btn:active{transform:scale(.965)}
@@ -87,78 +73,158 @@
     box-shadow:0 10px 30px rgba(10,132,255,.4),inset 0 1px 0 rgba(255,255,255,.25)}
   .btn.ghost{color:var(--ink);background:var(--glass-2);border:1px solid var(--line)}
 
-  /* hero constellation — flat orbital system, huge, supervisor always centered */
-  .hero-stage{position:absolute;inset:0 -12vw 0 34%;pointer-events:none;overflow:visible;z-index:1}
-  .orbit-halo{position:absolute;left:50%;top:50%;width:min(120vh,1200px);aspect-ratio:1;
-    transform:translate(-50%,-50%);border-radius:50%;
-    background:radial-gradient(circle,rgba(10,132,255,.14),rgba(10,132,255,.04) 42%,transparent 66%)}
-  .orbit{position:absolute;left:50%;top:50%;width:1px;height:1px;
-    transform:translate(-50%,-50%) rotate(var(--spin,0deg));will-change:transform}
-  .orbit .ring{position:absolute;left:50%;top:50%;border-radius:50%;transform:translate(-50%,-50%)}
-  .orbit .ring.r1{border:1px solid rgba(255,255,255,.10)}
-  .orbit .ring.r2{border:1px dashed rgba(10,132,255,.22)}
-  .orbit .ring.r3{border:1px solid rgba(255,255,255,.045)}
-  svg.spokes{position:absolute;left:50%;top:50%;overflow:visible;pointer-events:none;transform:translate(-50%,-50%)}
-  svg.spokes line{stroke:rgba(10,132,255,.28);stroke-width:1.4;stroke-linecap:round}
-  .chip{
-    position:absolute;left:50%;top:50%;width:190px;padding:16px 18px;border-radius:18px;
+  /* ============ SCROLL STORY ============ */
+  #story{position:relative;z-index:1}
+  .story-vp{position:sticky;top:0;height:100svh;overflow:hidden}
+
+  /* the architecture — persistent through the whole story */
+  .arch{position:absolute;inset:0;pointer-events:none;z-index:1;
+    transform-origin:66% 50%;will-change:transform,opacity}
+  .arch-inner{position:absolute;left:66%;top:50%;width:0;height:0}
+  .orbit-halo{position:absolute;left:0;top:0;width:min(126vh,1300px);aspect-ratio:1;
+    transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;
+    background:radial-gradient(circle,rgba(10,132,255,.16),rgba(10,132,255,.045) 42%,transparent 66%)}
+  .orbit{position:absolute;left:0;top:0;width:1px;height:1px;
+    transform:rotate(var(--spin,0deg));will-change:transform}
+  .ring{position:absolute;left:0;top:0;border-radius:50%;transform:translate(-50%,-50%);
+    will-change:opacity}
+  .ring.r1{border:1px solid rgba(255,255,255,.11)}
+  .ring.r2{border:1px dashed rgba(10,132,255,.24)}
+  .ring.r3{border:1px solid rgba(255,255,255,.05)}
+  svg.spokes{position:absolute;left:0;top:0;overflow:visible;pointer-events:none;
+    transform:translate(-50%,-50%)}
+  svg.spokes line{stroke:rgba(10,132,255,.3);stroke-width:1.4;stroke-linecap:round}
+
+  /* .chip owns POSITION only (translate, set in JS); .chip-body owns
+     look + focus SCALE/OPACITY, so the two never fight over one transform */
+  .chip{position:absolute;left:50%;top:50%;width:196px;margin:-46px 0 0 -98px;will-change:transform}
+  .chip-body{
+    position:relative;padding:16px 18px;border-radius:18px;transform-origin:center;
     background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.12);
     backdrop-filter:blur(16px) saturate(170%);-webkit-backdrop-filter:blur(16px) saturate(170%);
-    box-shadow:0 24px 60px rgba(0,0,0,.55);will-change:transform}
+    box-shadow:0 24px 60px rgba(0,0,0,.55);will-change:transform,opacity;
+    transition:background .3s,border-color .3s,box-shadow .3s}
+  .chip .cn{position:absolute;left:16px;top:-9px;font-size:9.5px;font-weight:800;letter-spacing:.14em;
+    color:var(--accent);background:#0b0b10;padding:0 6px;border-radius:4px}
   .chip .ct{font-weight:660;letter-spacing:-.015em;color:var(--ink);font-size:15.5px}
   .chip .cd{color:var(--ink-3);margin-top:4px;font-size:12px;line-height:1.35}
   .chip .pip{position:absolute;right:14px;top:14px;width:7px;height:7px;border-radius:50%;
     background:var(--accent);box-shadow:0 0 12px var(--accent)}
+  .chip-body.lit{background:rgba(255,255,255,.10);border-color:rgba(120,180,255,.6);
+    box-shadow:0 0 0 1px rgba(10,132,255,.4),0 0 70px 8px rgba(10,132,255,.42),
+               0 40px 90px rgba(0,0,0,.65)}
 
-  .hub{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:5;
-    width:230px;padding:22px 24px;border-radius:22px;text-align:left;
-    background:linear-gradient(180deg,rgba(20,90,190,.32),rgba(10,60,150,.24));
+  .hub{position:absolute;left:0;top:0;z-index:5;
+    width:236px;margin:-58px 0 0 -118px;padding:22px 24px;border-radius:22px;
+    background:linear-gradient(180deg,rgba(20,90,190,.34),rgba(10,60,150,.26));
     border:1px solid rgba(90,160,255,.55);
     backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);
-    box-shadow:0 0 90px 20px rgba(10,132,255,.35),0 40px 90px rgba(0,0,0,.6),
-               inset 0 1px 0 rgba(255,255,255,.18)}
+    box-shadow:0 0 90px 20px rgba(10,132,255,.34),0 40px 90px rgba(0,0,0,.6),
+               inset 0 1px 0 rgba(255,255,255,.18);will-change:transform,opacity}
   .hub .ht{font-weight:680;font-size:19px;letter-spacing:-.02em;color:#fff}
-  .hub .hd{font-size:12.5px;color:rgba(255,255,255,.66);margin-top:5px}
-  .hub::before{content:"";position:absolute;inset:-40px;border-radius:50%;z-index:-1;
-    background:radial-gradient(circle,rgba(10,132,255,.5),transparent 68%);
-    animation:hubpulse 3.4s ease-in-out infinite}
-  @keyframes hubpulse{0%,100%{opacity:.5;transform:scale(.9)}50%{opacity:1;transform:scale(1.12)}}
+  .hub .hd{font-size:12.5px;color:rgba(255,255,255,.68);margin-top:5px}
+  .hub-glow{position:absolute;left:0;top:0;width:420px;height:420px;margin:-210px 0 0 -210px;
+    border-radius:50%;pointer-events:none;z-index:4;
+    background:radial-gradient(circle,rgba(10,132,255,.42),transparent 66%);
+    animation:hubpulse 3.6s ease-in-out infinite}
+  @keyframes hubpulse{0%,100%{opacity:.45;transform:scale(.86)}50%{opacity:.95;transform:scale(1.1)}}
 
-  @media (max-width:900px){
-    .hero-stage{position:relative;inset:auto;height:52vh;margin:0 -6vw}
-    .hub{width:180px;padding:16px 18px}
+  /* chapter copy — all stacked, JS cross-fades them. Vertical centering is
+     baked into the translateY the JS writes each frame (top:50% + -50% + drift),
+     since JS owns .style.transform entirely once the story starts. */
+  .ch{position:absolute;left:clamp(20px,5vw,80px);top:50%;transform:translateY(-50%);
+    width:min(44vw,540px);max-height:82vh;overflow:hidden;
+    z-index:3;opacity:0;pointer-events:none;will-change:opacity,transform}
+  .ch.live{pointer-events:auto}
+  .ch h1{font-size:clamp(2.3rem,4.4vw,3.8rem);font-weight:660;letter-spacing:-.035em;margin-bottom:18px}
+  .ch h1 .grad{background:linear-gradient(110deg,#fff 18%,#8fc2ff 56%,#c9a3ff);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .ch h2{font-size:clamp(1.7rem,3.1vw,2.6rem);font-weight:640;letter-spacing:-.03em;margin-bottom:14px}
+  .ch p.lede{font-size:clamp(1rem,1.35vw,1.16rem);color:var(--ink-2);line-height:1.62;margin-bottom:28px}
+  .ch .btns{display:flex;gap:14px;flex-wrap:wrap}
+  .kicker{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:700;
+    color:var(--accent);letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px}
+  .kicker::before{content:"";width:22px;height:1px;background:var(--accent);opacity:.7}
+
+  /* wide/centered variant — for chapters after the agent walkthrough, once the
+     architecture has faded back and doesn't need to share the frame anymore */
+  .ch.wide{left:0;right:0;margin:0 auto;width:min(78vw,900px);max-height:none;text-align:center;
+    padding:52px clamp(28px,5vw,64px);border-radius:30px;
+    background:linear-gradient(175deg,rgba(9,12,20,.82),rgba(9,12,20,.93));
+    border:1px solid rgba(255,255,255,.075);
+    -webkit-backdrop-filter:blur(22px);backdrop-filter:blur(22px);
+    box-shadow:0 40px 100px -20px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.05)}
+  .ch.wide .kicker,.ch.wide .lede{margin-left:auto;margin-right:auto}
+  .ch.wide .lede{max-width:640px}
+  .ch.wide .stats,.ch.wide .meta,.ch.wide .btns{justify-content:center;max-width:720px;margin-left:auto;margin-right:auto}
+  .ch.wide .road{max-width:660px;margin:22px auto 0;text-align:left}
+
+  /* agent chapters */
+  .ch .agent-no{font-size:11px;font-weight:800;letter-spacing:.18em;color:var(--ink-3);
+    margin-bottom:10px;text-transform:uppercase}
+  .ch .type{font-size:clamp(.95rem,1.28vw,1.1rem);line-height:1.68;color:var(--ink-2);
+    min-height:9.5em}
+  .ch .type b{color:var(--ink);font-weight:620}
+  .ch .type .caret{display:inline-block;width:2px;height:1.05em;margin-left:2px;
+    background:var(--accent);vertical-align:-.16em;animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+  .meta span{font-size:11.5px;font-weight:600;color:var(--ink-2);padding:6px 11px;border-radius:20px;
+    background:var(--glass);border:1px solid var(--line)}
+
+  /* problem chapter stats */
+  .stats{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}
+  .stat{flex:1;min-width:130px;background:var(--glass);border:1px solid var(--line);
+    border-radius:var(--r-md);padding:16px 16px}
+  .stat b{display:block;font-size:26px;font-weight:660;letter-spacing:-.02em;
+    background:linear-gradient(120deg,#fff,#8fc2ff);-webkit-background-clip:text;
+    background-clip:text;color:transparent}
+  .stat span{font-size:11.5px;color:var(--ink-3);line-height:1.4;display:block;margin-top:5px}
+
+  /* roadmap chapter */
+  .road{display:flex;flex-direction:column;gap:11px;margin-top:22px}
+  .road .r{display:flex;gap:12px;align-items:flex-start;padding:13px 15px;border-radius:13px;
+    background:var(--glass);border:1px solid var(--line)}
+  .road .r .tag{font-size:9.5px;font-weight:800;letter-spacing:.1em;padding:4px 8px;border-radius:6px;
+    background:rgba(10,132,255,.16);color:#8fc2ff;flex:none;margin-top:1px}
+  .road .r.now .tag{background:rgba(48,209,88,.16);color:#5ee08a}
+  .road .r h4{font-size:13.5px;font-weight:640;margin-bottom:3px}
+  .road .r p{font-size:12px;color:var(--ink-3);line-height:1.45}
+
+  /* progress rail */
+  .rail{position:absolute;right:26px;top:50%;transform:translateY(-50%);z-index:6;
+    display:flex;flex-direction:column;gap:9px;align-items:flex-end}
+  .rail i{display:block;width:20px;height:2px;border-radius:2px;background:rgba(255,255,255,.16);
+    transition:background .35s,width .35s var(--spring)}
+  .rail i.on{background:var(--accent);width:34px;box-shadow:0 0 12px rgba(10,132,255,.7)}
+  .rail i.done{background:rgba(255,255,255,.34)}
+
+  .scroll-cue{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);z-index:6;
+    font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+    display:flex;flex-direction:column;align-items:center;gap:8px;will-change:opacity}
+  .scroll-cue::after{content:"";width:1px;height:26px;
+    background:linear-gradient(180deg,var(--ink-3),transparent);animation:cue 1.9s ease-in-out infinite}
+  @keyframes cue{0%,100%{opacity:.25;transform:scaleY(.5);transform-origin:top}
+                 50%{opacity:1;transform:scaleY(1);transform-origin:top}}
+
+  @media (max-width:960px){
+    .ch{left:20px;right:20px;width:auto;top:auto;bottom:8vh;transform:none;
+      background:rgba(9,9,13,.72);backdrop-filter:blur(20px);border:1px solid var(--line);
+      border-radius:18px;padding:20px}
+    .ch .type{min-height:8em}
+    .arch{transform-origin:50% 34%}
+    .arch-inner{left:50%;top:34%}
+    .rail{right:12px}
+    .stats{gap:8px}.stat{min-width:96px;padding:11px}
   }
   @media (prefers-reduced-motion:reduce){
-    .orbit{transition:none}.hub::before{animation:none}
+    .hub-glow,.scroll-cue::after,.chip .caret{animation:none}
   }
 
-  /* ============ SCROLL SECTIONS ============ */
-  section.tell{
-    max-width:1080px;margin:0 auto;padding:clamp(70px,12vh,150px) clamp(20px,5vw,40px);
-  }
+  /* ---- .reveal: used by the form-card entrance ---- */
   .reveal{opacity:0;transform:translateY(40px) rotateX(12deg);transform-origin:top;
     transition:opacity .9s var(--spring),transform .9s var(--spring)}
   .reveal.in{opacity:1;transform:none}
-  section.tell h2{font-size:clamp(1.8rem,3.4vw,2.7rem);font-weight:620;margin-bottom:16px}
-  section.tell p.big{font-size:clamp(1rem,1.4vw,1.15rem);color:var(--ink-2);max-width:56ch;line-height:1.65}
-
-  .flow{display:flex;gap:14px;flex-wrap:wrap;margin-top:44px}
-  .flow .step{
-    flex:1;min-width:150px;background:var(--glass);border:1px solid var(--line);
-    border-radius:var(--r-md);padding:18px 16px;position:relative;
-  }
-  .flow .step .n{font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.08em}
-  .flow .step h3{font-size:15px;font-weight:620;margin:6px 0 4px}
-  .flow .step p{font-size:12.5px;color:var(--ink-3);line-height:1.45}
-
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px}
-  .feature{background:var(--glass);border:1px solid var(--line);border-radius:var(--r-lg);
-    padding:26px;transition:transform .5s var(--spring),background .3s}
-  .feature:hover{transform:translateY(-4px);background:var(--glass-2)}
-  .feature .ico{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;
-    font-size:16px;margin-bottom:14px;background:var(--glass-2);border:1px solid var(--line)}
-  .feature h3{font-size:17px;font-weight:620;margin-bottom:7px}
-  .feature p{font-size:13.5px;color:var(--ink-2);line-height:1.55}
 
   /* ============ FORM ============ */
   .form-wrap{max-width:660px;margin:0 auto;padding:clamp(60px,10vh,120px) clamp(20px,5vw,40px) 160px}
@@ -337,9 +403,7 @@
     padding:12px;font-size:11px;line-height:1.5;white-space:pre-wrap}
 
   @media (max-width:900px){
-    .hero{grid-template-columns:1fr;padding-top:110px}
-    .hero-stage{height:44vh}
-    .grid2,.cols{grid-template-columns:1fr}
+    .cols{grid-template-columns:1fr}
   }
   @media (prefers-reduced-motion:reduce){
     *{transition-duration:.001s !important;animation-duration:.001s !important}
@@ -350,64 +414,132 @@
 <body>
 
 <nav id="nav">
-  <a class="logo" href="#top"><span class="dot"></span>RentACrowd</a>
+  <a class="logo" href="#" id="nav-top"><span class="dot"></span>RentACrowd</a>
   <div class="links">
-    <a href="#how">How it works</a>
-    <a href="#evidence">Real evidence</a>
-    <a href="#library">Persona library</a>
+    <a href="#" data-ch="2">The system</a>
+    <a href="#" data-ch="9">Evidence</a>
+    <a href="#" data-ch="10">What's next</a>
   </div>
   <a class="cta" href="#run">Start a study</a>
 </nav>
 
 <main id="landing">
-  <section class="hero" id="top">
-    <div class="hero-copy">
-      <span class="eyebrow">Synthetic market research · LangGraph supervisor</span>
-      <h1>Test the market <span class="grad">before you build it.</span></h1>
-      <p class="lede">Describe a product and its full working. A supervisor agent runs the study — structuring the brief, pulling real customer language about your competitors, recruiting a panel of grounded personas, simulating every reaction in parallel, and writing the decision.</p>
-      <div class="btns">
-        <button class="btn primary" onclick="document.querySelector('#run').scrollIntoView()">Run a study</button>
-        <button class="btn ghost" onclick="document.querySelector('#how').scrollIntoView()">See how it works</button>
+  <section id="story">
+    <div class="story-vp" id="storyVp">
+      <div class="arch" id="arch">
+        <div class="arch-inner">
+          <div class="orbit-halo"></div>
+          <div class="orbit" id="orbit"></div>
+          <div class="hub-glow"></div>
+          <div class="hub" id="hub"><div class="ht">Supervisor</div><div class="hd">routes the whole team</div></div>
+        </div>
       </div>
-    </div>
-    <div class="hero-stage">
-      <div class="orbit-halo"></div>
-      <div class="orbit" id="orbit"></div>
-      <div class="hub"><div class="ht">Supervisor</div><div class="hd">routes the whole team</div></div>
+
+      <div class="ch live" data-i="0">
+        <span class="kicker">The problem</span>
+        <h1>Most product decisions<br/>ship on <span class="grad">guesses.</span></h1>
+        <p class="lede">Real customer research is slow, expensive and small-sample — so most ideas ship untested, or get tested once, long after the decision that actually mattered.</p>
+        <div class="stats">
+          <div class="stat"><b>6–8 wks</b><span>typical panel study, screen to readout</span></div>
+          <div class="stat"><b>$15k+</b><span>cost of one professional research round</span></div>
+          <div class="stat"><b>n≈1</b><span>ideas most teams can afford to test first</span></div>
+          <div class="stat"><b>1 shot</b><span>most teams never re-test after that one round</span></div>
+        </div>
+      </div>
+
+      <div class="ch" data-i="1">
+        <span class="kicker">How it works</span>
+        <h2>Describe the product.<br/>Watch the market react.</h2>
+        <p class="lede">One brief in, a full study out — the supervisor plans it, runs it, and hands you a decision. No panel to recruit, no survey to build.</p>
+        <div class="road">
+          <div class="r"><span class="tag">01</span><div><h4>You describe the product</h4><p>Company, product, price, named competitors — a few sentences is enough to start.</p></div></div>
+          <div class="r"><span class="tag">02</span><div><h4>The supervisor plans the study</h4><p>Turns the brief into a stimulus and target segments, then decides what evidence and panel it needs.</p></div></div>
+          <div class="r"><span class="tag">03</span><div><h4>A grounded panel reacts in parallel</h4><p>Synthetic personas — grounded in real reviews of your named competitors — each react independently, in their own voice.</p></div></div>
+          <div class="r"><span class="tag">04</span><div><h4>You get a decision, not a transcript</h4><p>Purchase intent, ranked objections and a plain-language call, in minutes instead of weeks.</p></div></div>
+        </div>
+      </div>
+
+      <div class="ch" data-i="2">
+        <span class="kicker">The system</span>
+        <h2>One supervisor.<br/>Six specialists.</h2>
+        <p class="lede">RentACrowd runs synthetic studies with a LangGraph supervisor that dispatches six purpose-built agents — each owns a single job, reports back, and hands off. Nothing runs in a fixed pipeline; the supervisor reacts to what's actually needed.</p>
+      </div>
+
+      <div class="ch" data-i="3">
+        <div class="agent-no">Agent 01 · Intake</div>
+        <h2>Intake</h2>
+        <p class="type" data-full="Turns your raw brief into a precise test stimulus and the market segments worth testing separately. A vague idea produces vague research, so Intake forces specificity before anyone reacts to anything — extracting price, features and positioning, then drafting three to six segments with real behavioral differences. It reports the structured brief back to the Supervisor, which hands it straight to Research and Recruit."></p>
+      </div>
+
+      <div class="ch" data-i="4">
+        <div class="agent-no">Agent 02 · Research</div>
+        <h2>Research</h2>
+        <p class="type" data-full="Pulls real customer language about your named competitors from the App Store and public forums. Synthetic personas grounded in nothing just repeat the model's priors — real reviews fix that. It scrapes ratings, review text and forum threads, extracts the recurring objections and phrasing, and publishes an evidence pack the Supervisor threads into every persona's reaction later."></p>
+      </div>
+
+      <div class="ch" data-i="5">
+        <div class="agent-no">Agent 03 · Recruit panel</div>
+        <h2>Recruit panel</h2>
+        <p class="type" data-full="Casts a panel of synthetic personas from a growing library, writing new ones only for the gaps. Reusing a consistent population makes studies comparable over time instead of one-off noise. It matches each segment to existing personas, drafts fresh ones with full backstories when needed, and hands the finished panel straight to Run panel."></p>
+      </div>
+
+      <div class="ch" data-i="6">
+        <div class="agent-no">Agent 04 · Run panel</div>
+        <h2>Run panel</h2>
+        <p class="type" data-full="Fans out every persona in parallel and lets each one react in its own voice. Real markets don't agree with each other — a single averaged voice would hide that. It simulates purchase intent, price sensitivity and objections as one independent reaction per persona, streaming results back to the Supervisor as they complete, not after every one finishes."></p>
+      </div>
+
+      <div class="ch" data-i="7">
+        <div class="agent-no">Agent 05 · Moderator</div>
+        <h2>Moderator</h2>
+        <p class="type" data-full="Reads every reaction and drafts open, probing follow-up questions like a real focus-group lead. Raw reactions alone miss the tension between segments — someone has to interpret them. It surfaces disagreement, contradictions and the questions worth asking in a real interview, then passes its notes to Analyze so the final report argues from evidence, not just numbers."></p>
+      </div>
+
+      <div class="ch" data-i="8">
+        <div class="agent-no">Agent 06 · Analyze</div>
+        <h2>Analyze</h2>
+        <p class="type" data-full="Turns every reaction and note into one decision-ready readout with a clear recommendation. A pile of transcripts isn't a decision — someone has to commit to what it means. It scores intent, ranks objections, weighs segments against each other, and states the call plainly. It reports the final verdict back to the Supervisor: the study is done."></p>
+      </div>
+
+      <div class="ch wide" data-i="9">
+        <span class="kicker">Grounded in reality</span>
+        <h2>Not a guess.<br/>A grounded reaction.</h2>
+        <p class="lede">Every persona's objection can trace back to a real review or forum post — so the panel argues the way real customers argue, in their own words, not a generic LLM's guess at what customers might say.</p>
+        <div class="stats">
+          <div class="stat"><b>150+</b><span>real reviews pulled per named competitor</span></div>
+          <div class="stat"><b>3 sources</b><span>App Store, public forums, Hacker News</span></div>
+          <div class="stat"><b>100+</b><span>reusable synthetic personas in the library</span></div>
+        </div>
+        <div class="meta"><span>★ App Store reviews</span><span>◇ Forum discussion</span><span>✎ Real phrasing, not paraphrase</span><span>⟲ Personas reused across studies</span></div>
+      </div>
+
+      <div class="ch wide" data-i="10">
+        <span class="kicker">What's next</span>
+        <h2>The panel gets<br/>smarter every run.</h2>
+        <p class="lede">Personas are saved and reused across studies — the same population, tested against every idea you throw at it. Every study you run makes the next one faster and better grounded.</p>
+        <div class="road">
+          <div class="r now"><span class="tag">NOW</span><div><h4>Persona library</h4><p>100+ synthetic people, versioned as plain files, reused and grown by every study.</p></div></div>
+          <div class="r"><span class="tag">NEXT</span><div><h4>CDP integration</h4><p>Ground personas in your own customers' real behavior — Segment, mParticle, RudderStack — instead of general demographics.</p></div></div>
+          <div class="r"><span class="tag">NEXT</span><div><h4>Syndicated panels</h4><p>License third-party consumer panels to validate synthetic findings against real purchase data.</p></div></div>
+          <div class="r"><span class="tag">LATER</span><div><h4>Continuous tracking</h4><p>Re-run the same study monthly and watch sentiment drift as the market actually moves.</p></div></div>
+        </div>
+      </div>
+
+      <div class="ch wide" data-i="11">
+        <span class="kicker">Try it</span>
+        <h1>Ready to<br/><span class="grad">run one?</span></h1>
+        <p class="lede">Describe a product below and watch the whole team work — live, start to finish, every agent visible as it runs.</p>
+        <div class="meta"><span>⚡ Live, streamed run</span><span>👁 Every agent visible</span><span>◷ Minutes, not weeks</span></div>
+        <div class="btns">
+          <button class="btn primary" id="cta-run">Run a study</button>
+        </div>
+      </div>
+
+      <div class="rail" id="rail"></div>
+      <div class="scroll-cue" id="scrollCue">Scroll to begin</div>
     </div>
   </section>
 
-  <section class="tell" id="how">
-    <div class="reveal">
-      <h2>A team of agents, run by a supervisor</h2>
-      <p class="big">Not a fixed pipeline — a supervisor that decides who works next and reacts to your instructions. Every worker reports back before the next one starts.</p>
-      <div class="flow">
-        <div class="step"><div class="n">01</div><h3>Intake</h3><p>Turns the brief into a precise test stimulus and the market segments that would react differently.</p></div>
-        <div class="step"><div class="n">02</div><h3>Research</h3><p>Scrapes App Store reviews and forums for real language about the competitors you name.</p></div>
-        <div class="step"><div class="n">03</div><h3>Recruit</h3><p>Casts the panel from a library of 100+ personas; hires new ones only for the gaps.</p></div>
-        <div class="step"><div class="n">04</div><h3>Run panel</h3><p>Fans out parallel workers — each persona reacts in its own voice, budget and context.</p></div>
-        <div class="step"><div class="n">05</div><h3>Moderate + analyze</h3><p>A moderator debrief, deterministic stats, and a decision-ready readout with caveats.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="tell" id="evidence">
-    <div class="reveal">
-      <h2>Grounded in what real customers say</h2>
-      <p class="big">Name your competitors and the research agent pulls their App Store reviews and forum threads, distils the genuine objections and vocabulary, and feeds them into every persona's reaction — so the output reads like research, not a language model guessing.</p>
-      <div class="grid2">
-        <div class="feature"><div class="ico">★</div><h3>App Store reviews</h3><p>Apple's official review feed — recent, rated, and full of the complaints people only make once they've paid.</p></div>
-        <div class="feature"><div class="ico">◇</div><h3>Forum discussion</h3><p>Hacker News threads (and Reddit, if you connect it) where people argue about whether a product is worth it.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="tell" id="library">
-    <div class="reveal">
-      <h2>A persona library that compounds</h2>
-      <p class="big">Every synthetic person is a file you can open and edit — with a household, the products they use today, a specific recent frustration, and their own way of talking. Studies recruit from the library first and only manufacture the shortfall, so the population grows with every run.</p>
-    </div>
-  </section>
 
   <section class="form-wrap" id="run">
     <div class="form-card reveal in" id="form-card">
@@ -475,6 +607,8 @@
   <div class="sheet" id="sheet"><div class="grip" id="grip"></div><div id="sheet-body"></div></div>
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script type="module">
 import { animate } from "https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm";
 const $ = s => document.querySelector(s);
@@ -483,69 +617,189 @@ const SPRING = {type:"spring",bounce:0,duration:0.55};
 const FLICK  = {type:"spring",bounce:0.3,duration:0.5};
 const esc = s => String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
-/* ---------- hero orbit (flat, big, supervisor pinned at centre) ---------- */
+/* ---------- architecture: hub + orbiting agent chips ---------- */
 const AGENTS = [
   ["Intake","stimulus + segments"],["Research","real customer language"],
-  ["Recruit","casts the panel"],["Run panel","parallel reactions"],
+  ["Recruit panel","casts the panel"],["Run panel","parallel reactions"],
   ["Moderator","debrief + probes"],["Analyze","the decision"],
 ];
-const orbit = $("#orbit"), heroHub = $(".hub");
-let ORBIT_R = 340;
+const CHAPTERS = 12;               // total story chapters, index 0..11
+const AGENT_CH_START = 3;          // chapter index where agent 0 (Intake) is focused
+const orbit = $("#orbit"), archEl = $("#arch"), hub = $("#hub");
+let ORBIT_R = 340, spin = 0, spinFrozen = false, spokesEl = null;
+
 function buildOrbit(){
   const vh = innerHeight;
-  ORBIT_R = Math.max(240, Math.min(430, vh*0.36));
+  ORBIT_R = Math.max(230, Math.min(420, vh*0.34));
   orbit.innerHTML =
     `<div class="ring r1" style="width:${ORBIT_R*2}px;height:${ORBIT_R*2}px"></div>`+
     `<div class="ring r2" style="width:${ORBIT_R*2.42}px;height:${ORBIT_R*2.42}px"></div>`+
     `<div class="ring r3" style="width:${ORBIT_R*2.9}px;height:${ORBIT_R*2.9}px"></div>`+
     `<svg class="spokes" id="spokes" width="${ORBIT_R*3}" height="${ORBIT_R*3}"
        viewBox="${-ORBIT_R*1.5} ${-ORBIT_R*1.5} ${ORBIT_R*3} ${ORBIT_R*3}"></svg>`;
-  const spokes=$("#spokes");
+  spokesEl = $("#spokes");
   AGENTS.forEach((a,i)=>{
-    const ang=(i/AGENTS.length)*Math.PI*2 - Math.PI/2;
-    const x=Math.cos(ang)*ORBIT_R, y=Math.sin(ang)*ORBIT_R;
-    spokes.insertAdjacentHTML("beforeend",
-      `<line x1="0" y1="0" x2="${x}" y2="${y}" style="--ph:${i}"/>`);
-    const el=document.createElement("div");
-    el.className="chip";
-    el.innerHTML=`<div class="pip"></div><div class="ct">${a[0]}</div><div class="cd">${a[1]}</div>`;
-    el.dataset.ang=ang; el.dataset.phase=i*1.15;
+    const ang = (i/AGENTS.length)*Math.PI*2 - Math.PI/2;
+    const x = Math.cos(ang)*ORBIT_R, y = Math.sin(ang)*ORBIT_R;
+    spokesEl.insertAdjacentHTML("beforeend", `<line x1="0" y1="0" x2="${x}" y2="${y}"/>`);
+    const el = document.createElement("div");
+    el.className = "chip"; el.dataset.agent = i; el.dataset.ang = ang; el.dataset.phase = i*1.15;
+    el.innerHTML = `<div class="chip-body"><div class="cn">0${i+1}</div><div class="pip"></div>`+
+      `<div class="ct">${a[0]}</div><div class="cd">${a[1]}</div></div>`;
     orbit.appendChild(el);
-    placeChip(el,0,0);
+  });
+  layoutOrbit(0);
+  applyFocus(-99);
+}
+// owns: chip POSITION (translate + counter-rotate). Runs pre-freeze for ambient bob/spin.
+function layoutOrbit(t){
+  orbit.style.transform = `rotate(${spin}deg)`;
+  orbit.querySelectorAll(".chip").forEach(c=>{
+    const ang = +c.dataset.ang;
+    const bob = spinFrozen ? 0 : Math.sin(t*0.7 + (+c.dataset.phase))*16;
+    const r = ORBIT_R + bob;
+    c.style.transform = `translate(${Math.cos(ang)*r}px,${Math.sin(ang)*r}px) rotate(${-spin}deg)`;
   });
 }
-function placeChip(el, spin, bob){
-  const ang=+el.dataset.ang, r=ORBIT_R+bob;
-  el.style.transform=
-    `translate(-50%,-50%) translate(${Math.cos(ang)*r}px,${Math.sin(ang)*r}px) rotate(${-spin}deg)`;
+// owns: chip-body SCALE/OPACITY/LIT + spoke emphasis. Driven entirely by scroll progress.
+function applyFocus(agentF){
+  const inRange = agentF>=-1 && agentF<=6;
+  orbit.querySelectorAll(".chip").forEach(c=>{
+    const idx = +c.dataset.agent;
+    const w = trapezoid(agentF, idx, 0.35, 0.5);
+    const body = c.firstElementChild;
+    body.style.opacity = inRange ? lerp(0.22,1,w) : 1;
+    body.style.transform = `scale(${1 + w*0.36})`;
+    body.classList.toggle("lit", w>0.55);
+  });
+  if(spokesEl) [...spokesEl.children].forEach((ln,i)=>{
+    const w = trapezoid(agentF, i, 0.35, 0.5);
+    ln.style.opacity = inRange ? lerp(0.14,0.85,w) : 0.4;
+    ln.style.strokeWidth = 1.2 + w*2.4;
+  });
 }
 buildOrbit();
-let spin=0;
-function loop(){
-  spin += 0.055;
-  orbit.style.setProperty("--spin", spin+"deg");
-  const t=performance.now()/1000;
-  orbit.querySelectorAll(".chip").forEach(c=>{
-    placeChip(c, spin, Math.sin(t*0.7 + (+c.dataset.phase))*18);
-  });
-  const sp=$("#spokes");
-  if(sp) [...sp.children].forEach((ln,i)=>{
-    ln.style.opacity = 0.35 + 0.4*Math.sin(t*1.3 + i*1.1);
-  });
-  requestAnimationFrame(loop);
+
+function ambientLoop(){
+  if(spinFrozen) return;               // stop scheduling once the story takes over
+  spin += 0.045;
+  layoutOrbit(performance.now()/1000);
+  requestAnimationFrame(ambientLoop);
 }
-if(!reduce) loop(); else buildOrbit();
-addEventListener("pointermove",e=>{
-  const dx=(e.clientX/innerWidth-.5), dy=(e.clientY/innerHeight-.5);
-  const s=$(".hero-stage");
-  if(s) s.style.transform=`translate(${dx*26}px,${dy*20}px)`;
-  if(heroHub) heroHub.style.transform=`translate(-50%,-50%) translate(${dx*10}px,${dy*8}px)`;
-});
-let rt; addEventListener("resize",()=>{ clearTimeout(rt); rt=setTimeout(()=>{
+if(!reduce) ambientLoop();
+
+let rzt; addEventListener("resize",()=>{ clearTimeout(rzt); rzt=setTimeout(()=>{
   if(!document.body.classList.contains("in-study")) buildOrbit();
 },150); });
 
-/* ---------- scroll reveals + parallax ---------- */
+/* ---------- scroll-driven story ---------- */
+const rail = $("#rail"), scrollCue = $("#scrollCue");
+const chEls = [...document.querySelectorAll(".ch")];
+
+for(let i=0;i<CHAPTERS;i++){
+  const d = document.createElement("i"); d.dataset.i = i; rail.appendChild(d);
+}
+const railDots = [...rail.children];
+
+function tri(p, center, w){ const d=Math.abs(p-center); return d>=w ? 0 : 1-(d/w); }
+function trapezoid(p, center, holdW, rampW){
+  const d = Math.abs(p-center);
+  if(d<=holdW) return 1;
+  if(d>=holdW+rampW) return 0;
+  return 1 - (d-holdW)/rampW;
+}
+function clamp01(v){ return v<0?0:v>1?1:v; }
+function lerp(a,b,t){ return a+(b-a)*t; }
+
+// per-chapter target visual state for the architecture as a whole
+const ARCH = [
+  {scale:.86, op:.55, hub:1},                              // 0 problem
+  {scale:.94, op:.78, hub:.9},                              // 1 how it works
+  {scale:1,   op:1,   hub:1},                               // 2 system overview
+  {scale:1.02,op:1,   hub:.5}, {scale:1.02,op:1,hub:.5},     // 3,4
+  {scale:1.02,op:1,   hub:.5}, {scale:1.02,op:1,hub:.5},     // 5,6
+  {scale:1.02,op:1,   hub:.5}, {scale:1.02,op:1,hub:.5},     // 7,8
+  {scale:.68, op:.16, hub:.22},                              // 9 evidence
+  {scale:.62, op:.1,  hub:.16},                              // 10 roadmap
+  {scale:.54, op:.05, hub:.08},                              // 11 cta
+];
+
+function typewriterSet(el, frac){
+  const full = el.dataset.full;
+  if(!full) return;
+  if(reduce || frac>=1){ el.innerHTML = full + '<span class="caret"></span>'; return; }
+  if(frac<=0){ el.innerHTML = ""; return; }
+  const n = Math.round(full.length*frac);
+  el.innerHTML = esc(full.slice(0,n)) + '<span class="caret"></span>';
+}
+
+function renderStory(absProgress){
+  const p = clamp01(absProgress) * (CHAPTERS-1);
+
+  chEls.forEach(el=>{
+    const i = +el.dataset.i;
+    const w = trapezoid(p, i, 0.25, 0.3);
+    el.style.opacity = w;
+    el.style.transform = `translateY(calc(-50% + ${(i-p)*26}px))`;
+    el.classList.toggle("live", w>0.5);
+    const tEl = el.querySelector(".type");
+    if(tEl) typewriterSet(tEl, clamp01((p-(i-0.45))/0.55));
+  });
+
+  const active = Math.round(p);
+  railDots.forEach(d=>{
+    const i = +d.dataset.i;
+    d.classList.toggle("on", i===active);
+    d.classList.toggle("done", i<active);
+  });
+  scrollCue.style.opacity = p<0.06 ? 1 : 0;
+
+  let scale=0, op=0, hubOp=0, wsum=0;
+  ARCH.forEach((s,i)=>{
+    const w = trapezoid(p, i, 0.25, 0.75);
+    if(w<=0) return;
+    scale += s.scale*w; op += s.op*w; hubOp += s.hub*w; wsum += w;
+  });
+  if(wsum>0){ scale/=wsum; op/=wsum; hubOp/=wsum; }
+  archEl.style.transform = `scale(${scale})`;
+  archEl.style.opacity = op;
+  hub.style.opacity = hubOp;
+
+  applyFocus(p - AGENT_CH_START);
+  if(p>2.15) spinFrozen = true;   // let the "problem" + "how it works" beats keep idle motion, then lock
+}
+renderStory(0);
+
+let storyTrigger = null;
+function setupStoryScroll(){
+  if(typeof ScrollTrigger==="undefined") return;
+  gsap.registerPlugin(ScrollTrigger);
+  const vp = $("#storyVp");
+  storyTrigger = ScrollTrigger.create({
+    trigger: "#story",
+    start: "top top",
+    end: () => "+=" + Math.round(innerHeight * CHAPTERS * 1.55),
+    pin: vp,
+    scrub: 0.6,
+    anticipatePin: 1,
+    onUpdate: self => renderStory(self.progress),
+  });
+}
+setupStoryScroll();
+addEventListener("resize", ()=>{ if(storyTrigger) ScrollTrigger.refresh(); });
+
+function scrollToChapter(i){
+  if(!storyTrigger){ document.querySelector("#story").scrollIntoView(); return; }
+  const y = storyTrigger.start + (storyTrigger.end-storyTrigger.start) * (i/(CHAPTERS-1));
+  window.scrollTo({top:y, behavior: reduce?"auto":"smooth"});
+}
+document.querySelectorAll("[data-ch]").forEach(a=>{
+  a.addEventListener("click", e=>{ e.preventDefault(); scrollToChapter(+a.dataset.ch); });
+});
+$("#nav-top")?.addEventListener("click", e=>{ e.preventDefault(); window.scrollTo({top:0,behavior:reduce?"auto":"smooth"}); });
+$("#cta-run")?.addEventListener("click", ()=> $("#run").scrollIntoView({behavior:reduce?"auto":"smooth"}));
+
+/* ---------- scroll reveals (form card etc.) ---------- */
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("in")}),{threshold:.2});
 document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
 
