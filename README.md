@@ -1,3 +1,6 @@
+<img width="1800" height="1012" alt="Screenshot 2026-09-04 at 11 45 33 PM" src="https://github.com/user-attachments/assets/40641d4d-a08f-4fca-a735-b4c68dd943ae" />
+
+
 # RentACrowd
 
 Synthetic market-research panels driven by a **LangGraph supervisor**, served by NVIDIA NIM.
